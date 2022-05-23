@@ -20,7 +20,7 @@
 #ifndef _ELF_XGATE_H
 #define _ELF_XGATE_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocation types.  */
 START_RELOC_NUMBERS (elf_xgate_reloc_type)

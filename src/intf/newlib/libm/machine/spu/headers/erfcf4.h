@@ -39,12 +39,12 @@
 #ifndef _ERFCF4_H_
 #define _ERFCF4_H_	1
 
-#include <spu_intrinsics.h>
-#include "erff4.h"
-#include "erf_utils.h"
-#include "recipf4.h"
-#include "expf4.h"
-#include "divf4.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/erff4.h"
+#include "newlib/libm/machine/spu/headers/erf_utils.h"
+#include "newlib/libm/machine/spu/headers/recipf4.h"
+#include "newlib/libm/machine/spu/headers/expf4.h"
+#include "newlib/libm/machine/spu/headers/divf4.h"
 
 /*
  * FUNCTION

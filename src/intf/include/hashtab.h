@@ -36,7 +36,7 @@ Foundation, Inc., 51 Franklin Street - Fifth Floor, Boston, MA 02110-1301, USA. 
 extern "C" {
 #endif /* __cplusplus */
 
-#include "ansidecl.h"
+#include "include/ansidecl.h"
 
 /* The type for a hash code.  */
 typedef unsigned int hashval_t;

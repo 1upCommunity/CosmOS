@@ -2,11 +2,11 @@
 
 #define _FIX64_H_
 
-#include <ieeefp.h>
-#include <math.h>
-#include <float.h>
-#include <errno.h>
-#include <sys/config.h>
+#include "newlib/libc/machine/powerpc/ieeefp.h"
+#include "newlib/libc/machine/powerpc/math.h"
+#include "newlib/libc/machine/powerpc/float.h"
+#include "newlib/libc/machine/powerpc/errno.h"
+#include "newlib/libc/machine/powerpc/sys/config.h"
 
 #ifdef __IEEE_LITTLE_ENDIAN
 #define IEEE_8087

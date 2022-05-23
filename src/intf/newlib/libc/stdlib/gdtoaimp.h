@@ -44,7 +44,7 @@ THIS SOFTWARE.
  *	_control87(PC_53, MCW_PC);
  * does this with many compilers.  Whether this or another call is
  * appropriate depends on the compiler; for this to work, it may be
- * necessary to #include "float.h" or another system-dependent header
+#include "newlib/libc/stdlib/*"
  * file.
  */
 
@@ -178,8 +178,8 @@ THIS SOFTWARE.
 
 #ifndef GDTOAIMP_H_INCLUDED
 #define GDTOAIMP_H_INCLUDED
-#include "mprec.h"
-#include "gdtoa.h"
+#include "newlib/libc/stdlib/mprec.h"
+#include "newlib/libc/stdlib/gdtoa.h"
 
 #ifndef __SINGLE_THREAD__
 #define MULTIPLE_THREADS

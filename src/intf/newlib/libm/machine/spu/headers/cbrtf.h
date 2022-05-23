@@ -33,8 +33,8 @@
 #ifndef _CBRTF_H_
 #define _CBRTF_H_	1
 
-#include <spu_intrinsics.h>
-#include "headers/vec_literal.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/headers/vec_literal.h"
 
 static double cbrt_factors[5] = {
   0.629960524947436484311,      /* 2^(-2/3)  */

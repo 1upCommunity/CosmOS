@@ -32,8 +32,8 @@ Author: Andreas Neukoetter (ti95neuk@de.ibm.com)
 
 /* this file provides the mappings for the JSRE defined interface for PE assisted libary calls */
 
-#include <sys/stat.h>
-#include <sys/syscall.h>
+#include "libgloss/spu/sys/stat.h"
+#include "libgloss/spu/sys/syscall.h"
 
 #ifndef __JSRE_H
 #define __JSRE_H

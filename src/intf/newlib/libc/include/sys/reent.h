@@ -10,9 +10,9 @@ extern "C" {
 #endif
 #define _SYS_REENT_H_
 
-#include <_ansi.h>
-#include <stddef.h>
-#include <sys/_types.h>
+#include "newlib/libc/include/sys/_ansi.h"
+#include "newlib/libc/include/sys/stddef.h"
+#include "newlib/libc/include/sys/sys/_types.h"
 
 #define _NULL 0
 
@@ -27,11 +27,11 @@ typedef unsigned __Long __ULong;
 #endif
 
 #if !defined( __Long)
-#include <sys/types.h>
+#include "newlib/libc/include/sys/sys/types.h"
 #endif
 
 #ifndef __machine_flock_t_defined
-#include <sys/lock.h>
+#include "newlib/libc/include/sys/sys/lock.h"
 typedef _LOCK_RECURSIVE_T _flock_t;
 #endif
 
@@ -230,7 +230,7 @@ struct __sFILE {
 #ifdef __CUSTOM_FILE_IO__
 
 /* Get custom _FILE definition.  */
-#include <sys/custom_file.h>
+#include "newlib/libc/include/sys/sys/custom_file.h"
 
 #else /* !__CUSTOM_FILE_IO__ */
 #ifdef __LARGE64_FILES
@@ -510,7 +510,7 @@ extern const struct __sFILE_fake __sf_fake_stderr;
 
 /* Specify how to handle reent_check malloc failures. */
 #ifdef _REENT_CHECK_VERIFY
-#include <assert.h>
+#include "newlib/libc/include/sys/assert.h"
 #define __reent_assert(x) ((x) ? (void)0 : __assert_func(__FILE__, __LINE__, (char *)0, "REENT malloc succeeded"))
 #else
 #define __reent_assert(x) ((void)0)

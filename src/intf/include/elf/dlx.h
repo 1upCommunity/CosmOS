@@ -20,7 +20,7 @@
 #ifndef _ELF_DLX_H
 #define _ELF_DLX_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 #if 0
 START_RELOC_NUMBERS (elf_dlx_reloc_type)

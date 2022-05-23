@@ -18,7 +18,7 @@
    MA 02110-1301, USA.  */
 
 #define L_LNNO_SIZE 4
-#include "coff/external.h"
+#include "include/coff/coff/external.h"
 
 /* Type of cpu is stored in flags */
 #define F_Z8001    0x1000

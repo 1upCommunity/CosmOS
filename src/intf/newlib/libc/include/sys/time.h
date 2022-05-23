@@ -39,14 +39,14 @@
 #ifndef _SYS_TIME_H_
 #define	_SYS_TIME_H_
 
-#include <_ansi.h>
-#include <sys/cdefs.h>
-#include <sys/_timeval.h>
-#include <sys/types.h>
-#include <sys/timespec.h>
+#include "newlib/libc/include/sys/_ansi.h"
+#include "newlib/libc/include/sys/sys/cdefs.h"
+#include "newlib/libc/include/sys/sys/_timeval.h"
+#include "newlib/libc/include/sys/sys/types.h"
+#include "newlib/libc/include/sys/sys/timespec.h"
 
 #if __BSD_VISIBLE || __POSIX_VISIBLE >= 200112 || __XSI_VISIBLE
-#include <sys/select.h>
+#include "newlib/libc/include/sys/sys/select.h"
 #endif
 
 struct timezone {
@@ -411,7 +411,7 @@ struct itimerval {
 };
 
 #ifndef _KERNEL
-#include <time.h>
+#include "newlib/libc/include/sys/time.h"
 
 __BEGIN_DECLS
 int utimes (const char *, const struct timeval [2]);
@@ -443,6 +443,6 @@ int _gettimeofday (struct timeval *__p, void *__tz);
 __END_DECLS
 
 #endif /* !_KERNEL */
-#include <machine/_time.h>
+#include "newlib/libc/include/sys/machine/_time.h"
 
 #endif /* !_SYS_TIME_H_ */

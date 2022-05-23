@@ -62,15 +62,15 @@
 #endif
 
 #ifdef FLOATING_POINT
-#include <math.h>
-#include <float.h>
+#include "newlib/libc/stdio/math.h"
+#include "newlib/libc/stdio/float.h"
 
 /* Currently a test is made to see if long double processing is warranted.
    This could be changed in the future should the _ldtoa_r code be
    preferred over _dtoa_r.  */
 #define _NO_LONGDBL
 
-#include "floatio.h"
+#include "newlib/libc/stdio/floatio.h"
 
 #if ((MAXEXP+MAXFRACT+3) > MB_LEN_MAX)
 /* "3 = sign + decimal point + NUL".  */

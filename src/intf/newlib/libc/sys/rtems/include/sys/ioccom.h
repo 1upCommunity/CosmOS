@@ -35,8 +35,8 @@
 #ifndef	_SYS_IOCCOM_H_
 #define	_SYS_IOCCOM_H_
 
-#include <sys/types.h>
-#include <stdint.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/types.h"
+#include "newlib/libc/sys/rtems/include/sys/stdint.h"
 
 typedef unsigned long ioctl_command_t;
 
@@ -82,7 +82,7 @@ typedef unsigned long ioctl_command_t;
 
 #else
 
-#include <sys/cdefs.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/cdefs.h"
 
 __BEGIN_DECLS
 int	ioctl(int, ioctl_command_t, ...);

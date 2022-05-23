@@ -5,7 +5,7 @@
 #ifndef __CCSNAMES_H__
 #define __CCSNAMES_H__
 
-#include "../lib/encnames.h"
+#include "newlib/libc/iconv/lib/encnames.h"
 
 /*
  * CCS tables names macros.

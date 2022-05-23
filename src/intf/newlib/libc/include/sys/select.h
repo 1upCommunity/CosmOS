@@ -10,10 +10,10 @@
 */
 # if !(defined (_WINSOCK_H) || defined (_WINSOCKAPI_) || defined (__USE_W32_SOCKETS))
 
-#include <sys/cdefs.h>
-#include <sys/_sigset.h>
-#include <sys/_timeval.h>
-#include <sys/timespec.h>
+#include "newlib/libc/include/sys/sys/cdefs.h"
+#include "newlib/libc/include/sys/sys/_sigset.h"
+#include "newlib/libc/include/sys/sys/_timeval.h"
+#include "newlib/libc/include/sys/sys/timespec.h"
 
 #if !defined(_SIGSET_T_DECLARED)
 #define	_SIGSET_T_DECLARED

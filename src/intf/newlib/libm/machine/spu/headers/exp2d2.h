@@ -43,7 +43,7 @@
 #ifndef _EXP2D2_H_
 #define _EXP2D2_H_	1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
 
 /*

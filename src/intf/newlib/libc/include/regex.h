@@ -37,7 +37,7 @@
 #ifndef _REGEX_H_
 #define	_REGEX_H_
 
-#include <sys/cdefs.h>
+#include "newlib/libc/include/sys/cdefs.h"
 
 /* types */
 typedef off_t regoff_t;

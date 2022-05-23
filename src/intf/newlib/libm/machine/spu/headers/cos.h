@@ -1,4 +1,4 @@
-#include "headers/cosd2.h"
+#include "newlib/libm/machine/spu/headers/headers/cosd2.h"
 
 static __inline double _cos(double angle)
 {

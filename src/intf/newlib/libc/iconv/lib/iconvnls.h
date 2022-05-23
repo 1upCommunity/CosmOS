@@ -1,7 +1,7 @@
 #ifndef __ICONV_ICONVNLS_H__
 #define __ICONV_ICONVNLS_H__
 
-#include <newlib.h>
+#include "newlib/libc/iconv/lib/newlib.h"
 
 /*
  * Include ucs-2-internal or ucs-4-internal if Newlib is configured as

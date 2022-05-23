@@ -24,7 +24,7 @@
 #ifndef _ELF_I370_H
 #define _ELF_I370_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Processor specific section headers, sh_type field */
 

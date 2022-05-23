@@ -30,8 +30,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 */
 
-#include "syscall.h"
-#include "vregs.h"
+#include "libgloss/rl78/syscall.h"
+#include "libgloss/rl78/vregs.h"
 
 #define SYS__exit  SYS_exit
 

@@ -21,7 +21,7 @@
 #ifndef _ELF_CR16_H
 #define _ELF_CR16_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Creating indices for reloc_map_index array.  */
 START_RELOC_NUMBERS(elf_cr16_reloc_type)

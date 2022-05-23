@@ -23,7 +23,7 @@
 #define _DEF_BF536_H
 
 /* Identical MMR Space To BF537 Processor */
-#include <defBF537.h>
+#include "libgloss/bfin/include/defBF537.h"
 
 #endif /* _DEF_BF536_H */
 

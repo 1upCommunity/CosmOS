@@ -43,8 +43,8 @@
  *	 significant bit (ie, the sign	bit) of the floating-point value.
  */
 
-#include <spu_intrinsics.h>
-#include "headers/vec_literal.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/headers/vec_literal.h"
 
 static __inline double _fabs(double x)
 {

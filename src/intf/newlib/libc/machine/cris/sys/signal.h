@@ -11,7 +11,7 @@
 extern "C" {
 #endif
 
-#include "_ansi.h"
+#include "newlib/libc/machine/cris/sys/_ansi.h"
 
 typedef unsigned long sigset_t;
 
@@ -88,6 +88,6 @@ int kill (int, int);
 #ifndef _SIGNAL_H_
 /* Some applications take advantage of the fact that <sys/signal.h>
  * and <signal.h> are equivalent in glibc.  Allow for that here.  */
-#include <signal.h>
+#include "newlib/libc/machine/cris/sys/signal.h"
 #endif
 #endif /* _SYS_SIGNAL_H */

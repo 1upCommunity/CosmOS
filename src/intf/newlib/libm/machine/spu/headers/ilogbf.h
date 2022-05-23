@@ -33,10 +33,10 @@
 #ifndef _ILOGBF_H_
 #define _ILOGBF_H_	1
 
-#include <spu_intrinsics.h>
-#include <limits.h>
-#include <math.h>
-#include "headers/vec_literal.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/limits.h"
+#include "newlib/libm/machine/spu/headers/math.h"
+#include "newlib/libm/machine/spu/headers/headers/vec_literal.h"
 
 /* Single precision floats do not support infinities and NANs, and
  * denorms are treated as zero.

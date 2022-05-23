@@ -35,7 +35,7 @@
 #ifndef _SYS_SOCKIO_H_
 #define	_SYS_SOCKIO_H_
 
-#include <sys/ioccom.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/ioccom.h"
 
 /* Socket ioctl's. */
 #define	SIOCSHIWAT	 _IOW('s',  0, int)		/* set high watermark */

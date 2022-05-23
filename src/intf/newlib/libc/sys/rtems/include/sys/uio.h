@@ -35,10 +35,10 @@
 #ifndef _SYS_UIO_H_
 #define	_SYS_UIO_H_
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
-#include <sys/_iovec.h>
-#include <sys/_uio.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/cdefs.h"
+#include "newlib/libc/sys/rtems/include/sys/sys/_types.h"
+#include "newlib/libc/sys/rtems/include/sys/sys/_iovec.h"
+#include "newlib/libc/sys/rtems/include/sys/sys/_uio.h"
 
 #ifndef _SSIZE_T_DECLARED
 typedef	__ssize_t	ssize_t;
@@ -65,6 +65,6 @@ __END_DECLS
 
 #ifdef _KERNEL
 /* Header file provided outside of Newlib */
-#include <machine/_kernel_uio.h>
+#include "newlib/libc/sys/rtems/include/sys/machine/_kernel_uio.h"
 #endif
 #endif /* !_SYS_UIO_H_ */

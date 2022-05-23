@@ -36,8 +36,8 @@
 #ifndef	_RUNE_H_
 #define	_RUNE_H_
 
-#include "runetype.h"
-#include <stdio.h>
+#include "newlib/libc/posix/runetype.h"
+#include "newlib/libc/posix/stdio.h"
 
 #define	_PATH_LOCALE	"/usr/share/locale"
 

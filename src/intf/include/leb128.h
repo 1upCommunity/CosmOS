@@ -30,16 +30,16 @@ Boston, MA 02110-1301, USA.  */
 #define LEB128_H
 
 /* Get a definition for inline.  */
-#include "ansidecl.h"
+#include "include/ansidecl.h"
 
 /* Get a definition for NULL, size_t.  */
-#include <stddef.h>
+#include "include/stddef.h"
 
 #ifdef HAVE_STDINT_H
-#include <stdint.h>
+#include "include/stdint.h"
 #endif
 #ifdef HAVE_INTTYPES_H
-#include <inttypes.h>
+#include "include/inttypes.h"
 #endif
 
 /* Decode the unsigned LEB128 constant at BUF into the variable pointed to

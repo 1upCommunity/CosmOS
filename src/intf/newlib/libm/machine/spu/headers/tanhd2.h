@@ -39,10 +39,10 @@
 #ifndef _TANHD2_H_
 #define _TANHD2_H_ 1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
-#include "expd2.h"
-#include "divd2.h"
+#include "newlib/libm/machine/spu/headers/expd2.h"
+#include "newlib/libm/machine/spu/headers/divd2.h"
 
 
 /*

@@ -20,7 +20,7 @@ Foundation, Inc., 51 Franklin Street - Fifth Floor, Boston, MA 02110-1301, USA. 
 #if !defined (FLOATFORMAT_H)
 #define FLOATFORMAT_H 1
 
-#include "ansidecl.h"
+#include "include/ansidecl.h"
 
 #ifdef __cplusplus
 extern "C" {

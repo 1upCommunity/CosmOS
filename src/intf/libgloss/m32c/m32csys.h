@@ -30,7 +30,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 */
 
-#include "syscall.h"
+#include "libgloss/m32c/syscall.h"
 
 /* Both the simulators and monitors reserve RAM areas 0x400 through
    0x4ff for their internal use.  We use one of those memory locations

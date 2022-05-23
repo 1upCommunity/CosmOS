@@ -1,5 +1,5 @@
-#include "headers/acosf4.h"
-#include "headers/dom_chkf_negone_one.h"
+#include "newlib/libm/machine/spu/headers/headers/acosf4.h"
+#include "newlib/libm/machine/spu/headers/headers/dom_chkf_negone_one.h"
 
 static __inline float _acosf(float x)
 {

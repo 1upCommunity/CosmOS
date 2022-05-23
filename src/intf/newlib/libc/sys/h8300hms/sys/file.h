@@ -14,7 +14,7 @@
 #ifndef _FILE_H_
 #define _FILE_H_
 
-#include <fcntl.h>
+#include "newlib/libc/sys/h8300hms/sys/fcntl.h"
 
 #define L_SET  0
 #define L_CURR 1

@@ -36,7 +36,7 @@
 #ifndef _GLOB_H_
 #define	_GLOB_H_
 
-#include <sys/cdefs.h>
+#include "newlib/libc/include/sys/cdefs.h"
 
 struct stat;
 typedef struct {

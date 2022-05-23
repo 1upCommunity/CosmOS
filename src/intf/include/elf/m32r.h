@@ -21,7 +21,7 @@
 #ifndef _ELF_M32R_H
 #define _ELF_M32R_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 START_RELOC_NUMBERS (elf_m32r_reloc_type)

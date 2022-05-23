@@ -41,9 +41,9 @@
 #ifndef _SYS_CPUSET_H_
 #define	_SYS_CPUSET_H_
 
-#include <sys/cdefs.h>
-#include <sys/_cpuset.h>
-#include <sys/bitset.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/cdefs.h"
+#include "newlib/libc/sys/rtems/include/sys/sys/_cpuset.h"
+#include "newlib/libc/sys/rtems/include/sys/sys/bitset.h"
 
 #define	_NCPUBITS	_BITSET_BITS
 #define	_NCPUWORDS	__bitset_words(CPU_SETSIZE)
@@ -224,6 +224,6 @@ __END_DECLS
 
 #ifdef _KERNEL
 /* Header file provided outside of Newlib */
-#include <machine/_kernel_cpuset.h>
+#include "newlib/libc/sys/rtems/include/sys/machine/_kernel_cpuset.h"
 #endif
 #endif /* !_SYS_CPUSET_H_ */

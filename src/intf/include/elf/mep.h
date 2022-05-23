@@ -29,7 +29,7 @@
    it properly so that we can easily stay consistent elsewhere.  */
 #define SEC_MEP_VLIW		SEC_TIC54X_BLOCK
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Note: The comments in this file are used by bfd/mep-relocs.pl to
    build parts of bfd/elf32-mep.c.  */

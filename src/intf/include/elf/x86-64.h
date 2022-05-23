@@ -22,7 +22,7 @@
 #ifndef _ELF_X86_64_H
 #define _ELF_X86_64_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 START_RELOC_NUMBERS (elf_x86_64_reloc_type)
      RELOC_NUMBER (R_X86_64_NONE,     0)      /* No reloc */

@@ -23,7 +23,7 @@
 #ifndef _ELF_CRX_H
 #define _ELF_CRX_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Creating indices for reloc_map_index array.  */
 START_RELOC_NUMBERS(elf_crx_reloc_type)

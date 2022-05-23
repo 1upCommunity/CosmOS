@@ -16,10 +16,10 @@
  */
 
 #if HOSTED
-#include <stdint.h>
-#include <sys/types.h>
-#include <sys/time.h>
-#include <sys/stat.h>
+#include "libgloss/nios2/stdint.h"
+#include "libgloss/nios2/sys/types.h"
+#include "libgloss/nios2/sys/time.h"
+#include "libgloss/nios2/sys/stat.h"
 
 #define HOSTED_EXIT  0
 #define HOSTED_INIT_SIM 1

@@ -40,8 +40,8 @@
 #ifndef _HYPOTD2_H_
 #define _HYPOTD2_H_	1
 
-#include <spu_intrinsics.h>
-#include "sqrtd2.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/sqrtd2.h"
 
 /*
  * FUNCTION

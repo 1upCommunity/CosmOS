@@ -32,7 +32,7 @@
 #pragma diag(suppress:misra_rule_5_1:"ADI Header allows long identifiers")
 #pragma diag(suppress:misra_rule_19_4:"ADI header allows any substitution text")
 #pragma diag(suppress:misra_rule_19_7:"ADI header allows function macros")
-#include <stdint.h>
+#include "libgloss/bfin/include/stdint.h"
 #endif /* _MISRA_RULES */
 
 

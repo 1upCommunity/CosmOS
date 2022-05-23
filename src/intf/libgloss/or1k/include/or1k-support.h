@@ -19,7 +19,7 @@
 with Doxygen. */
 /* -------------------------------------------------------------------------- */
 
-#include <stdint.h>
+#include "libgloss/or1k/include/stdint.h"
 
 #ifndef __OR1K_SUPPORT_H__
 #define __OR1K_SUPPORT_H__

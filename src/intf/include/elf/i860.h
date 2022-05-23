@@ -24,7 +24,7 @@
 
 /* Note: i860 ELF is defined to use only RELA relocations.  */
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 START_RELOC_NUMBERS (elf_i860_reloc_type)
      RELOC_NUMBER (R_860_NONE,      0x00)	/* No reloc */

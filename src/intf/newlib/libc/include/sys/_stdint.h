@@ -9,7 +9,7 @@
 #ifndef _SYS__STDINT_H
 #define _SYS__STDINT_H
 
-#include <machine/_default_types.h>
+#include "newlib/libc/include/sys/machine/_default_types.h"
 
 #ifdef __cplusplus
 extern "C" {

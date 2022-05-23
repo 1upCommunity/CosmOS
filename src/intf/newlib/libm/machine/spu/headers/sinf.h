@@ -1,4 +1,4 @@
-#include "headers/sinf4.h"
+#include "newlib/libm/machine/spu/headers/headers/sinf4.h"
 
 static __inline float _sinf(float angle)
 {

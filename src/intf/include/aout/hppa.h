@@ -15,8 +15,8 @@
    Foundation, Inc., 51 Franklin Street - Fifth Floor, Boston,
    MA 02110-1301, USA.  */
 
-#include "filehdr.h"
-#include "aouthdr.h"
-#include "scnhdr.h"
-#include "spacehdr.h"
-#include "syms.h"
+#include "include/aout/filehdr.h"
+#include "include/aout/aouthdr.h"
+#include "include/aout/scnhdr.h"
+#include "include/aout/spacehdr.h"
+#include "include/aout/syms.h"

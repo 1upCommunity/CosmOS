@@ -22,7 +22,7 @@
 #ifndef _ELF_OR1K_H
 #define _ELF_OR1K_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 START_RELOC_NUMBERS (elf_or32_reloc_type)

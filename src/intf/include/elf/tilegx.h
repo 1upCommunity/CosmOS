@@ -21,7 +21,7 @@
 #ifndef _ELF_TILEGX_H
 #define _ELF_TILEGX_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 START_RELOC_NUMBERS (elf_tilegx_reloc_type)

@@ -21,7 +21,7 @@
 #define GNU_COFF_M68K_H 1
 
 #define L_LNNO_SIZE 2
-#include "coff/external.h"
+#include "include/coff/coff/external.h"
 
 /* Motorola 68000/68008/68010/68020 */
 #define	MC68MAGIC	0520

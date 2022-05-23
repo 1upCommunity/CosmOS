@@ -1,4 +1,4 @@
-#include "headers/logbf4.h"
+#include "newlib/libm/machine/spu/headers/headers/logbf4.h"
 
 static __inline float _logbf(float x)
 {

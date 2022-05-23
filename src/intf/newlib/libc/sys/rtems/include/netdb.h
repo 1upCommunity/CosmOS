@@ -59,8 +59,8 @@
 #ifndef _NETDB_H_
 #define _NETDB_H_
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "newlib/libc/sys/rtems/include/sys/cdefs.h"
+#include "newlib/libc/sys/rtems/include/sys/_types.h"
 
 #ifndef _IN_ADDR_T_DECLARED
 typedef	__uint32_t	in_addr_t;

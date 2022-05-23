@@ -1,4 +1,4 @@
-#include "headers/tand2.h"
+#include "newlib/libm/machine/spu/headers/headers/tand2.h"
 
 static __inline double _tan(double angle)
 {

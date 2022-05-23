@@ -21,12 +21,12 @@
 #define _CDEF_BF592A_H
 
 /* include parts registers and bit definitions */
-#include <defBF592-A.h>
+#include "libgloss/bfin/include/defBF592-A.h"
 
 /* include the core specific definitions */
-#include <cdef_LPBlackfin.h>
+#include "libgloss/bfin/include/cdef_LPBlackfin.h"
 
 /* include the family common definitions */
-#include <cdefBF59x_base.h>
+#include "libgloss/bfin/include/cdefBF59x_base.h"
 
 #endif /* _CDEF_BF592A_H */

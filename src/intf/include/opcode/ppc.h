@@ -23,7 +23,7 @@
 #ifndef PPC_H
 #define PPC_H
 
-#include "bfd_stdint.h"
+#include "include/opcode/bfd_stdint.h"
 
 typedef uint64_t ppc_cpu_t;
 

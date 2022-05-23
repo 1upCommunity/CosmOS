@@ -26,10 +26,10 @@
 #ifndef _ICONV_H_
 #define _ICONV_H_
 
-#include <_ansi.h>
-#include <reent.h>
-#include <sys/types.h>
-#include <sys/_types.h>
+#include "newlib/libc/include/_ansi.h"
+#include "newlib/libc/include/reent.h"
+#include "newlib/libc/include/sys/types.h"
+#include "newlib/libc/include/sys/_types.h"
 
 /* iconv_t: charset conversion descriptor type */
 typedef _iconv_t iconv_t;

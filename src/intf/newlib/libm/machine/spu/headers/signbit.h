@@ -1,4 +1,4 @@
-#include "headers/signbitd2.h"
+#include "newlib/libm/machine/spu/headers/headers/signbitd2.h"
 
 static __inline unsigned long long _signbit(double x)
 {

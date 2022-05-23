@@ -20,7 +20,7 @@
 #ifndef _ELF_D30V_H
 #define _ELF_D30V_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 START_RELOC_NUMBERS (elf_d30v_reloc_type)

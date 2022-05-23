@@ -23,11 +23,11 @@
 #ifndef _XDR_PRIVATE_H
 #define _XDR_PRIVATE_H
 
-#include <_ansi.h>
-#include <stdarg.h>
-#include <stdint.h>
-#include <sys/param.h>
-#include <sys/types.h>
+#include "newlib/libc/xdr/_ansi.h"
+#include "newlib/libc/xdr/stdarg.h"
+#include "newlib/libc/xdr/stdint.h"
+#include "newlib/libc/xdr/sys/param.h"
+#include "newlib/libc/xdr/sys/types.h"
 
 /* avoid including stdio header here */
 #ifndef __VALIST
@@ -53,7 +53,7 @@ void xdr_warnx (const char *, ...)
               _ATTRIBUTE ((__format__ (__printf__, 1, 2)));
 
 /* endian issues */
-#include <machine/endian.h>
+#include "newlib/libc/xdr/machine/endian.h"
 
 /* byteswap and ntohl stuff; platform may provide optimzed version
  * of this, but we don't have access to that here.*/

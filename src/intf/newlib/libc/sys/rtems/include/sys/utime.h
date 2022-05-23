@@ -5,7 +5,7 @@
 #ifndef __UTIME_h__
 #define __UTIME_h__
 
-#include <sys/types.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/types.h"
 
 #ifdef __cplusplus
 extern "C" {

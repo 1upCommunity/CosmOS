@@ -589,6 +589,6 @@ __END_DECLS
 
 #ifdef _KERNEL
 /* Header file provided outside of Newlib */
-#include <machine/_kernel_in6.h>
+#include "newlib/libc/sys/rtems/include/netinet6/machine/_kernel_in6.h"
 #endif
 #endif /* !_NETINET6_IN6_H_ */

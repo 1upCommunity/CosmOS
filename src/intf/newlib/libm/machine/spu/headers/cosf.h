@@ -1,4 +1,4 @@
-#include "headers/cosf4.h"
+#include "newlib/libm/machine/spu/headers/headers/cosf4.h"
 
 static __inline float _cosf(float angle)
 {

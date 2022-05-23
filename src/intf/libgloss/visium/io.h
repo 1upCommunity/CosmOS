@@ -14,10 +14,10 @@
  * they apply.
  */
 
-#include <stdint.h>
-#include <sys/types.h>
-#include <sys/time.h>
-#include <sys/stat.h>
+#include "libgloss/visium/stdint.h"
+#include "libgloss/visium/sys/types.h"
+#include "libgloss/visium/sys/time.h"
+#include "libgloss/visium/sys/stat.h"
 
 #define HOSTED_EXIT  0
 #define HOSTED_INIT_SIM 1

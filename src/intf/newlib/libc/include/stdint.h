@@ -9,9 +9,9 @@
 #ifndef _STDINT_H
 #define _STDINT_H
 
-#include <machine/_default_types.h>
-#include <sys/_intsup.h>
-#include <sys/_stdint.h>
+#include "newlib/libc/include/machine/_default_types.h"
+#include "newlib/libc/include/sys/_intsup.h"
+#include "newlib/libc/include/sys/_stdint.h"
 
 #ifdef __cplusplus
 extern "C" {

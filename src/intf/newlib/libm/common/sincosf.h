@@ -26,9 +26,9 @@
    NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
 
-#include <stdint.h>
-#include <math.h>
-#include "math_config.h"
+#include "newlib/libm/common/stdint.h"
+#include "newlib/libm/common/math.h"
+#include "newlib/libm/common/math_config.h"
 
 /* 2PI * 2^-64.  */
 static const double pi63 = 0x1.921FB54442D18p-62;

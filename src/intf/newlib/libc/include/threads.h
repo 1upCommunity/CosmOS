@@ -27,8 +27,8 @@
 #ifndef _THREADS_H_
 #define	_THREADS_H_
 
-#include <machine/_threads.h>
-#include <time.h>
+#include "newlib/libc/include/machine/_threads.h"
+#include "newlib/libc/include/time.h"
 
 typedef void (*tss_dtor_t)(void *);
 typedef int (*thrd_start_t)(void *);

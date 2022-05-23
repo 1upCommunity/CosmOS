@@ -72,7 +72,7 @@
   name = value
 #define DW_END_CFA };
 
-#include "dwarf2.def"
+#include "include/dwarf2.def"
 
 #undef DW_FIRST_TAG
 #undef DW_END_TAG

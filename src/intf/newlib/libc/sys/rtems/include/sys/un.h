@@ -35,8 +35,8 @@
 #ifndef _SYS_UN_H_
 #define _SYS_UN_H_
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/cdefs.h"
+#include "newlib/libc/sys/rtems/include/sys/sys/_types.h"
 
 #ifndef _SA_FAMILY_T_DECLARED
 typedef	__sa_family_t	sa_family_t;

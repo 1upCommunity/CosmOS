@@ -31,7 +31,7 @@
 #ifndef _SSP_STRINGS_H_
 #define _SSP_STRINGS_H_
 
-#include <ssp/ssp.h>
+#include "newlib/libc/include/ssp/ssp/ssp.h"
 
 #if __SSP_FORTIFY_LEVEL > 0
 

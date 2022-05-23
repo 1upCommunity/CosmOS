@@ -33,7 +33,7 @@
 #ifndef _FMINF_H_
 #define _FMINF_H_	1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
 /* Return the minimum numeric value of their arguments.
  */

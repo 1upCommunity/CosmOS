@@ -27,8 +27,8 @@
 #warning cdefBF561.h should only be included for BF561 chip.
 #endif
 /* include all Core registers and bit definitions */
-#include <defBF561.h>
-#include <cdef_LPBlackfin.h>
+#include "libgloss/bfin/include/defBF561.h"
+#include "libgloss/bfin/include/cdef_LPBlackfin.h"
 
 #ifdef _MISRA_RULES
 #pragma diag(push)

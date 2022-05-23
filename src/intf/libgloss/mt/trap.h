@@ -1,4 +1,4 @@
-#include "syscall.h"
+#include "libgloss/mt/syscall.h"
 
 int __trap0 ();
 

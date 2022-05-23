@@ -21,10 +21,10 @@
 
 #define __need_size_t
 #define __need_wint_t
-#include <stddef.h>
-#include <newlib.h>
-#include <sys/config.h>
-#include <machine/_types.h>
+#include "newlib/libc/include/sys/stddef.h"
+#include "newlib/libc/include/sys/newlib.h"
+#include "newlib/libc/include/sys/sys/config.h"
+#include "newlib/libc/include/sys/machine/_types.h"
 
 #ifndef __machine_blkcnt_t_defined
 typedef long __blkcnt_t;

@@ -20,7 +20,7 @@ Boston, MA 02110-1301, USA.  */
 #ifndef OBJALLOC_H
 #define OBJALLOC_H
 
-#include "ansidecl.h"
+#include "include/ansidecl.h"
 
 /* These routines allocate space for an object.  The assumption is
    that the object will want to allocate space as it goes along, but
@@ -54,7 +54,7 @@ struct objalloc_align { char x; double d; };
 
 #if defined (__STDC__) && __STDC__
 #ifndef offsetof
-#include <stddef.h>
+#include "include/stddef.h"
 #endif
 #endif
 #ifndef offsetof

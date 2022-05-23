@@ -1,11 +1,11 @@
 #ifndef _CTYPE_H_
 #define _CTYPE_H_
 
-#include "_ansi.h"
-#include <sys/cdefs.h>
+#include "newlib/libc/include/_ansi.h"
+#include "newlib/libc/include/sys/cdefs.h"
 
 #if __POSIX_VISIBLE >= 200809 || __MISC_VISIBLE || defined (_LIBC)
-#include <sys/_locale.h>
+#include "newlib/libc/include/sys/_locale.h"
 #endif
 
 _BEGIN_STD_C

@@ -24,13 +24,13 @@
 #define _CDEF_BF538_H
 
 /* include all Core registers and bit definitions */
-#include <defBF538.h>
+#include "libgloss/bfin/include/defBF538.h"
 
 /* include core specific register pointer definitions */
-#include <cdef_LPBlackfin.h>
+#include "libgloss/bfin/include/cdef_LPBlackfin.h"
 
 /* include common system register pointer definitions from ADSP-BF532 */
-#include <cdefBF532.h>
+#include "libgloss/bfin/include/cdefBF532.h"
 
 #ifdef _MISRA_RULES
 #pragma diag(push)

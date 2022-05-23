@@ -5,13 +5,13 @@
 extern "C" {
 #endif
 
-#include <_ansi.h>
+#include "newlib/libc/include/sys/_ansi.h"
 #define __need_size_t
 #define __need_ptrdiff_t
-#include <sys/cdefs.h>
-#include <sys/types.h>
-#include <sys/_types.h>
-#include <stddef.h>
+#include "newlib/libc/include/sys/sys/cdefs.h"
+#include "newlib/libc/include/sys/sys/types.h"
+#include "newlib/libc/include/sys/sys/_types.h"
+#include "newlib/libc/include/sys/stddef.h"
 
 extern char **environ;
 
@@ -330,7 +330,7 @@ int	unlinkat (int, const char *, int);
 # define	SEEK_CUR	1
 # define	SEEK_END	2
 
-#include <sys/features.h>
+#include "newlib/libc/include/sys/sys/features.h"
 
 #define STDIN_FILENO    0       /* standard input file descriptor */
 #define STDOUT_FILENO   1       /* standard output file descriptor */
@@ -594,7 +594,7 @@ int	unlinkat (int, const char *, int);
 #endif
 
 #if __SSP_FORTIFY_LEVEL > 0
-#include <ssp/unistd.h>
+#include "newlib/libc/include/sys/ssp/unistd.h"
 #endif
 
 #endif /* _SYS_UNISTD_H */

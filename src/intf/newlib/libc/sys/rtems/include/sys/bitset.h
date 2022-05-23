@@ -34,8 +34,8 @@
 #ifndef _SYS_BITSET_H_
 #define	_SYS_BITSET_H_
 
-#include <sys/_types.h>
-#include <machine/_bitcount.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/_types.h"
+#include "newlib/libc/sys/rtems/include/sys/machine/_bitcount.h"
 
 #define	__bitset_mask(_s, n)						\
 	(1L << ((__bitset_words((_s)) == 1) ?				\

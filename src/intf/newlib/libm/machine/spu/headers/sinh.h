@@ -1,4 +1,4 @@
-#include "headers/sinhd2.h"
+#include "newlib/libm/machine/spu/headers/headers/sinhd2.h"
 
 static __inline double _sinh(double x)
 {

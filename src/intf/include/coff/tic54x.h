@@ -55,6 +55,6 @@
 #define PG_TO_FLAG(p)   (((unsigned long)(p) & 0xFF) << 24)
 #define FLAG_TO_PG(f)   (((f) >> 24) & 0xFF)
 
-#include "coff/ti.h"
+#include "include/coff/coff/ti.h"
 
 #endif /* COFF_TIC54X_H */

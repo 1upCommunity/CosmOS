@@ -1,4 +1,4 @@
-#include "headers/erfcf4.h"
+#include "newlib/libm/machine/spu/headers/headers/erfcf4.h"
 
 static __inline float _erfcf(float x)
 {

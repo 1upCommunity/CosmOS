@@ -12,7 +12,7 @@ extern "C" {
 #endif
 #define _SYS_ERRNO_H_
 
-#include <sys/reent.h>
+#include "newlib/libc/machine/cris/sys/sys/reent.h"
 
 #ifndef _REENT_ONLY
 #define errno (*__errno())

@@ -20,7 +20,7 @@
 #ifndef _ELF_H8_H
 #define _ELF_H8_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 /* Relocations 59..64 are GNU extensions.  */

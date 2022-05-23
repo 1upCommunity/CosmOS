@@ -32,10 +32,10 @@
 #ifndef _SEMAPHORE_H_
 #define _SEMAPHORE_H_
 
-#include <sys/cdefs.h>
-#include <sys/lock.h>
-#include <sys/_types.h>
-#include <sys/_timespec.h>
+#include "newlib/libc/sys/rtems/include/sys/cdefs.h"
+#include "newlib/libc/sys/rtems/include/sys/lock.h"
+#include "newlib/libc/sys/rtems/include/sys/_types.h"
+#include "newlib/libc/sys/rtems/include/sys/_timespec.h"
 
 typedef struct {
 	unsigned long _flags;

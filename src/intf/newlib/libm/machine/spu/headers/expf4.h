@@ -43,8 +43,8 @@
 #define _EXPF4_H_	1
 
 
-#include "floorf4.h"
-#include "ldexpf4.h"
+#include "newlib/libm/machine/spu/headers/floorf4.h"
+#include "newlib/libm/machine/spu/headers/ldexpf4.h"
 
 /*
  * FUNCTION

@@ -7,7 +7,7 @@
 extern "C" {
 #endif
 #define	_FCNTL_
-#include <_ansi.h>
+#include "newlib/libc/machine/cris/sys/_ansi.h"
 #define	_FOPEN		(-1)	/* from sys/file.h, kernel use only */
 #define	_FREAD		0x0001	/* read enabled */
 #define	_FWRITE		0x0002	/* write enabled */
@@ -140,8 +140,8 @@ struct eflock {
 #endif	/* !_POSIX_SOURCE */
 
 
-#include <sys/types.h>
-#include <sys/stat.h>		/* sigh. for the mode bits for open/creat */
+#include "newlib/libc/machine/cris/sys/sys/types.h"
+#include "newlib/libc/machine/cris/sys/sys/stat.h"
 
 extern int open (const char *, int, ...);
 extern int creat (const char *, mode_t);

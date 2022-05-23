@@ -20,7 +20,7 @@
 #ifndef _ELF_I960_H
 #define _ELF_I960_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 
 START_RELOC_NUMBERS (elf_i960_reloc_type)

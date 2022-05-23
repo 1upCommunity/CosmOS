@@ -20,7 +20,7 @@
 #ifndef _ELF_IP2K_H
 #define _ELF_IP2K_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 START_RELOC_NUMBERS (elf_ip2k_reloc_type)

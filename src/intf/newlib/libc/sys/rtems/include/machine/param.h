@@ -36,7 +36,7 @@
  * Machine dependent constants for RTEMS.
  */
 
-#include <machine/_align.h>
+#include "newlib/libc/sys/rtems/include/machine/machine/_align.h"
 
 #ifndef MAXCPU
 #define	MAXCPU		32

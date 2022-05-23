@@ -42,9 +42,9 @@
 #ifndef _LOGD2_H_
 #define _LOGD2_H_	1
 
-#include <spu_intrinsics.h>
-#include "simdmath.h"
-#include "log2d2.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/simdmath.h"
+#include "newlib/libm/machine/spu/headers/log2d2.h"
 
 
 /*

@@ -33,8 +33,8 @@
 #ifndef _REMAINDER_H_
 #define _REMAINDER_H_	1
 
-#include <spu_intrinsics.h>
-#include "headers/vec_literal.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/headers/vec_literal.h"
 
 static __inline double _remainder(double x, double y)
 {

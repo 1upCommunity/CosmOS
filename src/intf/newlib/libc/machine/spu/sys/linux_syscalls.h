@@ -33,7 +33,7 @@ Author: Ken Werner <ken.werner@de.ibm.com>
 #ifndef __LINUX_SYSCALLS_H
 #define __LINUX_SYSCALLS_H
 
-#include <sys/types.h>
+#include "newlib/libc/machine/spu/sys/sys/types.h"
 
 /* The system call numbers. See kernel source file
    arch/powerpc/include/asm/unistd.h.  */

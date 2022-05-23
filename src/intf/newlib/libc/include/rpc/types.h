@@ -38,11 +38,11 @@
 #ifndef _RPC_TYPES_H
 #define _RPC_TYPES_H
 
-#include <stdint.h>
-#include <sys/types.h>
+#include "newlib/libc/include/rpc/stdint.h"
+#include "newlib/libc/include/rpc/sys/types.h"
 
 #define __need_NULL
-#include <stddef.h>
+#include "newlib/libc/include/rpc/stddef.h"
 
 #ifdef __cplusplus
 extern "C" {

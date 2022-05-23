@@ -16,7 +16,7 @@
  */
 
 /* %W% (Berkeley) %G% */
-#include <_ansi.h>
+#include "newlib/libc/stdio/_ansi.h"
 
 /*
  * I/O descriptors for __sfvwrite_r().

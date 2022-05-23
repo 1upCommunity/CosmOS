@@ -32,10 +32,10 @@
  *  o _ARC4RANDOM_ALLOCATE(rsp, rspx), and
  *  o _ARC4RANDOM_FORKDETECT().
  */
-#include <machine/_arc4random.h>
+#include "newlib/libc/stdlib/machine/_arc4random.h"
 
-#include <sys/lock.h>
-#include <signal.h>
+#include "newlib/libc/stdlib/sys/lock.h"
+#include "newlib/libc/stdlib/signal.h"
 
 #ifndef _ARC4_LOCK_INIT
 

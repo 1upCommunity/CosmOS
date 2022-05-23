@@ -50,7 +50,7 @@ struct exec
 /* Tell a.out.gnu.h not to define `struct exec'.  */
 #define __STRUCT_EXEC_OVERRIDE__
 
-#include "../a.out.gnu.h"
+#include "include/a.out.gnu.h"
 
 #undef N_MAGIC
 #undef N_MACHTYPE

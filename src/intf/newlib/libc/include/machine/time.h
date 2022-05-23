@@ -8,7 +8,7 @@
 #endif
 
 #ifdef __SPU__
-#include <sys/_timespec.h>
+#include "newlib/libc/include/machine/sys/_timespec.h"
 int nanosleep (const struct timespec *, struct timespec *);
 #endif
 

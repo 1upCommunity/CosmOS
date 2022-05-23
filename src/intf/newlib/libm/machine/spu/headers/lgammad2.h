@@ -40,12 +40,12 @@
 #ifndef _LGAMMAD2_H_
 #define _LGAMMAD2_H_	1
 
-#include <spu_intrinsics.h>
-#include "divd2.h"
-#include "recipd2.h"
-#include "logd2.h"
-#include "sind2.h"
-#include "truncd2.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/divd2.h"
+#include "newlib/libm/machine/spu/headers/recipd2.h"
+#include "newlib/libm/machine/spu/headers/logd2.h"
+#include "newlib/libm/machine/spu/headers/sind2.h"
+#include "newlib/libm/machine/spu/headers/truncd2.h"
 
 
 /*

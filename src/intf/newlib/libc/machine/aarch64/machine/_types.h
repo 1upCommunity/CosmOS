@@ -29,7 +29,7 @@
 #ifndef _MACHINE__TYPES_H
 #define _MACHINE__TYPES_H
 
-#include <machine/_default_types.h>
+#include "newlib/libc/machine/aarch64/machine/machine/_default_types.h"
 
 #define __machine_ssize_t_defined
 typedef long signed int _ssize_t;

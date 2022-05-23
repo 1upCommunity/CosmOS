@@ -25,7 +25,7 @@
 #ifndef __ICONV_CES_ENDIAN_H__
 #define __ICONV_CES_ENDIAN_H__
 
-#include <sys/param.h>
+#include "newlib/libc/iconv/lib/sys/param.h"
 
 #if (BYTE_ORDER == LITTLE_ENDIAN)
 

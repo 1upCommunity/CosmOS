@@ -31,7 +31,7 @@
 #ifndef _SSP_STDIO_H_
 #define _SSP_STDIO_H_
 
-#include <ssp/ssp.h>
+#include "newlib/libc/include/ssp/ssp/ssp.h"
 
 __BEGIN_DECLS
 int __sprintf_chk(char *__restrict, int, size_t, const char *__restrict, ...)

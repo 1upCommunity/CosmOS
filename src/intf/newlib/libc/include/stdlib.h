@@ -7,27 +7,27 @@
 #ifndef _STDLIB_H_
 #define _STDLIB_H_
 
-#include <machine/ieeefp.h>
-#include "_ansi.h"
+#include "newlib/libc/include/machine/ieeefp.h"
+#include "newlib/libc/include/_ansi.h"
 
 #define __need_size_t
 #define __need_wchar_t
 #define __need_NULL
-#include <stddef.h>
+#include "newlib/libc/include/stddef.h"
 
-#include <sys/reent.h>
-#include <sys/cdefs.h>
-#include <machine/stdlib.h>
+#include "newlib/libc/include/sys/reent.h"
+#include "newlib/libc/include/sys/cdefs.h"
+#include "newlib/libc/include/machine/stdlib.h"
 #ifndef __STRICT_ANSI__
-#include <alloca.h>
+#include "newlib/libc/include/alloca.h"
 #endif
 
 #ifdef __CYGWIN__
-#include <cygwin/stdlib.h>
+#include "newlib/libc/include/cygwin/stdlib.h"
 #endif
 
 #if __GNU_VISIBLE
-#include <sys/_locale.h>
+#include "newlib/libc/include/sys/_locale.h"
 #endif
 
 _BEGIN_STD_C
@@ -339,7 +339,7 @@ _Noreturn void
 _END_STD_C
 
 #if __SSP_FORTIFY_LEVEL > 0
-#include <ssp/stdlib.h>
+#include "newlib/libc/include/ssp/stdlib.h"
 #endif
 
 #endif /* _STDLIB_H_ */

@@ -43,7 +43,7 @@
 #define BSD4_4	1
 
 #ifndef LOCORE
-#include <sys/types.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/types.h"
 #endif
 
 /*
@@ -52,7 +52,7 @@
  *
  * MAXCOMLEN should be >= sizeof(ac_comm) (see <acct.h>)
  */
-#include <sys/syslimits.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/syslimits.h"
 
 #define	MAXCOMLEN	19		/* max command name remembered */
 #define	MAXINTERP	PATH_MAX	/* max interpreter file name length */
@@ -67,13 +67,13 @@
 
 #ifndef _KERNEL
 /* Signals. */
-#include <sys/signal.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/signal.h"
 #endif
 
 /* Machine type dependent parameters. */
-#include <machine/param.h>
+#include "newlib/libc/sys/rtems/include/sys/machine/param.h"
 #ifndef _KERNEL
-#include <limits.h>
+#include "newlib/libc/sys/rtems/include/sys/limits.h"
 #endif
 
 #ifndef DEV_BSHIFT
@@ -274,7 +274,7 @@
 
 #ifdef _KERNEL
 /* Header file provided outside of Newlib */
-#include <machine/_kernel_param.h>
+#include "newlib/libc/sys/rtems/include/sys/machine/_kernel_param.h"
 #endif
 
 #endif	/* _SYS_PARAM_H_ */

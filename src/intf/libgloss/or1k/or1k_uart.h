@@ -18,9 +18,9 @@
 /* This is the generic board support for the OpenCores UART device, internal
  * header. */
 
-#include <stdint.h>
+#include "libgloss/or1k/stdint.h"
 
-#include "board.h"
+#include "libgloss/or1k/board.h"
 
 /**
  * Registered callback function

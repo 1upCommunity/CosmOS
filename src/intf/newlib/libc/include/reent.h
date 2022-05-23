@@ -90,12 +90,12 @@ extern "C" {
 #endif
 #define _REENT_H_
 
-#include <sys/reent.h>
-#include <sys/_types.h>
+#include "newlib/libc/include/sys/reent.h"
+#include "newlib/libc/include/sys/_types.h"
 
 #define __need_size_t
 #define __need_ptrdiff_t
-#include <stddef.h>
+#include "newlib/libc/include/stddef.h"
 
 /* FIXME: not namespace clean */
 struct stat;

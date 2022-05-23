@@ -5,11 +5,11 @@
 extern "C" {
 #endif
 
-#include <_ansi.h>
-#include <time.h>
-#include <sys/cdefs.h>
-#include <sys/types.h>
-#include <sys/_timespec.h>
+#include "newlib/libc/include/sys/_ansi.h"
+#include "newlib/libc/include/sys/time.h"
+#include "newlib/libc/include/sys/sys/cdefs.h"
+#include "newlib/libc/include/sys/sys/types.h"
+#include "newlib/libc/include/sys/sys/_timespec.h"
 
 /* dj's stat defines _STAT_H_ */
 #ifndef _STAT_H_
@@ -19,7 +19,7 @@ extern "C" {
    time option].  */
 
 #ifdef __CYGWIN__
-#include <cygwin/stat.h>
+#include "newlib/libc/include/sys/cygwin/stat.h"
 #ifdef _LIBC
 #define stat64 stat
 #endif

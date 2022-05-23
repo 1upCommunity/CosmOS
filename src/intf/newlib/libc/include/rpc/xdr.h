@@ -40,8 +40,8 @@
 
 #ifndef _RPC_XDR_H
 #define _RPC_XDR_H
-#include <_ansi.h>
-#include <rpc/types.h>
+#include "newlib/libc/include/rpc/_ansi.h"
+#include "newlib/libc/include/rpc/rpc/types.h"
 
 #ifdef __cplusplus
 extern "C" {

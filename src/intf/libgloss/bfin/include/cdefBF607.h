@@ -29,8 +29,8 @@
 #ifndef _CDEF_BF607_H
 #define _CDEF_BF607_H
 
-#include <stdint.h>
-#include <defBF607.h>
+#include "libgloss/bfin/include/stdint.h"
+#include "libgloss/bfin/include/defBF607.h"
 
 #ifdef _MISRA_RULES
 #pragma diag(push)

@@ -26,7 +26,7 @@
 #ifndef _INCLUDE_LEON_ASMMACRO_h
 #define _INCLUDE_LEON_ASMMACRO_h
 
-#include <asm-leon/leonstack.h>
+#include "libgloss/sparc_leon/asm-leon/asm-leon/leonstack.h"
 
 /* All trap entry points _must_ begin with this macro or else you
  * lose.  It makes sure the kernel has a proper window so that

@@ -26,7 +26,7 @@
 #ifndef __LEONBARE_KERNEL_DEBUG_H__
 #define __LEONBARE_KERNEL_DEBUG_H__
 
-#include <asm-leon/leondbg.h>
+#include "libgloss/sparc_leon/asm-leon/asm-leon/leondbg.h"
 
 /*
   #define LBDEBUG_DO_DEBUG

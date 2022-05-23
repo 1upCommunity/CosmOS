@@ -22,10 +22,10 @@
 #ifndef OPCODE_AARCH64_H
 #define OPCODE_AARCH64_H
 
-#include "bfd.h"
-#include "bfd_stdint.h"
-#include <assert.h>
-#include <stdlib.h>
+#include "include/opcode/bfd.h"
+#include "include/opcode/bfd_stdint.h"
+#include "include/opcode/assert.h"
+#include "include/opcode/stdlib.h"
 
 /* The offset for pc-relative addressing is currently defined to be 0.  */
 #define AARCH64_PCREL_OFFSET		0

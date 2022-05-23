@@ -17,9 +17,9 @@
 
 #ifndef _SYS_TYPES_H
 
-#include <_ansi.h>
-#include <sys/cdefs.h>
-#include <machine/_types.h>
+#include "newlib/libc/include/sys/_ansi.h"
+#include "newlib/libc/include/sys/sys/cdefs.h"
+#include "newlib/libc/include/sys/machine/_types.h"
 
 /* BSD types permitted by POSIX and always exposed as in Glibc.  Only provided
    for backward compatibility with BSD code.  The uintN_t standard types should
@@ -42,12 +42,12 @@ typedef __intptr_t register_t;
 #ifndef __need_inttypes
 
 #define _SYS_TYPES_H
-#include <sys/_types.h>
-#include <sys/_stdint.h>
+#include "newlib/libc/include/sys/sys/_types.h"
+#include "newlib/libc/include/sys/sys/_stdint.h"
 
 #if __BSD_VISIBLE
-#include <machine/endian.h>
-#include <sys/select.h>
+#include "newlib/libc/include/sys/machine/endian.h"
+#include "newlib/libc/include/sys/sys/select.h"
 #  define	physadr		physadr_t
 #  define	quad		quad_t
 
@@ -219,9 +219,9 @@ typedef	__suseconds_t	suseconds_t;
 
 typedef	__int64_t	sbintime_t;
 
-#include <sys/features.h>
-#include <sys/_pthreadtypes.h>
-#include <machine/types.h>
+#include "newlib/libc/include/sys/sys/features.h"
+#include "newlib/libc/include/sys/sys/_pthreadtypes.h"
+#include "newlib/libc/include/sys/machine/types.h"
 
 #endif  /* !__need_inttypes */
 

@@ -4,4 +4,4 @@
    probably don't define it, and attempts to include this file will
    fail.  */
 
-#include <machine/regdef.h>
+#include "newlib/libc/include/machine/regdef.h"

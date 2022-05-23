@@ -1,5 +1,5 @@
-#include "headers/log1pf4.h"
-#include "headers/dom_chkf_less_than.h"
+#include "newlib/libm/machine/spu/headers/headers/log1pf4.h"
+#include "newlib/libm/machine/spu/headers/headers/dom_chkf_less_than.h"
 
 static __inline float _log1pf(float x)
 {

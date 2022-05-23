@@ -7,16 +7,16 @@
 #ifndef _TIME_H_
 #define _TIME_H_
 
-#include "_ansi.h"
-#include <sys/cdefs.h>
-#include <sys/reent.h>
+#include "newlib/libc/include/_ansi.h"
+#include "newlib/libc/include/sys/cdefs.h"
+#include "newlib/libc/include/sys/reent.h"
 
 #define __need_size_t
 #define __need_NULL
-#include <stddef.h>
+#include "newlib/libc/include/stddef.h"
 
 /* Get _CLOCKS_PER_SEC_ */
-#include <machine/time.h>
+#include "newlib/libc/include/machine/time.h"
 
 #ifndef _CLOCKS_PER_SEC_
 #define _CLOCKS_PER_SEC_ 1000
@@ -25,11 +25,11 @@
 #define CLOCKS_PER_SEC _CLOCKS_PER_SEC_
 #define CLK_TCK CLOCKS_PER_SEC
 
-#include <sys/types.h>
-#include <sys/timespec.h>
+#include "newlib/libc/include/sys/types.h"
+#include "newlib/libc/include/sys/timespec.h"
 
 #if __POSIX_VISIBLE >= 200809
-#include <sys/_locale.h>
+#include "newlib/libc/include/sys/_locale.h"
 #endif
 
 _BEGIN_STD_C
@@ -147,15 +147,15 @@ extern __IMPORT char *_tzname[2];
 }
 #endif
 
-#include <sys/features.h>
+#include "newlib/libc/include/sys/features.h"
 
 #ifdef __CYGWIN__
-#include <cygwin/time.h>
+#include "newlib/libc/include/cygwin/time.h"
 #endif /*__CYGWIN__*/
 
 #if defined(_POSIX_TIMERS)
 
-#include <signal.h>
+#include "newlib/libc/include/signal.h"
 
 #ifdef __cplusplus
 extern "C" {

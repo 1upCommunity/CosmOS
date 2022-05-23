@@ -1,10 +1,10 @@
 #ifndef __OR1K_INTERNAL_H__
 #define __OR1K_INTERNAL_H__
 
-#include <stdint.h>
-#include <string.h>
+#include "libgloss/or1k/stdint.h"
+#include "libgloss/or1k/string.h"
 
-#include "include/or1k-support.h"
+#include "libgloss/or1k/include/or1k-support.h"
 
 extern uint8_t* _or1k_stack_top;
 extern size_t _or1k_stack_size;

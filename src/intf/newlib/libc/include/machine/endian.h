@@ -1,9 +1,9 @@
 #ifndef __MACHINE_ENDIAN_H__
 #define	__MACHINE_ENDIAN_H__
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
-#include <machine/_endian.h>
+#include "newlib/libc/include/machine/sys/cdefs.h"
+#include "newlib/libc/include/machine/sys/_types.h"
+#include "newlib/libc/include/machine/machine/_endian.h"
 
 #if _BYTE_ORDER == _LITTLE_ENDIAN
 #define	_QUAD_HIGHWORD	1

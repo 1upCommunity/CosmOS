@@ -1,4 +1,4 @@
-#include "arm.h"
+#include "newlib/libc/sys/arm/arm.h"
 
 /* SWI numbers for RDP (Demon) monitor.  */
 #define SWI_WriteC                 0x0

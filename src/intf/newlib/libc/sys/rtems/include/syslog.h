@@ -1,1 +1,1 @@
-#include <sys/syslog.h>
+#include "newlib/libc/sys/rtems/include/sys/syslog.h"

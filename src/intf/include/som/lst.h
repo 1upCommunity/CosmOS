@@ -21,7 +21,7 @@
 #ifndef _SOM_LST_H
 #define _SOM_LST_H
 
-#include "clock.h"
+#include "include/som/clock.h"
 
 /* See 4.2 Libraray Symbol Table Header Record.  */
 struct som_external_lst_header

@@ -26,8 +26,8 @@
 #ifndef _INCLUDE_LEON_h
 #define _INCLUDE_LEON_h
 
-#include <asm-leon/leon3.h>
-#include <asm-leon/amba.h>
+#include "libgloss/sparc_leon/asm-leon/asm-leon/leon3.h"
+#include "libgloss/sparc_leon/asm-leon/asm-leon/amba.h"
 
 #ifdef __cplusplus
 extern "C"

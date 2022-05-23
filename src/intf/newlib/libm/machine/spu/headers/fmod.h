@@ -33,9 +33,9 @@
 #ifndef _FMOD_H_
 #define _FMOD_H_	1
 
-#include <spu_intrinsics.h>
-#include <errno.h>
-#include "headers/vec_literal.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/errno.h"
+#include "newlib/libm/machine/spu/headers/headers/vec_literal.h"
 
 /* This implementation returns zero if y is a denorm or zero.
  */

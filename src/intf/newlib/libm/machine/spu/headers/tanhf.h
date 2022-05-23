@@ -1,4 +1,4 @@
-#include "headers/tanhf4.h"
+#include "newlib/libm/machine/spu/headers/headers/tanhf4.h"
 
 static __inline float _tanhf(float x)
 {

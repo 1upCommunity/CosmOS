@@ -7,21 +7,21 @@
 #ifndef _STRING_H_
 #define	_STRING_H_
 
-#include "_ansi.h"
-#include <sys/reent.h>
-#include <sys/cdefs.h>
-#include <sys/features.h>
+#include "newlib/libc/include/_ansi.h"
+#include "newlib/libc/include/sys/reent.h"
+#include "newlib/libc/include/sys/cdefs.h"
+#include "newlib/libc/include/sys/features.h"
 
 #define __need_size_t
 #define __need_NULL
-#include <stddef.h>
+#include "newlib/libc/include/stddef.h"
 
 #if __POSIX_VISIBLE >= 200809
-#include <sys/_locale.h>
+#include "newlib/libc/include/sys/_locale.h"
 #endif
 
 #if __BSD_VISIBLE
-#include <strings.h>
+#include "newlib/libc/include/strings.h"
 #endif
 
 _BEGIN_STD_C
@@ -156,14 +156,14 @@ int	 strverscmp (const char *, const char *);
 			 (char *) memcpy (__sout, __sin, __len-1);}))
 #endif /* __GNU_VISIBLE && __GNUC__ */
 
-/* There are two common basename variants.  If you do NOT #include <libgen.h>
+#include "newlib/libc/include/libgen.h"
    and you do
 
      #define _GNU_SOURCE
-     #include <string.h>
+#include "newlib/libc/include/string.h"
 
    you get the GNU version.  Otherwise you get the POSIX versionfor which you
-   should #include <libgen.h>i for the function prototype.  POSIX requires that
+#include "newlib/libc/include/libgen.h"
    #undef basename will still let you invoke the underlying function.  However,
    this also implies that the POSIX version is used in this case.  That's made
    sure here. */
@@ -172,12 +172,12 @@ int	 strverscmp (const char *, const char *);
 char	*__nonnull ((1)) basename (const char *) __asm__(__ASMNAME("__gnu_basename"));
 #endif
 
-#include <sys/string.h>
+#include "newlib/libc/include/sys/string.h"
 
 _END_STD_C
 
 #if __SSP_FORTIFY_LEVEL > 0
-#include <ssp/string.h>
+#include "newlib/libc/include/ssp/string.h"
 #endif
 
 #endif /* _STRING_H_ */

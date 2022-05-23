@@ -26,13 +26,13 @@
 #define _CDEF_BF539_H
 
 /* include all Core registers and bit definitions */
-#include <defBF539.h>
+#include "libgloss/bfin/include/defBF539.h"
 
 /* include core specific register pointer definitions */
-#include <cdef_LPBlackfin.h>
+#include "libgloss/bfin/include/cdef_LPBlackfin.h"
 
 /* include built-in mneumonic macros */
-#include <ccblkfn.h>
+#include "libgloss/bfin/include/ccblkfn.h"
 
 #ifdef _MISRA_RULES
 #pragma diag(push)

@@ -1,9 +1,9 @@
 #ifndef _SIGNAL_H_
 #define _SIGNAL_H_
 
-#include "_ansi.h"
-#include <sys/cdefs.h>
-#include <sys/signal.h>
+#include "newlib/libc/include/_ansi.h"
+#include "newlib/libc/include/sys/cdefs.h"
+#include "newlib/libc/include/sys/signal.h"
 
 _BEGIN_STD_C
 

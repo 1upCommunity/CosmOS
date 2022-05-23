@@ -35,8 +35,8 @@ extern "C" {
 #endif
 #define	_PWD_H_
 
-#include <sys/cdefs.h>
-#include <sys/types.h>
+#include "newlib/libc/include/sys/cdefs.h"
+#include "newlib/libc/include/sys/types.h"
 
 #if __BSD_VISIBLE
 #define	_PATH_PASSWD		"/etc/passwd"

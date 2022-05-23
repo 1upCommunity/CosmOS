@@ -35,7 +35,7 @@
 #ifndef _NET_IF_H_
 #define	_NET_IF_H_
 
-#include <sys/cdefs.h>
+#include "newlib/libc/sys/rtems/include/net/sys/cdefs.h"
 
 #if __BSD_VISIBLE
 /*
@@ -44,8 +44,8 @@
  * The same holds for <sys/socket.h>.  (struct sockaddr ifru_addr)
  */
 #ifndef _KERNEL
-#include <sys/time.h>
-#include <sys/socket.h>
+#include "newlib/libc/sys/rtems/include/net/sys/time.h"
+#include "newlib/libc/sys/rtems/include/net/sys/socket.h"
 #endif
 #endif
 
@@ -612,6 +612,6 @@ __END_DECLS
 #endif
 #ifdef _KERNEL
 /* Header file provided outside of Newlib */
-#include <machine/_kernel_if.h>
+#include "newlib/libc/sys/rtems/include/net/machine/_kernel_if.h"
 #endif
 #endif /* !_NET_IF_H_ */

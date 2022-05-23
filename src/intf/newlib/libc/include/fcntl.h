@@ -1,1 +1,1 @@
-#include <sys/fcntl.h>
+#include "newlib/libc/include/sys/fcntl.h"

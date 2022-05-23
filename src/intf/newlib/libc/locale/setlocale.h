@@ -29,13 +29,13 @@
 #ifndef _SETLOCALE_H_
 #define	_SETLOCALE_H_
 
-#include <_ansi.h>
-#include <sys/cdefs.h>
-#include <limits.h>
-#include <string.h>
-#include <stdlib.h>
-#include <wchar.h>
-#include <locale.h>
+#include "newlib/libc/locale/_ansi.h"
+#include "newlib/libc/locale/sys/cdefs.h"
+#include "newlib/libc/locale/limits.h"
+#include "newlib/libc/locale/string.h"
+#include "newlib/libc/locale/stdlib.h"
+#include "newlib/libc/locale/wchar.h"
+#include "newlib/libc/locale/locale.h"
 
 __BEGIN_DECLS
 

@@ -33,7 +33,7 @@
 #ifndef _FMAXF_H_
 #define _FMAXF_H_	1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
 /* Return the maximum numeric value of their arguments.
  */

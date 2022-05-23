@@ -106,7 +106,7 @@
 /* ELF/HPPA relocation types */
 
 /* Note: PA-ELF is defined to use only RELA relocations.  */
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 START_RELOC_NUMBERS (elf_hppa_reloc_type)
 RELOC_NUMBER (R_PARISC_NONE,	         0) /* No reloc */

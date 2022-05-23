@@ -42,7 +42,7 @@
 #ifndef _RINTF4_H_
 #define _RINTF4_H_	1
     
-#include "truncf4.h"
+#include "newlib/libm/machine/spu/headers/truncf4.h"
     
 /*
  * FUNCTION

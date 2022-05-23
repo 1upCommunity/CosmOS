@@ -21,7 +21,7 @@
 #ifndef _ELF_M68K_H
 #define _ELF_M68K_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocation types.  */
 START_RELOC_NUMBERS (elf_m68k_reloc_type)

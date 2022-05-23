@@ -15,7 +15,7 @@
  * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
  */
 
-#include "pcc_prefix.s"
+#include "newlib/libc/machine/hppa/pcc_prefix.s"
 
 #define	BLANK
 #define	BANNER(str)	BLANK	.VERSION str

@@ -20,7 +20,7 @@
 #ifndef _ELF_PJ_H
 #define _ELF_PJ_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 

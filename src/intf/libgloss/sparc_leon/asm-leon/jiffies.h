@@ -26,9 +26,9 @@
 #ifndef _LINUX_JIFFIES_H
 #define _LINUX_JIFFIES_H
 
-#include <asm-leon/types.h>
-#include <asm-leon/clock.h>
-#include <asm-leon/linkage.h>
+#include "libgloss/sparc_leon/asm-leon/asm-leon/types.h"
+#include "libgloss/sparc_leon/asm-leon/asm-leon/clock.h"
+#include "libgloss/sparc_leon/asm-leon/asm-leon/linkage.h"
 
 /* Suppose we want to devide two numbers NOM and DEN: NOM/DEN, the we can
  * improve accuracy by shifting LSH bits, hence calculating:

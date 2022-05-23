@@ -40,8 +40,8 @@
 extern "C" {
 #endif /* __cplusplus */
 
-#include "ansidecl.h"
-#include <stdio.h>
+#include "include/ansidecl.h"
+#include "include/stdio.h"
 
 struct partition_elem
 {

@@ -40,8 +40,8 @@
 #ifndef _NDBM_H_
 #define	_NDBM_H_
 
-#include <sys/types.h>	/* For mode_t. */
-/* #include <db.h> */
+#include "newlib/libc/include/sys/types.h"
+#include "newlib/libc/include/db.h"
 
 /*
  * The above header-file is directly included in `newlib/libc/search/ndbm.c`

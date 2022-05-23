@@ -27,7 +27,7 @@
 #ifndef _CPLBTAB_H
 #define _CPLBTAB_H
 
-#include <cplb.h>
+#include "libgloss/bfin/include/cplb.h"
 
 #ifdef _MISRA_RULES
 #pragma diag(push)

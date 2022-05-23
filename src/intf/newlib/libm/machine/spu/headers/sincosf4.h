@@ -39,9 +39,9 @@
 #ifndef _SINCOSF4_H_
 #define _SINCOSF4_H_	1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
-#include "cos_sin.h"
+#include "newlib/libm/machine/spu/headers/cos_sin.h"
 
 /*
  * FUNCTION

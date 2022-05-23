@@ -19,7 +19,7 @@ void *_vec_realloc_r (struct _reent *, void *__r, size_t __size);
 # if defined(__SPE__)
 
 #define __need_inttypes
-#include <sys/types.h>
+#include "newlib/libc/machine/powerpc/machine/sys/types.h"
 
 #ifdef __cplusplus
 extern "C" {

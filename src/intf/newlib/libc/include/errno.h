@@ -6,6 +6,6 @@ typedef int error_t;
 #define __error_t_defined 1
 #endif
 
-#include <sys/errno.h>
+#include "newlib/libc/include/sys/errno.h"
 
 #endif /* !__ERRNO_H__ */

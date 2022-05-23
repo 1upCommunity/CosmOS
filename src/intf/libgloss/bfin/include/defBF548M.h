@@ -25,6 +25,6 @@
 #ifndef _DEF_BF548M_H
 #define _DEF_BF548M_H
 
-#include <defBF548.h>
+#include "libgloss/bfin/include/defBF548.h"
 
 #endif /* _DEF_BF548M_H */

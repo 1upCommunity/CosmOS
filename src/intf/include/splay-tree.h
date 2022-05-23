@@ -34,13 +34,13 @@
 extern "C" {
 #endif /* __cplusplus */
 
-#include "ansidecl.h"
+#include "include/ansidecl.h"
 
 #ifdef HAVE_STDINT_H
-#include <stdint.h>
+#include "include/stdint.h"
 #endif
 #ifdef HAVE_INTTYPES_H
-#include <inttypes.h>
+#include "include/inttypes.h"
 #endif
 
 /* Use typedefs for the key and data types to facilitate changing

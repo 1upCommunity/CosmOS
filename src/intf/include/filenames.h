@@ -26,7 +26,7 @@ Foundation, Inc., 51 Franklin Street - Fifth Floor, Boston, MA 02110-1301, USA. 
 #ifndef FILENAMES_H
 #define FILENAMES_H
 
-#include "hashtab.h" /* for hashval_t */
+#include "include/hashtab.h"
 
 #ifdef __cplusplus
 extern "C" {

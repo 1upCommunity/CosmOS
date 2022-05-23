@@ -42,7 +42,7 @@
 #ifndef _NEARBYINTF4_H_
 #define _NEARBYINTF4_H_	1
     
-#include "truncf4.h"
+#include "newlib/libm/machine/spu/headers/truncf4.h"
     
 /*  
  * FUNCTION

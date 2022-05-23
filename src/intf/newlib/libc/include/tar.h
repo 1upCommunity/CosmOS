@@ -5,7 +5,7 @@
 #ifndef _TAR_H
 #define _TAR_H
 
-#include <sys/features.h>
+#include "newlib/libc/include/sys/features.h"
 
 /* General definitions */
 #define TMAGIC 		"ustar" /* ustar plus null byte. */

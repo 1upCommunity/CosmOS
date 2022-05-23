@@ -23,7 +23,7 @@
 #ifndef _ELF_MN10300_H
 #define _ELF_MN10300_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 START_RELOC_NUMBERS (elf_mn10300_reloc_type)

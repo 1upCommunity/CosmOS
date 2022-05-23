@@ -20,7 +20,7 @@
 #ifndef _ELF_BFIN_H
 #define _ELF_BFIN_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 START_RELOC_NUMBERS (elf_bfin_reloc_type)
   RELOC_NUMBER (R_BFIN_UNUSED0, 0x00)          /* relocation type 0 is not defined */

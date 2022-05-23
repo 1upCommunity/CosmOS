@@ -5,7 +5,7 @@
 #ifndef _MACHINE__DEFAULT_TYPES_H
 #define _MACHINE__DEFAULT_TYPES_H
 
-#include <sys/features.h>
+#include "newlib/libc/include/machine/sys/features.h"
 
 /*
  * Guess on types by examining *_MIN / *_MAX defines.
@@ -16,7 +16,7 @@
 #else
 /* Fall back to POSIX versions from <limits.h> */
 #define __EXP(x) x
-#include <limits.h>
+#include "newlib/libc/include/machine/limits.h"
 #endif
 
 /* Check if "long long" is 64bit wide */

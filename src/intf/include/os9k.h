@@ -155,7 +155,7 @@ typedef mh_com *Mh_config, mh_config;
 
 #if !defined(_MODDIR_H)
 /* Go get _os_fmod (and others).  */
-#include <moddir.h>
+#include "include/moddir.h"
 #endif
 
 error_code _os_crc (void *, u_int32, int *);

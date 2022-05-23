@@ -1,4 +1,4 @@
-#include "headers/atan2f4.h"
+#include "newlib/libm/machine/spu/headers/headers/atan2f4.h"
 
 static __inline float _atan2f(float y, float x)
 {

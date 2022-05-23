@@ -40,8 +40,8 @@
 #ifndef _LOGBF4_H_
 #define _LOGBF4_H_	1
 
-#include <spu_intrinsics.h>
-#include <vec_types.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/vec_types.h"
 
 /*
  * FUNCTION

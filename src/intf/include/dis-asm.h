@@ -32,8 +32,8 @@
 extern "C" {
 #endif
 
-#include <stdio.h>
-#include "bfd.h"
+#include "include/stdio.h"
+#include "include/bfd.h"
 
   typedef int (*fprintf_ftype) (void *, const char*, ...) ATTRIBUTE_FPTR_PRINTF_2;
 

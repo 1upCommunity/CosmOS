@@ -1,4 +1,4 @@
-#include "headers/coshf4.h"
+#include "newlib/libm/machine/spu/headers/headers/coshf4.h"
 
 static __inline float _coshf(float x)
 {

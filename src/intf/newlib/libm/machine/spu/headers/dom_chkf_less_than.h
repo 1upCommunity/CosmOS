@@ -31,7 +31,7 @@
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#include <errno.h>
+#include "newlib/libm/machine/spu/headers/errno.h"
 
 /*
  * dom_chkf_less_than: "domain check float less than"

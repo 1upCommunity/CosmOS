@@ -33,7 +33,7 @@
 #ifndef _LRINTF_H_
 #define _LRINTF_H_	1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
 /* Round the input to the nearest integer according to the current
  * rounding mode. No special handling is performed when values are

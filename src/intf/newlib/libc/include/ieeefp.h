@@ -1,10 +1,10 @@
 #ifndef _IEEE_FP_H_
 #define _IEEE_FP_H_
 
-#include "_ansi.h"
+#include "newlib/libc/include/_ansi.h"
 
-#include <machine/ieeefp.h>
-#include <float.h>
+#include "newlib/libc/include/machine/ieeefp.h"
+#include "newlib/libc/include/float.h"
 
 _BEGIN_STD_C
 

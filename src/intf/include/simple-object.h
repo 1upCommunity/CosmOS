@@ -20,11 +20,11 @@ Boston, MA 02110-1301, USA.  */
 #ifndef SIMPLE_OBJECT_H
 #define SIMPLE_OBJECT_H
 
-#include <stddef.h>
-#include <sys/types.h>
+#include "include/stddef.h"
+#include "include/sys/types.h"
 
 #ifdef HAVE_UNISTD_H
-#include <unistd.h>
+#include "include/unistd.h"
 #endif
 
 #ifdef __cplusplus

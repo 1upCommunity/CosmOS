@@ -31,7 +31,7 @@
 #ifndef	_SYS_FENV_H_
 #define	_SYS_FENV_H_
 
-#include <stdint.h>
+#include "newlib/libc/machine/sparc/sys/stdint.h"
 
 #ifdef __arch64__
 typedef	uint64_t	fenv_t;

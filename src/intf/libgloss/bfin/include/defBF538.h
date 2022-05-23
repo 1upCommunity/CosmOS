@@ -27,10 +27,10 @@
 #define _DEF_BF538_H
 
 /* Include all Core registers and bit definitions */
-#include <def_LPBlackfin.h>
+#include "libgloss/bfin/include/def_LPBlackfin.h"
 
 /* Include all System registers and bit definitions common to ADSP-BF532 */
-#include <defBF532.h>
+#include "libgloss/bfin/include/defBF532.h"
 
 #ifdef _MISRA_RULES
 #pragma diag(push)

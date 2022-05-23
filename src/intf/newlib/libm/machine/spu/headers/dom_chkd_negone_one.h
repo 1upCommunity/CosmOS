@@ -31,7 +31,7 @@
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#include <errno.h>
+#include "newlib/libm/machine/spu/headers/errno.h"
 
 /*
  * dom_chkd_negone_one: "domain check double negative-one and one":

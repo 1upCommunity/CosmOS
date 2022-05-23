@@ -24,7 +24,7 @@
 #ifndef _ELF_SCORE_H
 #define _ELF_SCORE_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 #define SCORE_SIMULATOR_ACTIVE  1
 #define OPC_PTMASK              0xc0000000      /* Parity-bit Mask.  */

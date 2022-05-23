@@ -28,7 +28,7 @@
 #error "must be included via <sys/types.h>"
 #endif /* !_SYS_TYPES_H */
 
-#include <machine/_bitcount.h>
+#include "newlib/libc/sys/rtems/include/machine/machine/_bitcount.h"
 
 #if __BSD_VISIBLE
 
@@ -90,7 +90,7 @@ typedef	__uintmax_t	rman_res_t;
 
 #ifdef _KERNEL
 /* Header file provided outside of Newlib */
-#include <machine/_kernel_types.h>
+#include "newlib/libc/sys/rtems/include/machine/machine/_kernel_types.h"
 #endif
 
 #endif /* __BSD_VISIBLE */

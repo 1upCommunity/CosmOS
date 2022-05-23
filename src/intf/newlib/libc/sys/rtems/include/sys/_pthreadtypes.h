@@ -20,9 +20,9 @@
 
 #if defined(_POSIX_THREADS)
 
-#include <sys/sched.h>
-#include <sys/cpuset.h>
-#include <sys/lock.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/sched.h"
+#include "newlib/libc/sys/rtems/include/sys/sys/cpuset.h"
+#include "newlib/libc/sys/rtems/include/sys/sys/lock.h"
 
 /*
  *  2.5 Primitive System Data Types,  P1003.1c/D10, p. 19.

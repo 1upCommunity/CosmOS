@@ -28,7 +28,7 @@
 
 
 /* Include VENDOR and DEVICE definitions */
-#include "lambapp_devs.h"
+#include "libgloss/sparc_leon/asm-leon/lambapp_devs.h"
 
 #ifdef __cplusplus
 extern "C"

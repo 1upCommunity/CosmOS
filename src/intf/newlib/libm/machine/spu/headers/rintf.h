@@ -1,4 +1,4 @@
-#include "headers/rintf4.h"
+#include "newlib/libm/machine/spu/headers/headers/rintf4.h"
 
 static __inline float _rintf(float x)
 {

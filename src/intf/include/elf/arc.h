@@ -24,7 +24,7 @@
 #ifndef _ELF_ARC_H
 #define _ELF_ARC_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 

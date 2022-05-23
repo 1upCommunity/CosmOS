@@ -39,8 +39,8 @@
 #ifndef _FEFPSCR_H_
 #define _FEFPSCR_H_	1
 
-#include <spu_intrinsics.h>
-#include <fenv.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/fenv.h"
 
 static __inline vec_uint4 __unpack_fpscr(fenv_t word)
 {

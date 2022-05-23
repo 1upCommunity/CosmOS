@@ -19,8 +19,8 @@
 #ifndef OPCODE_TIC6X_H
 #define OPCODE_TIC6X_H
 
-#include "bfd.h"
-#include "symcat.h"
+#include "include/opcode/bfd.h"
+#include "include/opcode/symcat.h"
 
 /* A field in an instruction format.  The names are based on those
    used in the architecture manuals.  */
@@ -112,7 +112,7 @@ typedef enum
   {
 #define FMT(name, num_bits, cst_bits, mask, fields)	\
   CONCAT2(tic6x_insn_format_, name),
-#include "tic6x-insn-formats.h"
+#include "include/opcode/tic6x-insn-formats.h"
 #undef FMT
     tic6x_insn_format_max
   } tic6x_insn_format_id;
@@ -597,7 +597,7 @@ typedef enum
   {
 #define CTRL(name, isa, rw, crlo, crhi_mask)	\
     CONCAT2(tic6x_ctrl_,name),
-#include "tic6x-control-registers.h"
+#include "include/opcode/tic6x-control-registers.h"
 #undef CTRL
     tic6x_ctrl_max
   } tic6x_ctrl_id;
@@ -668,7 +668,7 @@ typedef enum
     CONCAT6(tic6x_opcode_,name,_,func_unit,_,format),
 #define INSNUE(name, e, func_unit, format, type, isa, flags, fixed, ops, var) \
     CONCAT6(tic6x_opcode_,name,_,func_unit,_,e),
-#include "tic6x-opcode-table.h"
+#include "include/opcode/tic6x-opcode-table.h"
 #undef INSN
 #undef INSNE
 #undef INSNU

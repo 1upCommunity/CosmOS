@@ -48,11 +48,11 @@
 /* ??? The reason why we check for va_start here should be documented.  */
 
 #ifndef va_start
-#include <ansidecl.h>
-#include <stdarg.h>
+#include "include/gdb/ansidecl.h"
+#include "include/gdb/stdarg.h"
 #endif
 /* Needed for enum bfd_endian.  */
-#include "bfd.h"
+#include "include/gdb/bfd.h"
 
 /* Mapping of host/target values.  */
 /* ??? For debugging purposes, one might want to add a string of the

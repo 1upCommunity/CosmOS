@@ -1,4 +1,4 @@
-#include "headers/lgammaf4.h"
+#include "newlib/libm/machine/spu/headers/headers/lgammaf4.h"
 
 static __inline float _lgammaf(float x)
 {

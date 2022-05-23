@@ -39,12 +39,12 @@
 #ifndef _ERFCD2_H_
 #define _ERFCD2_H_	1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
-#include "expd2.h"
-#include "recipd2.h"
-#include "divd2.h"
-#include "erf_utils.h"
+#include "newlib/libm/machine/spu/headers/expd2.h"
+#include "newlib/libm/machine/spu/headers/recipd2.h"
+#include "newlib/libm/machine/spu/headers/divd2.h"
+#include "newlib/libm/machine/spu/headers/erf_utils.h"
 
 /*
  * FUNCTION

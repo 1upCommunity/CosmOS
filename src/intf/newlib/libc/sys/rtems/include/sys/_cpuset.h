@@ -34,7 +34,7 @@
 #ifndef _SYS__CPUSET_H_
 #define	_SYS__CPUSET_H_
 
-#include <sys/_bitset.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/_bitset.h"
 
 #define	CPU_MAXSIZE	256
 

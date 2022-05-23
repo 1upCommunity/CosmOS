@@ -31,10 +31,10 @@
 #ifndef __SYS_ICONVNLS_H__
 #define __SYS_ICONVNLS_H__
 
-#include <_ansi.h>
-#include <reent.h>
-#include <wchar.h>
-#include <iconv.h>
+#include "newlib/libc/include/sys/_ansi.h"
+#include "newlib/libc/include/sys/reent.h"
+#include "newlib/libc/include/sys/wchar.h"
+#include "newlib/libc/include/sys/iconv.h"
 
 /* Iconv data path environment variable name */
 #define NLS_ENVVAR_NAME  "NLSPATH"

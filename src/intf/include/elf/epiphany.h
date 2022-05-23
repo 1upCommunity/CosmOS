@@ -21,7 +21,7 @@
 #ifndef _ELF_EPIPHANY_H
 #define _ELF_EPIPHANY_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 START_RELOC_NUMBERS (elf_epiphany_reloc_type)

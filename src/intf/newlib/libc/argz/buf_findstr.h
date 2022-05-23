@@ -4,7 +4,7 @@
  * is freely granted, provided that this notice is preserved.
  */
 
-#include <sys/types.h>
+#include "newlib/libc/argz/sys/types.h"
 
 /* Find string str in buffer buf of length buf_len.  Point buf to
    character after string, or set it to NULL if end of buffer is

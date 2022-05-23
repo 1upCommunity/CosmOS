@@ -15,10 +15,10 @@
  */
 
 #if HOSTED
-#include <stdint.h>
-#include <sys/types.h>
-#include <sys/time.h>
-#include <sys/stat.h>
+#include "libgloss/csky/stdint.h"
+#include "libgloss/csky/sys/types.h"
+#include "libgloss/csky/sys/time.h"
+#include "libgloss/csky/sys/stat.h"
 
 #define HOSTED_EXIT  0
 #define HOSTED_INIT_SIM 1

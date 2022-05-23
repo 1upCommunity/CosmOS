@@ -9,14 +9,14 @@
 #ifndef _SYS__INTSUP_H
 #define _SYS__INTSUP_H
 
-#include <sys/features.h>
+#include "newlib/libc/include/sys/sys/features.h"
 
 #if __GNUC_PREREQ (3, 2)
 /* gcc > 3.2 implicitly defines the values we are interested */
 #define __STDINT_EXP(x) __##x##__
 #else
 #define __STDINT_EXP(x) x
-#include <limits.h>
+#include "newlib/libc/include/sys/limits.h"
 #endif
 
 /* Determine how intptr_t and intN_t fastN_t and leastN_t are defined by gcc

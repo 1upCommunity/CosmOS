@@ -18,7 +18,7 @@
 #ifndef __BOARD_H__
 #define __BOARD_H__
 
-#include <stdint.h>
+#include "libgloss/or1k/stdint.h"
 
 extern void* _or1k_board_mem_base;
 extern uint32_t _or1k_board_mem_size;

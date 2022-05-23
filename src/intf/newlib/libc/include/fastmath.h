@@ -4,8 +4,8 @@ extern "C" {
 #endif
 #define _FASTMATH_H_
 
-#include <math.h>
-#include <machine/fastmath.h>
+#include "newlib/libc/include/math.h"
+#include "newlib/libc/include/machine/fastmath.h"
 
 #ifdef __cplusplus
 }

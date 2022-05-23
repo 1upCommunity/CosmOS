@@ -61,7 +61,7 @@ typedef struct {
 typedef __lock_mutex_t _LOCK_T;
 typedef __lock_recursive_mutex_t _LOCK_RECURSIVE_T;
  
-#include <_ansi.h>
+#include "newlib/libc/sys/tirtos/include/sys/_ansi.h"
 
 #define __LOCK_INIT(class,lock) \
     class _LOCK_T lock = { .sem.dummy = {0, 0, 0, 0, 0, 0, 0, 0}, \

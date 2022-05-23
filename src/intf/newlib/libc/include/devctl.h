@@ -33,7 +33,7 @@
  */
 #ifdef _POSIX_26_C_SOURCE
 
-#include <sys/cdefs.h>
+#include "newlib/libc/include/sys/cdefs.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -48,7 +48,7 @@ extern "C" {
  *
  * Using 'D' should avoid the letters used by other users of <sys/ioccom.h>
  */
-#include <sys/ioccom.h>
+#include "newlib/libc/include/sys/ioccom.h"
 
 #define SOCKCLOSE    _IO('D', 1)    /* socket close */
 #endif

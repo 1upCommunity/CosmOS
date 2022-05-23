@@ -25,10 +25,10 @@
 #if defined(__ADSPLPBLACKFIN__)
 #warning cdefBF535.h should only be included for 535 compatible chips.
 #endif
-#include <defBF535.h>
+#include "libgloss/bfin/include/defBF535.h"
 
 /* include core specific register pointer definitions */
-#include <cdefblackfin.h>
+#include "libgloss/bfin/include/cdefblackfin.h"
 
 #ifdef _MISRA_RULES
 #pragma diag(push)

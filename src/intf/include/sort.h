@@ -22,16 +22,16 @@ Boston, MA 02110-1301, USA.  */
 #ifndef SORT_H
 #define SORT_H
 
-#include <sys/types.h> /* For size_t */
+#include "include/sys/types.h"
 #ifdef __STDC__
-#include <stddef.h>
+#include "include/stddef.h"
 #endif	/* __STDC__ */
 
 #ifdef __cplusplus
 extern "C" {
 #endif /* __cplusplus */
 
-#include "ansidecl.h"
+#include "include/ansidecl.h"
 
 /* Sort an array of pointers.  */
 

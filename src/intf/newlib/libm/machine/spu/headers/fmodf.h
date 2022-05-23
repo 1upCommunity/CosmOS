@@ -33,11 +33,11 @@
 #ifndef _FMODF_H_
 #define _FMODF_H_	1
 
-#include <errno.h>
-#include <spu_intrinsics.h>
-#include "headers/vec_literal.h"
+#include "newlib/libm/machine/spu/headers/errno.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/headers/vec_literal.h"
 
-#include "fabsf.h"
+#include "newlib/libm/machine/spu/headers/fabsf.h"
 
 /*
  * FUNCTION

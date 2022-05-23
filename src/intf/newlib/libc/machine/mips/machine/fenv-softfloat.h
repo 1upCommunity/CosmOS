@@ -49,7 +49,7 @@
  * define fenv_t and fexcept_t to match the hardware ABI.  Otherwise, it
  * doesn't matter how you define them.
  */
-#include <errno.h>
+#include "newlib/libc/machine/mips/machine/errno.h"
 
 __fenv_static inline int
 feclearexcept(int excepts)

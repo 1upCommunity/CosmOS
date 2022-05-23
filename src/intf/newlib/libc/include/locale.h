@@ -7,11 +7,11 @@
 #ifndef _LOCALE_H_
 #define _LOCALE_H_
 
-#include "_ansi.h"
-#include <sys/cdefs.h>
+#include "newlib/libc/include/_ansi.h"
+#include "newlib/libc/include/sys/cdefs.h"
 
 #define __need_NULL
-#include <stddef.h>
+#include "newlib/libc/include/stddef.h"
 
 #define LC_ALL	    0
 #define LC_COLLATE  1
@@ -23,7 +23,7 @@
 
 #if __POSIX_VISIBLE >= 200809 || defined (_LIBC)
 
-#include <sys/_locale.h>
+#include "newlib/libc/include/sys/_locale.h"
 
 #define LC_ALL_MASK		(1 << LC_ALL)
 #define LC_COLLATE_MASK		(1 << LC_COLLATE)

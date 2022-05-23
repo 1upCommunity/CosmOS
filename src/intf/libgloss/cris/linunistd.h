@@ -33,10 +33,10 @@
 #define _ASM_ELINUX_UNISTD_H_
 
 /* Our callers might want to use link_warning, so provide it from here.  */
-#include "../config.h"
-#include "libnosys/warning.h"
+#include "libgloss/config.h"
+#include "libgloss/cris/libnosys/warning.h"
 
-#include <errno.h>
+#include "libgloss/cris/errno.h"
 
 /*
  * This file contains the system call numbers, and stub macros for libc.

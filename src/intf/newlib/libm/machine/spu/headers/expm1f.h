@@ -1,4 +1,4 @@
-#include "headers/expm1f4.h"
+#include "newlib/libm/machine/spu/headers/headers/expm1f4.h"
 
 static __inline float _expm1f(float vx)
 {

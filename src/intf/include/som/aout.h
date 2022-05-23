@@ -21,7 +21,7 @@
 #ifndef _SOM_AOUT_H
 #define _SOM_AOUT_H
 
-#include "clock.h"
+#include "include/som/clock.h"
 
 /* Note: SOM uses bit-field in its structure.  All you need to know is:
    - CPUs supported by SOM (hppa) are big-endian,

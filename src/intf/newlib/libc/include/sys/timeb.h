@@ -14,8 +14,8 @@ extern "C" {
 
 #define _SYS_TIMEB_H
 
-#include <_ansi.h>
-#include <sys/_types.h>
+#include "newlib/libc/include/sys/_ansi.h"
+#include "newlib/libc/include/sys/sys/_types.h"
 
 #if !defined(__time_t_defined) && !defined(_TIME_T_DECLARED)
 typedef	_TIME_T_	time_t;

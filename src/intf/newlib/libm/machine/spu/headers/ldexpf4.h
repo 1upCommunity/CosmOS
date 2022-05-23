@@ -43,8 +43,8 @@
 #ifndef _LDEXPF4_H_
 #define _LDEXPF4_H_	1
 
-#include <spu_intrinsics.h>
-#include "scalbnf4.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/scalbnf4.h"
 
 /*
  * FUNCTION

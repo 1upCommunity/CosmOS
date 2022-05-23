@@ -40,13 +40,13 @@
 #ifndef _LGAMMAF4_H_
 #define _LGAMMAF4_H_	1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
-#include "logf4.h"
-#include "divf4.h"
-#include "recipf4.h"
-#include "truncf4.h"
-#include "sinf4.h"
+#include "newlib/libm/machine/spu/headers/logf4.h"
+#include "newlib/libm/machine/spu/headers/divf4.h"
+#include "newlib/libm/machine/spu/headers/recipf4.h"
+#include "newlib/libm/machine/spu/headers/truncf4.h"
+#include "newlib/libm/machine/spu/headers/sinf4.h"
 
 
 /*

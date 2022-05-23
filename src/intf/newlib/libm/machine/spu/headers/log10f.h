@@ -33,7 +33,7 @@
 #ifndef _LOG10F_H_
 #define _LOG10F_H_	1
 
-#include "log2f.h"
+#include "newlib/libm/machine/spu/headers/log2f.h"
 
 /*
  * FUNCTION

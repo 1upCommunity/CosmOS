@@ -21,6 +21,6 @@
 #ifndef _CDEFBF53x_H
 #define _CDEFBF53x_H
 
-#include <sys/platform.h>
+#include "libgloss/bfin/include/sys/platform.h"
 
 #endif /* _CDEFBF53x_H */

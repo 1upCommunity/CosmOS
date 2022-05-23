@@ -32,7 +32,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #ifndef _MMAN_H_
 #define _MMAN_H_
 
-#include <sys/types.h>
+#include "newlib/libc/machine/spu/sys/sys/types.h"
 
 /*
  * Prots to 'mmap'.

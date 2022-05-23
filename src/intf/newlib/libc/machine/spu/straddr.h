@@ -28,8 +28,8 @@
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#include <spu_intrinsics.h>
-#include "vec_literal.h"
+#include "newlib/libc/machine/spu/spu_intrinsics.h"
+#include "newlib/libc/machine/spu/vec_literal.h"
 
 /*
  * Supply the inline _straddr for use by strncpy and strncat.

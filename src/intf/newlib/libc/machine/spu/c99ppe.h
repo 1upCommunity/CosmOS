@@ -31,8 +31,8 @@ Author: Joel Schopp <jschopp@austin.ibm.com>
 */
 
 #ifndef __ASSEMBLER__
-#include <errno.h>
-#include <sys/syscall.h>
+#include "newlib/libc/machine/spu/errno.h"
+#include "newlib/libc/machine/spu/sys/syscall.h"
 #endif /* !__ASSEMBLER__ */
 
 #define SPE_C99_SIGNALCODE 0x2100

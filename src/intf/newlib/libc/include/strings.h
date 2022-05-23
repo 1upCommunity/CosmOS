@@ -29,11 +29,11 @@
 #ifndef _STRINGS_H_
 #define	_STRINGS_H_
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "newlib/libc/include/sys/cdefs.h"
+#include "newlib/libc/include/sys/_types.h"
 
 #if __POSIX_VISIBLE >= 200809
-#include <sys/_locale.h>
+#include "newlib/libc/include/sys/_locale.h"
 #endif
 
 #ifndef _SIZE_T_DECLARED
@@ -74,7 +74,7 @@ int	 strncasecmp_l (const char *, const char *, size_t, locale_t);
 __END_DECLS
 
 #if __SSP_FORTIFY_LEVEL > 0
-#include <ssp/strings.h>
+#include "newlib/libc/include/ssp/strings.h"
 #endif
 
 #endif /* _STRINGS_H_ */

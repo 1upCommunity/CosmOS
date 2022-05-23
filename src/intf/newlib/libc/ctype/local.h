@@ -2,8 +2,8 @@
 
 /* wctrans constants */
 
-#include <_ansi.h>
-#include "../locale/setlocale.h"
+#include "newlib/libc/ctype/_ansi.h"
+#include "newlib/libc/locale/setlocale.h"
 
 /* valid values for wctrans_t */
 #define WCT_TOLOWER 1

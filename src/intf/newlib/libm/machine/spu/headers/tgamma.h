@@ -1,6 +1,6 @@
-#include <errno.h>
-#include "headers/truncd2.h"
-#include "headers/tgammad2.h"
+#include "newlib/libm/machine/spu/headers/errno.h"
+#include "newlib/libm/machine/spu/headers/headers/truncd2.h"
+#include "newlib/libm/machine/spu/headers/headers/tgammad2.h"
 
 static __inline double _tgamma(double x)
 {

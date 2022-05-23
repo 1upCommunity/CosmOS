@@ -24,7 +24,7 @@
 #ifndef _ELF_MICROBLAZE_H
 #define _ELF_MICROBLAZE_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 START_RELOC_NUMBERS (elf_microblaze_reloc_type)

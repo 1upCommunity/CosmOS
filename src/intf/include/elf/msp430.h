@@ -21,7 +21,7 @@
 #ifndef _ELF_MSP430_H
 #define _ELF_MSP430_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Processor specific flags for the ELF header e_flags field.  */
 #define EF_MSP430_MACH 		0xff

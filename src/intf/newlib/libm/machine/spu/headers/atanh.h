@@ -1,5 +1,5 @@
-#include "headers/atanhd2.h"
-#include "headers/dom_chkd_negone_one.h"
+#include "newlib/libm/machine/spu/headers/headers/atanhd2.h"
+#include "newlib/libm/machine/spu/headers/headers/dom_chkd_negone_one.h"
 
 static __inline double _atanh(double x)
 {

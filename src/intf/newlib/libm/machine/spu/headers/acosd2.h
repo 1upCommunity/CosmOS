@@ -40,10 +40,10 @@
 #ifndef _ACOSD2_H_
 #define _ACOSD2_H_	1
 
-#include "simdmath.h"
-#include <spu_intrinsics.h>
-#include "sqrtd2.h"
-#include "divd2.h"
+#include "newlib/libm/machine/spu/headers/simdmath.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/sqrtd2.h"
+#include "newlib/libm/machine/spu/headers/divd2.h"
 
 /*
  * FUNCTION

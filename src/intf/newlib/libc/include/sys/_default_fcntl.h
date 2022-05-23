@@ -4,8 +4,8 @@
 extern "C" {
 #endif
 #define	_SYS__DEFAULT_FCNTL_H_
-#include <_ansi.h>
-#include <sys/cdefs.h>
+#include "newlib/libc/include/sys/_ansi.h"
+#include "newlib/libc/include/sys/sys/cdefs.h"
 #define	_FOPEN		(-1)	/* from sys/file.h, kernel use only */
 #define	_FREAD		0x0001	/* read enabled */
 #define	_FWRITE		0x0002	/* write enabled */
@@ -179,7 +179,7 @@ extern "C" {
 #define	LOCK_UN		0x08		/* unlock file */
 #endif
 
-/*#include <sys/stdtypes.h>*/
+#include "newlib/libc/include/sys/sys/stdtypes.h"
 
 #ifndef __CYGWIN__
 /* file segment locking set data type - information passed to system by user */
@@ -207,8 +207,8 @@ struct eflock {
 };
 #endif	/* __MISC_VISIBLE */
 
-#include <sys/types.h>
-#include <sys/stat.h>		/* sigh. for the mode bits for open/creat */
+#include "newlib/libc/include/sys/sys/types.h"
+#include "newlib/libc/include/sys/sys/stat.h"
 
 extern int open (const char *, int, ...);
 #if __ATFILE_VISIBLE
@@ -220,7 +220,7 @@ extern int fcntl (int, int, ...);
 extern int flock (int, int);
 #endif
 #if __GNU_VISIBLE
-#include <sys/time.h>
+#include "newlib/libc/include/sys/sys/time.h"
 extern int futimesat (int, const char *, const struct timeval [2]);
 #endif
 

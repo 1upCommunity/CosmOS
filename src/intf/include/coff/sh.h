@@ -23,7 +23,7 @@
 #define L_LNNO_SIZE 4
 #endif
 #define INCLUDE_COMDAT_FIELDS_IN_AUXENT
-#include "coff/external.h"
+#include "include/coff/coff/external.h"
 
 #define	SH_ARCH_MAGIC_BIG	0x0500
 #define	SH_ARCH_MAGIC_LITTLE	0x0550  /* Little endian SH */

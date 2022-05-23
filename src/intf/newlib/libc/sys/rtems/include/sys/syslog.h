@@ -187,8 +187,8 @@ static const CODE facilitynames[] = {
  * for utilities to have to include one of them to include syslog.h, so we get
  * __va_list from <sys/_types.h> and use it.
  */
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/cdefs.h"
+#include "newlib/libc/sys/rtems/include/sys/sys/_types.h"
 
 __BEGIN_DECLS
 void	closelog(void);

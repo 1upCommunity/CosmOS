@@ -22,7 +22,7 @@
 #ifndef _ELF_TIC6X_H
 #define _ELF_TIC6X_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocation types.  */
 START_RELOC_NUMBERS (elf_tic6x_reloc_type)
@@ -140,7 +140,7 @@ END_RELOC_NUMBERS (R_TIC6X_max)
 enum
   {
 #define TAG(tag, value) tag = value,
-#include "elf/tic6x-attrs.h"
+#include "include/elf/elf/tic6x-attrs.h"
 #undef TAG
     Tag_C6XABI_last
   };

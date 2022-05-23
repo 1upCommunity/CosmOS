@@ -1,1 +1,1 @@
-#include <sys/poll.h>
+#include "newlib/libc/sys/rtems/include/sys/poll.h"

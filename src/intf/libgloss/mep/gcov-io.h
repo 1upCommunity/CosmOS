@@ -16,8 +16,8 @@
 
 #ifndef GCC_GCOV_IO_H
 #define GCC_GCOV_IO_H
-#include <stdio.h>
-#include <sys/types.h>
+#include "libgloss/mep/stdio.h"
+#include "libgloss/mep/sys/types.h"
 
 static int __fetch_long	(long *, char *, size_t);
 static int __store_long (long, char *, size_t);

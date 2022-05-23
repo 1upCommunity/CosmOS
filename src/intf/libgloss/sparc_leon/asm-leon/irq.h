@@ -26,11 +26,11 @@
 #ifndef _LEON_CATCHIRQ_HANDLER_H_
 #define _LEON_CATCHIRQ_HANDLER_H_
 
-#include <asm-leon/leon.h>
-#include <asm-leon/queue.h>
-/*#include <sys/fsu_pthread_queue.h>*/
-#include <asm-leon/leoncompat.h>
-#include <asm-leon/leonstack.h>
+#include "libgloss/sparc_leon/asm-leon/asm-leon/leon.h"
+#include "libgloss/sparc_leon/asm-leon/asm-leon/queue.h"
+#include "libgloss/sparc_leon/asm-leon/sys/fsu_pthread_queue.h"
+#include "libgloss/sparc_leon/asm-leon/asm-leon/leoncompat.h"
+#include "libgloss/sparc_leon/asm-leon/asm-leon/leonstack.h"
 
 #ifndef __ASSEMBLER__
 

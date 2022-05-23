@@ -31,8 +31,8 @@
 #ifndef _SYS_FENV_H_
 #define _SYS_FENV_H_ 1
 
-#include <sys/_types.h>
-#include <sys/cdefs.h>
+#include "newlib/libc/machine/arm/sys/sys/_types.h"
+#include "newlib/libc/machine/arm/sys/sys/cdefs.h"
 
 #ifdef __cplusplus
 extern "C" {

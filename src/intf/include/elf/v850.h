@@ -55,7 +55,7 @@
 #define V850_OTHER_ERROR	0x80	/* Symbol had an error reported.  */
 
 /* V850 relocations.  */
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 START_RELOC_NUMBERS (v850_reloc_type)
      RELOC_NUMBER (R_V850_NONE, 0)

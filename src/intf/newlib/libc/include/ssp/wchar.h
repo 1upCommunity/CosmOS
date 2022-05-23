@@ -1,8 +1,8 @@
 #ifndef _SSP_WCHAR_H_
 #define _SSP_WCHAR_H_
 
-#include <sys/cdefs.h>
-#include <ssp/ssp.h>
+#include "newlib/libc/include/ssp/sys/cdefs.h"
+#include "newlib/libc/include/ssp/ssp/ssp.h"
 
 #if __SSP_FORTIFY_LEVEL > 0
 

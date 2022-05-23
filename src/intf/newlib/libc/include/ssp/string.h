@@ -31,8 +31,8 @@
 #ifndef _SSP_STRING_H_
 #define _SSP_STRING_H_
 
-#include <sys/cdefs.h>
-#include <ssp/ssp.h>
+#include "newlib/libc/include/ssp/sys/cdefs.h"
+#include "newlib/libc/include/ssp/ssp/ssp.h"
 
 __BEGIN_DECLS
 void *__memcpy_chk(void *, const void *, size_t, size_t);

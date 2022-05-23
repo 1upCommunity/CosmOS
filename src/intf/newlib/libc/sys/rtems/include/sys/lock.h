@@ -26,8 +26,8 @@
 #ifndef _SYS_LOCK_H_
 #define _SYS_LOCK_H_
 
-#include <sys/cdefs.h>
-#include <stddef.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/cdefs.h"
+#include "newlib/libc/sys/rtems/include/sys/stddef.h"
 
 __BEGIN_DECLS
 
@@ -390,7 +390,7 @@ __END_DECLS
 
 #ifdef _KERNEL
 /* Header file provided outside of Newlib */
-#include <machine/_kernel_lock.h>
+#include "newlib/libc/sys/rtems/include/sys/machine/_kernel_lock.h"
 #endif
 
 #endif /* !_SYS_LOCK_H_ */

@@ -20,7 +20,7 @@
 #ifndef _ELF_MOXIE_H
 #define _ELF_MOXIE_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocation types.  */
 START_RELOC_NUMBERS (elf_moxie_reloc_type)

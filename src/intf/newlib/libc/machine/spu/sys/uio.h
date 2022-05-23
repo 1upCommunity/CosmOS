@@ -1,7 +1,7 @@
 #ifndef _SYS_UIO_H
 #define _SYS_UIO_H
 
-#include <sys/types.h>
+#include "newlib/libc/machine/spu/sys/sys/types.h"
 
 #ifdef __cplusplus
 extern "C" {

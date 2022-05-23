@@ -12,8 +12,8 @@
 #ifndef _RISCV_KERNEL_STAT_H
 #define _RISCV_KERNEL_STAT_H
 
-#include <sys/types.h>
-#include <sys/stat.h>
+#include "libgloss/riscv/sys/types.h"
+#include "libgloss/riscv/sys/stat.h"
 
 struct  kernel_stat
 {

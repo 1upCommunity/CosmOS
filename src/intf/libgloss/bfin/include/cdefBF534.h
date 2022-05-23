@@ -33,10 +33,10 @@
 #endif /* _MISRA_RULES */
 
 /* Include all Core registers and bit definitions 									*/
-#include <defBF534.h>
+#include "libgloss/bfin/include/defBF534.h"
 
 /* Include core specific register pointer definitions 								*/
-#include <cdef_LPBlackfin.h>
+#include "libgloss/bfin/include/cdef_LPBlackfin.h"
 
 #ifndef _PTR_TO_VOL_VOID_PTR
 #ifndef _USE_LEGACY_CDEF_BEHAVIOUR

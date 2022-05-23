@@ -41,14 +41,14 @@
 #ifndef _ATAND2_H_
 #define _ATAND2_H_	1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
-#include "simdmath.h"
-#include "recipd2.h"
-#include "logd2.h"
-#include "acosd2.h"
-#include "asind2.h"
-#include "sqrtd2.h"
+#include "newlib/libm/machine/spu/headers/simdmath.h"
+#include "newlib/libm/machine/spu/headers/recipd2.h"
+#include "newlib/libm/machine/spu/headers/logd2.h"
+#include "newlib/libm/machine/spu/headers/acosd2.h"
+#include "newlib/libm/machine/spu/headers/asind2.h"
+#include "newlib/libm/machine/spu/headers/sqrtd2.h"
 
 /*
  * FUNCTION

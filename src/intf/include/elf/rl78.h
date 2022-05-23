@@ -20,7 +20,7 @@
 #ifndef _ELF_RL78_H
 #define _ELF_RL78_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Note that there are a few internal relocation types used by the
    linker to do link-time relaxation.  If you update this file, please

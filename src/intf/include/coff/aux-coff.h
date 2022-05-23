@@ -22,8 +22,8 @@
 #ifndef GNU_COFF_AUX_H
 #define GNU_COFF_AUX_H 1
 
-#include "coff/internal.h"
-#include "coff/m68k.h"
+#include "include/coff/coff/internal.h"
+#include "include/coff/coff/m68k.h"
 
 /* Section contains 64-byte padded pathnames of shared libraries */
 #undef STYP_LIB

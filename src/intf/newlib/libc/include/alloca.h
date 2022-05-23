@@ -7,8 +7,8 @@
 #ifndef _NEWLIB_ALLOCA_H
 #define _NEWLIB_ALLOCA_H
 
-#include "_ansi.h"
-#include <sys/reent.h>
+#include "newlib/libc/include/_ansi.h"
+#include "newlib/libc/include/sys/reent.h"
 
 #undef alloca
 

@@ -40,10 +40,10 @@
 #ifndef _EXPM1D2_H_
 #define _EXPM1D2_H_	1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
-#include "expd2.h"
-#include "divd2.h"
+#include "newlib/libm/machine/spu/headers/expd2.h"
+#include "newlib/libm/machine/spu/headers/divd2.h"
 
 #define EXPM1_P0 0.0000000000000000000000000e+00
 #define EXPM1_P1 1.0000000000000000000000000e+00

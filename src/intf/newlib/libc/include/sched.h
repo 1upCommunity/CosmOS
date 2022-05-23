@@ -20,8 +20,8 @@
 #ifndef _SCHED_H_
 #define _SCHED_H_
 
-#include <sys/types.h>
-#include <sys/sched.h>
+#include "newlib/libc/include/sys/types.h"
+#include "newlib/libc/include/sys/sched.h"
 
 #ifdef __cplusplus
 extern "C" {

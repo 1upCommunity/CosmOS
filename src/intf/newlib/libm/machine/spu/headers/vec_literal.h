@@ -48,7 +48,7 @@
  * construction when all the elements of the vector contain the same value.
  */
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
 #ifdef __ALTIVEC_LITERAL_STYLE__
 /* Use altivec style.

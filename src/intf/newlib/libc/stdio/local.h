@@ -22,12 +22,12 @@
  * in particular, macros and private variables.
  */
 
-#include <_ansi.h>
-#include <reent.h>
-#include <stdarg.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <stdio.h>
+#include "newlib/libc/stdio/_ansi.h"
+#include "newlib/libc/stdio/reent.h"
+#include "newlib/libc/stdio/stdarg.h"
+#include "newlib/libc/stdio/stdlib.h"
+#include "newlib/libc/stdio/unistd.h"
+#include "newlib/libc/stdio/stdio.h"
 #ifdef __SCLE
 # include <io.h>
 #endif
@@ -70,7 +70,7 @@
 # define _newlib_sfp_lock_end()
 
 #elif defined(_STDIO_WITH_THREAD_CANCELLATION_SUPPORT)
-#include <pthread.h>
+#include "newlib/libc/stdio/pthread.h"
 
 /* Start a stream oriented critical section: */
 # define _newlib_flockfile_start(_fp) \

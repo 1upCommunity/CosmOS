@@ -33,10 +33,10 @@
  * $FreeBSD: src/lib/libc/db/hash/hash.h,v 1.6 2002/03/21 22:46:26 obrien Exp $
  */
 
-#include <sys/param.h>
+#include "newlib/libc/search/sys/param.h"
 #define __need_size_t
-#include <stddef.h>
-#include <stdint.h>
+#include "newlib/libc/search/stddef.h"
+#include "newlib/libc/search/stdint.h"
 
 /* Check that newlib understands the byte order of its target system.  */
 #ifndef BYTE_ORDER

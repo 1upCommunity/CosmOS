@@ -33,11 +33,11 @@
 #ifndef _DB_H_
 #define	_DB_H_
 
-#include <sys/types.h>
-#include <sys/cdefs.h>
-#include <sys/config.h>
+#include "newlib/libc/search/sys/types.h"
+#include "newlib/libc/search/sys/cdefs.h"
+#include "newlib/libc/search/sys/config.h"
 
-#include <limits.h>
+#include "newlib/libc/search/limits.h"
 
 #define	RET_ERROR	-1		/* Return values. */
 #define	RET_SUCCESS	 0

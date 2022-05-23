@@ -36,9 +36,9 @@
 #ifndef	_RUNETYPE_H_
 #define	_RUNETYPE_H_
 
-#include <stddef.h>
-#include <sys/cdefs.h>
-#include <machine/ansi.h>
+#include "newlib/libc/posix/stddef.h"
+#include "newlib/libc/posix/sys/cdefs.h"
+#include "newlib/libc/posix/machine/ansi.h"
 
 #ifdef	_BSD_RUNE_T_
 typedef	_BSD_RUNE_T_	rune_t;

@@ -1,4 +1,4 @@
-#include "headers/sincosd2.h"
+#include "newlib/libm/machine/spu/headers/headers/sincosd2.h"
 
 static __inline void _sincos(double angle, double* sinx, double* cosx)
 {

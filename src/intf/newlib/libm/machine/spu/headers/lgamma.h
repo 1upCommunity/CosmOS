@@ -1,4 +1,4 @@
-#include "headers/lgammad2.h"
+#include "newlib/libm/machine/spu/headers/headers/lgammad2.h"
 
 static __inline double _lgamma(double x)
 {

@@ -20,7 +20,7 @@
 
 #if defined(_POSIX_THREADS) || __POSIX_VISIBLE >= 199506
 
-#include <sys/sched.h>
+#include "newlib/libc/include/sys/sys/sched.h"
 
 /*
  *  2.5 Primitive System Data Types,  P1003.1c/D10, p. 19.

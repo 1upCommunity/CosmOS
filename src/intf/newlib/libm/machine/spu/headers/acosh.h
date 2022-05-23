@@ -1,5 +1,5 @@
-#include "headers/acoshd2.h"
-#include "headers/dom_chkd_less_than.h"
+#include "newlib/libm/machine/spu/headers/headers/acoshd2.h"
+#include "newlib/libm/machine/spu/headers/headers/dom_chkd_less_than.h"
 
 static __inline double _acosh(double x)
 {

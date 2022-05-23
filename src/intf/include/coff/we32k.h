@@ -18,7 +18,7 @@
    MA 02110-1301, USA.  */
 
 #define L_LNNO_SIZE 2
-#include "coff/external.h"
+#include "include/coff/coff/external.h"
 
 /* Bits for f_flags:
  	F_RELFLG	relocation info stripped from file

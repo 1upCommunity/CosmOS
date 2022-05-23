@@ -16,7 +16,7 @@
 #ifndef _SYSCALL_H
 #define _SYSCALL_H
 
-#include <sys/asm.h>
+#include "newlib/libc/machine/cr16/sys/sys/asm.h"
 
 /* SVC codes to pass to the debugger */
 

@@ -26,14 +26,14 @@
 	dmg@research.att.com or research!dmg
  */
 
-#include <machine/ieeefp.h>
-#include <math.h>
-#include <float.h>
-#include <errno.h>
-#include <assert.h>
-#include <sys/config.h>
-#include <sys/types.h>
-#include "../locale/setlocale.h"
+#include "newlib/libc/stdlib/machine/ieeefp.h"
+#include "newlib/libc/stdlib/math.h"
+#include "newlib/libc/stdlib/float.h"
+#include "newlib/libc/stdlib/errno.h"
+#include "newlib/libc/stdlib/assert.h"
+#include "newlib/libc/stdlib/sys/config.h"
+#include "newlib/libc/stdlib/sys/types.h"
+#include "newlib/libc/locale/setlocale.h"
 
 #ifdef __IEEE_LITTLE_ENDIAN
 #define IEEE_8087
@@ -48,7 +48,7 @@
 #endif
 
 #ifdef DEBUG
-#include "stdio.h"
+#include "newlib/libc/stdlib/stdio.h"
 #define Bug(x) {fprintf(stderr, "%s\n", x); exit(1);}
 #endif
 

@@ -39,9 +39,9 @@
 #ifndef _ACOSHF4_H_
 #define _ACOSHF4_H_	1
 
-#include <spu_intrinsics.h>
-#include "logf4.h"
-#include "sqrtf4.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/logf4.h"
+#include "newlib/libm/machine/spu/headers/sqrtf4.h"
 
 /*
  * FUNCTION

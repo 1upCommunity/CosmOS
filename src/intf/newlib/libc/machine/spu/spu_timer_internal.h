@@ -32,14 +32,14 @@ POSSIBILITY OF SUCH DAMAGE.
 #ifndef _SPU_TIMER_INTERNAL_H_
 #define _SPU_TIMER_INTERNAL_H_
 
-#include <spu_intrinsics.h>
-#include <spu_mfcio.h>
-#include <limits.h>
-#include <stdlib.h>
+#include "newlib/libc/machine/spu/spu_intrinsics.h"
+#include "newlib/libc/machine/spu/spu_mfcio.h"
+#include "newlib/libc/machine/spu/limits.h"
+#include "newlib/libc/machine/spu/stdlib.h"
 
 #ifdef SPU_TIMER_DEBUG
-#include <stdio.h>
-#include <assert.h>
+#include "newlib/libc/machine/spu/stdio.h"
+#include "newlib/libc/machine/spu/assert.h"
 #endif
 
 /* The timer state tells which list its on.  */

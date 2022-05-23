@@ -34,7 +34,7 @@
 #ifndef _FENV_H
 #define _FENV_H
 
-#include <sys/fenv.h>
+#include "newlib/libc/machine/spu/include/sys/fenv.h"
 
 #ifdef __cplusplus
 extern "C" {

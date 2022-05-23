@@ -22,7 +22,7 @@
 #ifndef _ELF_CRIS_H
 #define _ELF_CRIS_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 START_RELOC_NUMBERS (elf_cris_reloc_type)

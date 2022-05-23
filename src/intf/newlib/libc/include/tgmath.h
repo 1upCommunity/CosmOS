@@ -30,8 +30,8 @@
 #ifndef _TGMATH_H_
 #define	_TGMATH_H_
 
-#include <complex.h>
-#include <math.h>
+#include "newlib/libc/include/complex.h"
+#include "newlib/libc/include/math.h"
 
 #ifdef log2
 #undef log2

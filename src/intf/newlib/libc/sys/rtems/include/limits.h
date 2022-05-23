@@ -11,10 +11,10 @@
  */
 
 #ifndef _GCC_LIMITS_H_  /* if we have not seen gcc's limits.h yet */
-#include_next <limits.h>
+#include "newlib/libc/sys/rtems/include/limits.h"
 #endif
 
-#include <sys/syslimits.h>
+#include "newlib/libc/sys/rtems/include/sys/syslimits.h"
 
 #ifndef __POSIX_LIMITS_h
 #define __POSIX_LIMITS_h

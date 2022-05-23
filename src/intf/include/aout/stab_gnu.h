@@ -27,7 +27,7 @@
 
 enum __stab_debug_code
 {
-#include "aout/stab.def"
+#include "include/aout/aout/stab.def"
 LAST_UNUSED_STAB_CODE
 };
 

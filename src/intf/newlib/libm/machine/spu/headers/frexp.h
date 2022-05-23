@@ -33,8 +33,8 @@
 #ifndef _FREXP_H_
 #define _FREXP_H_	1
 
-#include <spu_intrinsics.h>
-#include "headers/vec_literal.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/headers/vec_literal.h"
 
 /* Return the normalized fraction and exponent to the number x.
  * Double precision denorms treated as zero and return a 0

@@ -40,7 +40,7 @@ Boston, MA 02110-1301, USA.  */
 #ifndef _FIBHEAP_H_
 #define _FIBHEAP_H_
 
-#include "ansidecl.h"
+#include "include/ansidecl.h"
 
 #ifdef __cplusplus
 extern "C" {

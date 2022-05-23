@@ -45,7 +45,7 @@
  *		 	05/11/89	R. Trawick adapted from Motorola disassembler
  */
 
-#include <stdio.h>
+#include "include/opcode/stdio.h"
 
 /* Define the number of bits in the primary opcode field of the instruction,
    the destination field, the source 1 and source 2 fields.  */

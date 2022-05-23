@@ -26,18 +26,18 @@
 #ifndef _STDIO_H_
 #define	_STDIO_H_
 
-#include "_ansi.h"
+#include "newlib/libc/include/_ansi.h"
 
 #define	_FSTDIO			/* ``function stdio'' */
 
 #define __need_size_t
 #define __need_NULL
-#include <sys/cdefs.h>
-#include <stddef.h>
+#include "newlib/libc/include/sys/cdefs.h"
+#include "newlib/libc/include/stddef.h"
 
 /* typedef only __gnuc_va_list, used throughout the header */
 #define __need___va_list
-#include <stdarg.h>
+#include "newlib/libc/include/stdarg.h"
 
 /* typedef va_list only when required */
 #if __POSIX_VISIBLE >= 200809 || __XSI_VISIBLE
@@ -47,7 +47,7 @@ typedef __gnuc_va_list va_list;
 #define _VA_LIST_DEFINED
 #endif
 #else /* !__GNUC__ */
-#include <stdarg.h>
+#include "newlib/libc/include/stdarg.h"
 #endif
 #endif /* __POSIX_VISIBLE >= 200809 || __XSI_VISIBLE */
 
@@ -57,8 +57,8 @@ typedef __gnuc_va_list va_list;
  * want reent.h to include this file.
  */
 
-#include <sys/reent.h>
-#include <sys/_types.h>
+#include "newlib/libc/include/sys/reent.h"
+#include "newlib/libc/include/sys/_types.h"
 
 _BEGIN_STD_C
 
@@ -86,7 +86,7 @@ typedef _ssize_t ssize_t;
 #define	_SSIZE_T_DECLARED
 #endif
 
-#include <sys/stdio.h>
+#include "newlib/libc/include/sys/stdio.h"
 
 #define	__SLBF	0x0001		/* line buffered */
 #define	__SNBF	0x0002		/* unbuffered */
@@ -807,7 +807,7 @@ _putchar_unlocked(int _c)
 _END_STD_C
 
 #if __SSP_FORTIFY_LEVEL > 0
-#include <ssp/stdio.h>
+#include "newlib/libc/include/ssp/stdio.h"
 #endif
 
 #endif /* _STDIO_H_ */

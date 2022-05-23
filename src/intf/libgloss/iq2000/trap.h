@@ -1,4 +1,4 @@
-#include "syscall.h"
+#include "libgloss/iq2000/syscall.h"
 
 int __trap0 ();
 

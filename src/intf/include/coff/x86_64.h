@@ -23,7 +23,7 @@
 #define L_LNNO_SIZE 2
 #define INCLUDE_COMDAT_FIELDS_IN_AUXENT
 
-#include "coff/external.h"
+#include "include/coff/coff/external.h"
 
 #define COFF_PAGE_SIZE	0x1000
 

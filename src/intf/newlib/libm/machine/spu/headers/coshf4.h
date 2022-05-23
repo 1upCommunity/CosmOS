@@ -39,10 +39,10 @@
 #ifndef _COSHF4_H_
 #define _COSHF4_H_ 1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
-#include "expf4.h"
-#include "recipf4.h"
+#include "newlib/libm/machine/spu/headers/expf4.h"
+#include "newlib/libm/machine/spu/headers/recipf4.h"
 
 
 /*

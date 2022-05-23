@@ -1,4 +1,4 @@
-#include "headers/nearbyintf4.h"
+#include "newlib/libm/machine/spu/headers/headers/nearbyintf4.h"
 
 static __inline float _nearbyintf(float x)
 {

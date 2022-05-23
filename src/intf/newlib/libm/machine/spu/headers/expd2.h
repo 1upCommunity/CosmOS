@@ -42,8 +42,8 @@
 #ifndef _EXPD2_H_
 #define _EXPD2_H_	1
 
-#include <spu_intrinsics.h>
-#include "floord2.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/floord2.h"
 
 #define LOG2E 1.4426950408889634073599     // 1/log(2) 
 

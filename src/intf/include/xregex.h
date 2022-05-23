@@ -24,6 +24,6 @@
 #  define re_comp xre_comp
 #  define re_exec xre_exec
 
-#include "xregex2.h"
+#include "include/xregex2.h"
 
 #endif /* xregex.h */

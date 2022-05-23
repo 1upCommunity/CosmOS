@@ -33,8 +33,8 @@
 #ifndef _LROUND_H_
 #define _LROUND_H_	1
 
-#include <spu_intrinsics.h>
-#include "headers/vec_literal.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/headers/vec_literal.h"
 
 /* Round the input to the nearest integer value, rounding halfway cases
  * away from zero. No special handling is performed when values are

@@ -19,7 +19,7 @@
 
 #define L_LNNO_SIZE 2
 #define INCLUDE_COMDAT_FIELDS_IN_AUXENT
-#include "coff/external.h"
+#include "include/coff/coff/external.h"
 
 #define MIPS_ARCH_MAGIC_WINCE	0x0166  /* Windows CE - little endian */
 #define MIPS_PE_MAGIC		0x010b

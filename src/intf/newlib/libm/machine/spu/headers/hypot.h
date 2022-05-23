@@ -1,4 +1,4 @@
-#include "headers/hypotd2.h"
+#include "newlib/libm/machine/spu/headers/headers/hypotd2.h"
 
 static __inline double _hypot(double x, double y)
 {

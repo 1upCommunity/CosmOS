@@ -34,7 +34,7 @@
 #ifndef _MACHINE__TYPES_H
 #define _MACHINE__TYPES_H
 
-#include <machine/_default_types.h>
+#include "newlib/libc/machine/spu/machine/machine/_default_types.h"
 
 /*
  * fpos_t large enough for either 32 or 64 bit ppc glibc fpos_t.

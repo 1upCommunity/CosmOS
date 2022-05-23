@@ -2,10 +2,10 @@
 
 #define  _MATH_H_
 
-#include <sys/reent.h>
-#include <sys/cdefs.h>
-#include <machine/ieeefp.h>
-#include "_ansi.h"
+#include "newlib/libc/include/sys/reent.h"
+#include "newlib/libc/include/sys/cdefs.h"
+#include "newlib/libc/include/machine/ieeefp.h"
+#include "newlib/libc/include/_ansi.h"
 
 _BEGIN_STD_C
 
@@ -637,7 +637,7 @@ extern int *__signgam (void);
 _END_STD_C
 
 #ifdef __FAST_MATH__
-#include <machine/fastmath.h>
+#include "newlib/libc/include/machine/fastmath.h"
 #endif
 
 #endif /* _MATH_H_ */

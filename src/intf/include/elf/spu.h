@@ -21,7 +21,7 @@
 #ifndef _ELF_SPU_H
 #define _ELF_SPU_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* elf32-spu.c depends on these being consecutive. */
 START_RELOC_NUMBERS (elf_spu_reloc_type)

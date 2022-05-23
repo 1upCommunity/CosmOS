@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "newlib/testsuite/include/stdio.h"
+#include "newlib/testsuite/include/stdlib.h"
 
 #define CHECK(a) { \
   if (!(a)) \

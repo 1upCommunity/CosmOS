@@ -27,12 +27,12 @@
 #ifndef _SPAWN_H_
 #define _SPAWN_H_
 
-#include <_ansi.h>
-#include <sys/cdefs.h>
-#include <sys/types.h>
-#include <sys/_types.h>
+#include "newlib/libc/include/_ansi.h"
+#include "newlib/libc/include/sys/cdefs.h"
+#include "newlib/libc/include/sys/types.h"
+#include "newlib/libc/include/sys/_types.h"
 #define __need_sigset_t
-#include <signal.h>
+#include "newlib/libc/include/signal.h"
 
 struct sched_param;
 

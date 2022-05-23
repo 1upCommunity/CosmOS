@@ -35,7 +35,7 @@ POSSIBILITY OF SUCH DAMAGE.
 extern "C" {
 #endif
 
-#include <stdint.h>
+#include "newlib/libc/machine/spu/include/stdint.h"
 
 /* Clock services.  */
 extern void spu_clock_start (void);

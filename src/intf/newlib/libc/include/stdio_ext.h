@@ -11,7 +11,7 @@
 #error "<stdio_ext.h> not supported"
 #endif
 
-#include <stdio.h>
+#include "newlib/libc/include/stdio.h"
 
 #define	FSETLOCKING_QUERY	0
 #define	FSETLOCKING_INTERNAL	1

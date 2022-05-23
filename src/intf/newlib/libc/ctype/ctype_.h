@@ -1,4 +1,4 @@
-#include <ctype.h>
+#include "newlib/libc/ctype/ctype.h"
 
 #if (defined(__GNUC__) && !defined(__CHAR_UNSIGNED__) && !defined(COMPACT_CTYPE)) || defined (__CYGWIN__)
 #define ALLOW_NEGATIVE_CTYPE_INDEX

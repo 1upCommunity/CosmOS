@@ -39,17 +39,17 @@
 #ifndef _TGAMMAF4_H_
 #define _TGAMMAF4_H_	1
 
-#include <spu_intrinsics.h>
-#include "simdmath.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/simdmath.h"
 
-#include "recipf4.h"
-#include "truncf4.h"
-#include "expf4.h"
-#include "logf4.h"
-#include "divf4.h"
-#include "sinf4.h"
-#include "powf4.h"
-#include "tgammad2.h"
+#include "newlib/libm/machine/spu/headers/recipf4.h"
+#include "newlib/libm/machine/spu/headers/truncf4.h"
+#include "newlib/libm/machine/spu/headers/expf4.h"
+#include "newlib/libm/machine/spu/headers/logf4.h"
+#include "newlib/libm/machine/spu/headers/divf4.h"
+#include "newlib/libm/machine/spu/headers/sinf4.h"
+#include "newlib/libm/machine/spu/headers/powf4.h"
+#include "newlib/libm/machine/spu/headers/tgammad2.h"
 
 /*
  * FUNCTION

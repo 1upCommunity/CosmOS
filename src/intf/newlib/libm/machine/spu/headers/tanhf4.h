@@ -39,12 +39,12 @@
 #ifndef _TANHF4_H_
 #define _TANHF4_H_	1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
-#include "expf4.h"
-#include "divf4.h"
+#include "newlib/libm/machine/spu/headers/expf4.h"
+#include "newlib/libm/machine/spu/headers/divf4.h"
 
-#include "tanhd2.h"
+#include "newlib/libm/machine/spu/headers/tanhd2.h"
 
 /*
  * FUNCTION

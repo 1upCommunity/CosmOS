@@ -25,7 +25,7 @@ extern "C" {
 #endif
 #define _SYS_ERRNO_H_
 
-#include <sys/reent.h>
+#include "newlib/libc/machine/spu/sys/sys/reent.h"
 
 #define errno (_impure_data._errno)
 

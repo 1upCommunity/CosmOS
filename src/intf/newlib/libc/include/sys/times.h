@@ -4,8 +4,8 @@ extern "C" {
 #endif
 #define	_SYS_TIMES_H
 
-#include <_ansi.h>
-#include <sys/_types.h>
+#include "newlib/libc/include/sys/_ansi.h"
+#include "newlib/libc/include/sys/sys/_types.h"
 
 #if !defined(__clock_t_defined) && !defined(_CLOCK_T_DECLARED)
 typedef	_CLOCK_T_	clock_t;

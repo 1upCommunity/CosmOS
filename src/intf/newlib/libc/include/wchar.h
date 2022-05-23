@@ -1,25 +1,25 @@
 #ifndef _WCHAR_H_
 #define _WCHAR_H_
 
-#include <_ansi.h>
+#include "newlib/libc/include/_ansi.h"
 
-#include <sys/reent.h>
+#include "newlib/libc/include/sys/reent.h"
 
 #define __need_size_t
 #define __need_wchar_t
 #define __need_wint_t
 #define __need_NULL
-#include <stddef.h>
+#include "newlib/libc/include/stddef.h"
 
 /* For _mbstate_t definition. */
-#include <sys/_types.h>
-#include <sys/cdefs.h>
+#include "newlib/libc/include/sys/_types.h"
+#include "newlib/libc/include/sys/cdefs.h"
 /* For __STDC_ISO_10646__ */
-#include <sys/features.h>
+#include "newlib/libc/include/sys/features.h"
 
 /* typedef only __gnuc_va_list, used throughout the header */
 #define __need___va_list
-#include <stdarg.h>
+#include "newlib/libc/include/stdarg.h"
 
 /* typedef va_list only when required */
 #if __POSIX_VISIBLE >= 200809 || __XSI_VISIBLE
@@ -29,12 +29,12 @@ typedef __gnuc_va_list va_list;
 #define _VA_LIST_DEFINED
 #endif
 #else /* !__GNUC__ */
-#include <stdarg.h>
+#include "newlib/libc/include/stdarg.h"
 #endif
 #endif /* __POSIX_VISIBLE >= 200809 || __XSI_VISIBLE */
 
 #if __XSI_VISIBLE /* && __XSI_VISIBLE < 800 */ && !__GNU_VISIBLE
-#include <wctype.h>
+#include "newlib/libc/include/wctype.h"
 #endif
 
 #ifndef WEOF
@@ -64,7 +64,7 @@ typedef __gnuc_va_list va_list;
 #endif
 
 #if __POSIX_VISIBLE >= 200809
-#include <sys/_locale.h>
+#include "newlib/libc/include/sys/_locale.h"
 #endif
 
 _BEGIN_STD_C
@@ -333,7 +333,7 @@ int	_wscanf_r (struct _reent *, const wchar_t *, ...);
 _END_STD_C
 
 #if __SSP_FORTIFY_LEVEL > 0
-#include <ssp/wchar.h>
+#include "newlib/libc/include/ssp/wchar.h"
 #endif
 
 #endif /* _WCHAR_H_ */

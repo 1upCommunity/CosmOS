@@ -20,7 +20,7 @@
 #ifndef _ELF_FR30_H
 #define _ELF_FR30_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 START_RELOC_NUMBERS (elf_fr30_reloc_type)

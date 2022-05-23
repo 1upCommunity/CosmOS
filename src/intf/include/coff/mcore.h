@@ -25,7 +25,7 @@
 
 #define INCLUDE_COMDAT_FIELDS_IN_AUXENT
 #define L_LNNO_SIZE 2
-#include "coff/external.h"
+#include "include/coff/coff/external.h"
 
 #define	MCOREMAGIC	0xb00  /* I just made this up */ 
 

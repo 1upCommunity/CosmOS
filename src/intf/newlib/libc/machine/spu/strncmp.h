@@ -30,8 +30,8 @@
   ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
   POSSIBILITY OF SUCH DAMAGE.
 */
-#include <spu_intrinsics.h>
-#include <stddef.h>
+#include "newlib/libc/machine/spu/spu_intrinsics.h"
+#include "newlib/libc/machine/spu/stddef.h"
 
 /*
  * Internal _strncmp_internal for strncmp and memcmp:

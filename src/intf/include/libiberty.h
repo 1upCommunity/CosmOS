@@ -39,14 +39,14 @@
 extern "C" {
 #endif
 
-#include "ansidecl.h"
+#include "include/ansidecl.h"
 
 /* Get a definition for size_t.  */
-#include <stddef.h>
+#include "include/stddef.h"
 /* Get a definition for va_list.  */
-#include <stdarg.h>
+#include "include/stdarg.h"
 
-#include <stdio.h>
+#include "include/stdio.h"
 
 /* If the OS supports it, ensure that the supplied stream is setup to
    avoid any multi-threaded locking.  Otherwise leave the FILE pointer
@@ -204,7 +204,7 @@ extern char * getpwd (void);
 /* Prototypes vary from system to system, so we only provide a
    prototype on systems where we know that we need it.  */
 #ifdef __MINGW32__
-/* Forward declaration to avoid #include <sys/time.h>.   */
+#include "include/sys/time.h"
 struct timeval;
 extern int gettimeofday (struct timeval *, void *); 
 #endif

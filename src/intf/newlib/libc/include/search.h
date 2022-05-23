@@ -9,9 +9,9 @@
 #ifndef _SEARCH_H_
 #define _SEARCH_H_
 
-#include <sys/cdefs.h>
-#include <machine/ansi.h>
-#include <sys/types.h>
+#include "newlib/libc/include/sys/cdefs.h"
+#include "newlib/libc/include/machine/ansi.h"
+#include "newlib/libc/include/sys/types.h"
 
 typedef struct entry {
 	char *key;

@@ -26,7 +26,7 @@
 #ifndef _INCLUDE_LEONCOMPAT_h
 #define _INCLUDE_LEONCOMPAT_h
 
-#include <asm-leon/leon.h>
+#include "libgloss/sparc_leon/asm-leon/asm-leon/leon.h"
 
 #ifndef __ASSEMBLER__
 

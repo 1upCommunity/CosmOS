@@ -32,7 +32,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #ifndef __EA_INTERNAL_H
 #define __EA_INTERNAL_H
 
-#include <ea.h>
+#include "newlib/libc/machine/spu/ea.h"
 #define JSRE_POSIX1_SIGNALCODE	0x2101
 #define SPE_POSIX1_FTOK		0x05
 #define SPE_POSIX1_MMAP		0x0b

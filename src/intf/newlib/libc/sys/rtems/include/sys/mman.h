@@ -35,8 +35,8 @@
 #ifndef _SYS_MMAN_H_
 #define _SYS_MMAN_H_
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/cdefs.h"
+#include "newlib/libc/sys/rtems/include/sys/sys/_types.h"
 
 #if __BSD_VISIBLE
 /*
@@ -242,6 +242,6 @@ __END_DECLS
 
 #ifdef _KERNEL
 /* Header file provided outside of Newlib */
-#include <machine/_kernel_mman.h>
+#include "newlib/libc/sys/rtems/include/sys/machine/_kernel_mman.h"
 #endif
 #endif /* !_SYS_MMAN_H_ */

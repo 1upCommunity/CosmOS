@@ -1,7 +1,7 @@
 #ifndef _MACHINE__TYPES_H
 #define	_MACHINE__TYPES_H
 
-#include <machine/_default_types.h>
+#include "newlib/libc/sys/rtems/include/machine/machine/_default_types.h"
 
 typedef	__int32_t	__blkcnt_t;
 #define	__machine_blkcnt_t_defined

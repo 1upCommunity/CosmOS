@@ -42,10 +42,10 @@
 #ifndef _TANF4_H_
 #define _TANF4_H_	1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
-#include "cos_sin.h"
-#include "divf4.h"
+#include "newlib/libm/machine/spu/headers/cos_sin.h"
+#include "newlib/libm/machine/spu/headers/divf4.h"
 
 /*
  * FUNCTION

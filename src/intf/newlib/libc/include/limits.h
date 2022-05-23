@@ -1,9 +1,9 @@
 #ifndef _LIBC_LIMITS_H_
 # define _LIBC_LIMITS_H_	1
 
-#include <newlib.h>
-#include <sys/cdefs.h>
-#include <sys/syslimits.h>
+#include "newlib/libc/include/newlib.h"
+#include "newlib/libc/include/sys/cdefs.h"
+#include "newlib/libc/include/sys/syslimits.h"
 
 # ifdef _MB_LEN_MAX
 #  define MB_LEN_MAX	_MB_LEN_MAX
@@ -16,7 +16,7 @@
 #  define NL_ARGMAX 32
 # endif
 
-/* if do not have #include_next support, then we
+#include "newlib/libc/include/if"
    have to define the limits here. */
 # if !defined __GNUC__ || __GNUC__ < 2
 

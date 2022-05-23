@@ -18,7 +18,7 @@ typedef struct _dirdesc {
 
 # define __dirfd(dp)	((dp)->dd_fd)
 
-#include <sys/types.h>
+#include "newlib/libc/sys/sysvi386/sys/sys/types.h"
 
 struct dirent {
 	long	d_ino;

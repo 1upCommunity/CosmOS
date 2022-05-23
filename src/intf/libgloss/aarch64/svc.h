@@ -23,7 +23,7 @@
  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
 
-#include <_ansi.h>
+#include "libgloss/aarch64/_ansi.h"
 
 /* Now the SWI numbers and reason codes for RDI (Angel) monitors.  */
 #define AngelSVC				0xF000

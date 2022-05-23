@@ -119,7 +119,7 @@ extern const unsigned char  _sch_tolower[256];
    including another system header (for instance gnulib's stdint.h).
    So we include ctype.h here and then immediately redefine its macros.  */
 
-#include <ctype.h>
+#include "include/ctype.h"
 #undef isalpha
 #define isalpha(c) do_not_use_isalpha_with_safe_ctype
 #undef isalnum

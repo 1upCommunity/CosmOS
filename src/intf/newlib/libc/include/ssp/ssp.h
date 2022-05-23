@@ -31,7 +31,7 @@
 #ifndef _SSP_SSP_H_
 #define _SSP_SSP_H_
 
-#include <sys/cdefs.h>
+#include "newlib/libc/include/ssp/sys/cdefs.h"
 
 /* __ssp_real is used by the implementation in libc */
 #if __SSP_FORTIFY_LEVEL == 0

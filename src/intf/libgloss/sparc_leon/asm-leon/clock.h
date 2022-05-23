@@ -26,8 +26,8 @@
 #ifndef _ASMSPARC_CLOCK_PARAM_H
 #define _ASMSPARC_CLOCK_PARAM_H
 
-#include <_ansi.h>
-#include <asm-leon/param.h>
+#include "libgloss/sparc_leon/asm-leon/_ansi.h"
+#include "libgloss/sparc_leon/asm-leon/asm-leon/param.h"
 
 #ifndef __ASSEMBLER__
 int gettimeofday (struct timeval * __p, void *__tz);

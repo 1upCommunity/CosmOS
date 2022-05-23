@@ -29,9 +29,9 @@
   LONG_NEEDLE_THRESHOLD.
 */
 
-#include <limits.h>
-#include <stdint.h>
-#include <_ansi.h>
+#include "newlib/libc/string/limits.h"
+#include "newlib/libc/string/stdint.h"
+#include "newlib/libc/string/_ansi.h"
 
 /* We use the Two-Way string matching algorithm, which guarantees
    linear complexity with constant space.  Additionally, for long

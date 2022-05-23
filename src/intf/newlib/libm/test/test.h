@@ -1,11 +1,11 @@
 #define HAVE_FLOAT 1
 #define X(x) (char *)x
 
-#include <_ansi.h>
-#include <math.h>
-#include <float.h>
-#include <ieeefp.h>
-#include <stdio.h>
+#include "newlib/libm/test/_ansi.h"
+#include "newlib/libm/test/math.h"
+#include "newlib/libm/test/float.h"
+#include "newlib/libm/test/ieeefp.h"
+#include "newlib/libm/test/stdio.h"
 
 extern int inacc;
 extern int redo;
@@ -56,7 +56,7 @@ int mag_of_error (double, double);
   char buffer[100];\
    sprintf(buffer,"%s_vec.c",x);\
     f = fopen(buffer,"w");\
-     fprintf(f,"#include \"test.h\"\n");\
+#include "newlib/libm/test"
       fprintf(f," one_line_type %s_vec[] = {\n", x);\
 }
 

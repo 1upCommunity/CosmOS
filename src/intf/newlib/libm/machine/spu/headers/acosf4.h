@@ -43,10 +43,10 @@
 #ifndef _ACOSF4_H_
 #define _ACOSF4_H_	1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
-#include "divf4.h"
-#include "sqrtf4.h"
+#include "newlib/libm/machine/spu/headers/divf4.h"
+#include "newlib/libm/machine/spu/headers/sqrtf4.h"
 
 /*
  * FUNCTION

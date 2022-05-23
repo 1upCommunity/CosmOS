@@ -1,7 +1,7 @@
 #ifndef __ZMATH_H
 #define __ZMATH_H
 
-#include <errno.h>
+#include "newlib/libm/mathfp/errno.h"
 
 #define NUM 3
 #define NAN 2

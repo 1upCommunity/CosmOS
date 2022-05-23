@@ -30,7 +30,7 @@
 #ifndef _ELF_MIPS_H
 #define _ELF_MIPS_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocation types.  */
 START_RELOC_NUMBERS (elf_mips_reloc_type)

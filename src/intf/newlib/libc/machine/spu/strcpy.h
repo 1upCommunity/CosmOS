@@ -28,9 +28,9 @@
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#include <spu_intrinsics.h>
-#include "vec_literal.h"
-#include <string.h>
+#include "newlib/libc/machine/spu/spu_intrinsics.h"
+#include "newlib/libc/machine/spu/vec_literal.h"
+#include "newlib/libc/machine/spu/string.h"
 
 /*
  * Supply an inline _strncpy for strcpy/cat and strncpy/cat. Relies on

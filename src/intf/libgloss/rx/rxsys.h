@@ -30,7 +30,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 */
 
-#include "syscall.h"
+#include "libgloss/rx/syscall.h"
 
     /* This mixture of C pre-processor macros and assembler
        macros is to get around the fact that the RX assembler

@@ -29,8 +29,8 @@
 #ifndef _MATH_CONFIG_H
 #define _MATH_CONFIG_H
 
-#include <math.h>
-#include <stdint.h>
+#include "newlib/libm/common/math.h"
+#include "newlib/libm/common/stdint.h"
 
 #ifndef WANT_ROUNDING
 /* Correct special case results in non-nearest rounding modes.  */

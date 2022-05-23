@@ -14,8 +14,8 @@
 #ifndef _RAND48_H_
 #define _RAND48_H_
 
-#include <math.h>
-#include <stdlib.h>
+#include "newlib/libc/stdlib/math.h"
+#include "newlib/libc/stdlib/stdlib.h"
 
 extern void __dorand48 (struct _reent *r, unsigned short[3]);
 #define __rand48_seed	_REENT_RAND48_SEED(r)

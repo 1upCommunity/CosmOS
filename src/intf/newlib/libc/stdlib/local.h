@@ -5,10 +5,10 @@
 
 char *	_gcvt (struct _reent *, double , int , char *, char, int);
 
-#include "../locale/setlocale.h"
+#include "newlib/libc/locale/setlocale.h"
 
 #ifndef __machine_mbstate_t_defined
-#include <wchar.h>
+#include "newlib/libc/stdlib/wchar.h"
 #endif
 
 typedef int wctomb_f (struct _reent *, char *, wchar_t, mbstate_t *);

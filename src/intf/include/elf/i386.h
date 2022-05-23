@@ -21,7 +21,7 @@
 #ifndef _ELF_I386_H
 #define _ELF_I386_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 START_RELOC_NUMBERS (elf_i386_reloc_type)
      RELOC_NUMBER (R_386_NONE,      0)	/* No reloc */

@@ -21,7 +21,7 @@
 #ifndef _ELF_METAG_H
 #define _ELF_METAG_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocation types.  */
 

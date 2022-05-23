@@ -35,9 +35,9 @@
 #ifndef _TERMIOS_H_
 #define	_TERMIOS_H_
 
-#include <sys/cdefs.h>
-#include <sys/_termios.h>
-#include <sys/_types.h>
+#include "newlib/libc/sys/rtems/include/sys/cdefs.h"
+#include "newlib/libc/sys/rtems/include/sys/_termios.h"
+#include "newlib/libc/sys/rtems/include/sys/_types.h"
 
 #ifndef _PID_T_DECLARED
 typedef	__pid_t		pid_t;
@@ -98,6 +98,6 @@ __END_DECLS
 #endif /* !_TERMIOS_H_ */
 
 #if __BSD_VISIBLE
-#include <sys/ttycom.h>
-#include <sys/ttydefaults.h>
+#include "newlib/libc/sys/rtems/include/sys/ttycom.h"
+#include "newlib/libc/sys/rtems/include/sys/ttydefaults.h"
 #endif

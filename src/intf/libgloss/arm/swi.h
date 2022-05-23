@@ -1,5 +1,5 @@
-#include "arm.h"
-#include <_ansi.h>
+#include "libgloss/arm/arm.h"
+#include "libgloss/arm/_ansi.h"
 
 /* SWI numbers for RDP (Demon) monitor.  */
 #define SWI_WriteC                 0x0

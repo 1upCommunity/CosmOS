@@ -27,13 +27,13 @@
 #warning defBF561.h should only be included for BF561 chip.
 #endif
 /* include all Core registers and bit definitions */
-#include <def_LPBlackfin.h>
+#include "libgloss/bfin/include/def_LPBlackfin.h"
 
 #ifdef _MISRA_RULES
 #pragma diag(push)
 #pragma diag(suppress:misra_rule_19_4)
 #pragma diag(suppress:misra_rule_19_7)
-#include <stdint.h>
+#include "libgloss/bfin/include/stdint.h"
 #endif /* _MISRA_RULES */
 
 /*********************************************************************************** */

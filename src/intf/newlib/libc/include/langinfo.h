@@ -29,10 +29,10 @@
 #ifndef _LANGINFO_H_
 #define	_LANGINFO_H_
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "newlib/libc/include/sys/cdefs.h"
+#include "newlib/libc/include/sys/_types.h"
 #if __POSIX_VISIBLE >= 200809
-#include <sys/_locale.h>
+#include "newlib/libc/include/sys/_locale.h"
 #endif
 
 #ifndef _NL_ITEM_DECLARED

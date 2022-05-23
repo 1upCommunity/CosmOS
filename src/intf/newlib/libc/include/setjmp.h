@@ -6,8 +6,8 @@
 #ifndef _SETJMP_H_
 #define _SETJMP_H_
 
-#include "_ansi.h"
-#include <machine/setjmp.h>
+#include "newlib/libc/include/_ansi.h"
+#include "newlib/libc/include/machine/setjmp.h"
 
 _BEGIN_STD_C
 

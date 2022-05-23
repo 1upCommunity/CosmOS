@@ -31,7 +31,7 @@
 #ifndef _ASM_ARC_UNISTD_H
 #define _ASM_ARC_UNISTD_H
 
-#include <stdint.h>
+#include "libgloss/arc/stdint.h"
 
 #ifndef __ASSEMBLY__
 /* This file contains the system call numbers. Not all are implemented in nSIM

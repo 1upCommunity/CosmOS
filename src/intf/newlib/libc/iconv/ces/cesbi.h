@@ -5,10 +5,10 @@
 #ifndef __CESBI_H__
 #define __CESBI_H__
 
-#include <newlib.h>
-#include <_ansi.h>
-#include "../lib/encnames.h"
-#include "../lib/ucsconv.h"
+#include "newlib/libc/iconv/ces/newlib.h"
+#include "newlib/libc/iconv/ces/_ansi.h"
+#include "newlib/libc/iconv/lib/encnames.h"
+#include "newlib/libc/iconv/lib/ucsconv.h"
 
 /*
  * Enable CES converter if correspondent encoding is requested.
@@ -170,13 +170,13 @@
  * Some encodings require another encodings to be enabled.
  * These dependencies are handled in cesdeps.h header file.
  */
-#include "cesdeps.h"
+#include "newlib/libc/iconv/ces/cesdeps.h"
 
 /*
  * NLS uses iconv's capabilities and require one of encodings
  * to be enabled for internal wchar_t representation.
  */
-#include "../lib/iconvnls.h"
+#include "newlib/libc/iconv/lib/iconvnls.h"
 
 /*
  * Forward declarations of CES converter handlers.

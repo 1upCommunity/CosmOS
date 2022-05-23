@@ -30,5 +30,5 @@
 
 #ifdef _KERNEL
 /* Header file provided outside of Newlib */
-#include <machine/_kernel_time.h>
+#include "newlib/libc/sys/rtems/include/machine/machine/_kernel_time.h"
 #endif

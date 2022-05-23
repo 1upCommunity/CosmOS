@@ -27,7 +27,7 @@
 #ifndef _ELF_NIOS2_H
 #define _ELF_NIOS2_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* The order of these numbers must match the order in
    the elf_nios2_howto_table_rel table for the lookup

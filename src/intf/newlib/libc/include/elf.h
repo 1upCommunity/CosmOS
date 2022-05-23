@@ -30,7 +30,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 extern "C" {
 #endif
 
-#include <stdint.h>
+#include "newlib/libc/include/stdint.h"
 
 typedef uint16_t Elf32_Half;
 typedef uint16_t Elf64_Half;

@@ -1,4 +1,4 @@
-#include "headers/powf4.h"
+#include "newlib/libm/machine/spu/headers/headers/powf4.h"
 
 static __inline double _powf(float x, float y)
 {

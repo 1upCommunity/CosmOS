@@ -28,15 +28,15 @@
 #define _CDEF_BF548_H
 
 /* include all Core registers and bit definitions */
-#include <defBF548.h>
+#include "libgloss/bfin/include/defBF548.h"
 
 /* include core specific register pointer definitions */
-#include <cdef_LPBlackfin.h>
+#include "libgloss/bfin/include/cdef_LPBlackfin.h"
 
 /* SYSTEM & MMR ADDRESS DEFINITIONS FOR ADSP-BF548 */
 
 /* include cdefBF54x_base.h for the set of #defines that are common to all ADSP-BF54x processors */
-#include <cdefBF54x_base.h>
+#include "libgloss/bfin/include/cdefBF54x_base.h"
 
 #ifdef _MISRA_RULES
 #pragma diag(push)

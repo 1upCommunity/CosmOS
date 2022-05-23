@@ -40,11 +40,11 @@
 #ifndef _LOG1PF4_H_
 #define _LOG1PF4_H_	1
 
-#include <spu_intrinsics.h>
-#include "simdmath.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/simdmath.h"
 
-#include "logf4.h"
-#include "divf4.h"
+#include "newlib/libm/machine/spu/headers/logf4.h"
+#include "newlib/libm/machine/spu/headers/divf4.h"
 
 /*
  * FUNCTION

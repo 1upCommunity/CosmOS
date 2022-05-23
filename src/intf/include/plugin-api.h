@@ -27,11 +27,11 @@
 #define PLUGIN_API_H
 
 #ifdef HAVE_STDINT_H
-#include <stdint.h>
+#include "include/stdint.h"
 #elif defined(HAVE_INTTYPES_H)
-#include <inttypes.h>
+#include "include/inttypes.h"
 #endif
-#include <sys/types.h>
+#include "include/sys/types.h"
 #if !defined(HAVE_STDINT_H) && !defined(HAVE_INTTYPES_H) && \
     !defined(UINT64_MAX) && !defined(uint64_t)
 #error can not find uint64_t type

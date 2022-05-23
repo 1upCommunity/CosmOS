@@ -23,8 +23,8 @@
 #ifndef _CDEF_BF50X_H
 #define _CDEF_BF50X_H
 
-#include <defBF50x_base.h>
-#include <stdint.h>
+#include "libgloss/bfin/include/defBF50x_base.h"
+#include "libgloss/bfin/include/stdint.h"
 
 #ifdef _MISRA_RULES
 #pragma diag(push)

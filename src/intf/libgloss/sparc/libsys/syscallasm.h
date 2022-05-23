@@ -7,7 +7,7 @@
  * C files should include syscall.h.
  */
 
-#include "syscall.h"
+#include "libgloss/sparc/libsys/syscall.h"
 
 /* Some macros for writing assember syscall stubs.  */
 

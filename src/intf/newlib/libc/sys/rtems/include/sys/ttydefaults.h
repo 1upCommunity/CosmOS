@@ -98,8 +98,8 @@
  */
 #ifdef TTYDEFCHARS
 
-#include <sys/cdefs.h>
-#include <sys/_termios.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/cdefs.h"
+#include "newlib/libc/sys/rtems/include/sys/sys/_termios.h"
 
 static const cc_t ttydefchars[] = {
 	CEOF, CEOL, CEOL, CERASE, CWERASE, CKILL, CREPRINT, CERASE2, CINTR,

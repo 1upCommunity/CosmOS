@@ -26,10 +26,10 @@
 #ifndef __ICONV_CONVERSION_H__
 #define __ICONV_CONVERSION_H__
 
-#include <_ansi.h>
-#include <reent.h>
-#include <sys/types.h>
-#include <wchar.h>
+#include "newlib/libc/iconv/lib/_ansi.h"
+#include "newlib/libc/iconv/lib/reent.h"
+#include "newlib/libc/iconv/lib/sys/types.h"
+#include "newlib/libc/iconv/lib/wchar.h"
 
 /* Bits for 'flags' parameter of 'convert' call */
 #define ICONV_DONT_SAVE_BIT 1

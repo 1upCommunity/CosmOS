@@ -1,4 +1,4 @@
-#include "headers/isnand2.h"
+#include "newlib/libm/machine/spu/headers/headers/isnand2.h"
 
 static __inline int _isnan(double x)
 {

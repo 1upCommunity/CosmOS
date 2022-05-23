@@ -1,4 +1,4 @@
-#include "headers/sincosf4.h"
+#include "newlib/libm/machine/spu/headers/headers/sincosf4.h"
 
 static __inline void _sincosf(float angle, float* sinx, float* cosx)
 {

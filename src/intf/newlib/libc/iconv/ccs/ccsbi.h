@@ -5,9 +5,9 @@
 #ifndef __CCSBI_H__
 #define __CCSBI_H__
 
-#include <newlib.h>
-#include <_ansi.h>
-#include "ccs.h"
+#include "newlib/libc/iconv/ccs/newlib.h"
+#include "newlib/libc/iconv/ccs/_ansi.h"
+#include "newlib/libc/iconv/ccs/ccs.h"
 
 /*
  * Enable CCS tables if encoding needs them.

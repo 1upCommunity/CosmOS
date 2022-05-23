@@ -24,7 +24,7 @@
 #ifndef _ELF_XTENSA_H
 #define _ELF_XTENSA_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 START_RELOC_NUMBERS (elf_xtensa_reloc_type)

@@ -26,10 +26,10 @@
 #ifndef _ASMSPARC_TIMER_H
 #define _ASMSPARC_TIMER_H
 
-#include <asm-leon/queue.h>
-/*#include <sys/fsu_pthread_queue.h>*/
-#include <sys/time.h>
-#include <asm-leon/clock.h>
+#include "libgloss/sparc_leon/asm-leon/asm-leon/queue.h"
+#include "libgloss/sparc_leon/asm-leon/sys/fsu_pthread_queue.h"
+#include "libgloss/sparc_leon/asm-leon/sys/time.h"
+#include "libgloss/sparc_leon/asm-leon/asm-leon/clock.h"
 
 #ifndef __ASSEMBLER__
 typedef int (*timerevent_handler) (void *);

@@ -283,7 +283,7 @@ typedef struct  {
    The top 5 bits of the reloc code specifies the expression type, the
    low 3 bits the format of the data word being relocated.  */
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 START_RELOC_NUMBERS (elf_ia64_reloc_type)
   RELOC_NUMBER (R_IA64_NONE, 0x00)	/* none */

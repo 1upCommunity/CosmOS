@@ -1,4 +1,4 @@
-#include "headers/tanf4.h"
+#include "newlib/libm/machine/spu/headers/headers/tanf4.h"
 
 static __inline float _tanf(float angle)
 {

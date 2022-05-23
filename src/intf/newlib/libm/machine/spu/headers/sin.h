@@ -1,4 +1,4 @@
-#include "headers/sind2.h"
+#include "newlib/libm/machine/spu/headers/headers/sind2.h"
 
 static __inline double _sin(double angle)
 {

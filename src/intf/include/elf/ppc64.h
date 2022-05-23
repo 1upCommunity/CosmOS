@@ -21,7 +21,7 @@
 #ifndef _ELF_PPC64_H
 #define _ELF_PPC64_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 START_RELOC_NUMBERS (elf_ppc64_reloc_type)

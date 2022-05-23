@@ -27,7 +27,7 @@
 #define _CDEF_BF536_H
 
 /* MMR Space Identical to BF537 Processor 								*/
-#include <cdefBF537.h>
+#include "libgloss/bfin/include/cdefBF537.h"
 
 #endif /* _CDEF_BF536_H */
 

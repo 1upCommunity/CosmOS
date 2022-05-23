@@ -24,7 +24,7 @@
 #if defined(__ADSPLPBLACKFIN__)
 #warning cdefblackfin.h should only be included for 535 compatible chips.
 #endif
-#include <defblackfin.h>
+#include "libgloss/bfin/include/defblackfin.h"
 
 #ifdef _MISRA_RULES
 #pragma diag(push)

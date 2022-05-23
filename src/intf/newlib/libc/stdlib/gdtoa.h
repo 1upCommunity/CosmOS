@@ -32,8 +32,8 @@ THIS SOFTWARE.
 #ifndef GDTOA_H_INCLUDED
 #define GDTOA_H_INCLUDED
 
-#include <stddef.h> /* for size_t */
-#include <reent.h>
+#include "newlib/libc/stdlib/stddef.h"
+#include "newlib/libc/stdlib/reent.h"
 
 #define PROTO_NORMAL(x)
 #define __BEGIN_HIDDEN_DECLS

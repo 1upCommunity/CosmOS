@@ -1,6 +1,6 @@
-#include <errno.h>
-#include "headers/truncf4.h"
-#include "headers/tgammaf4.h"
+#include "newlib/libm/machine/spu/headers/errno.h"
+#include "newlib/libm/machine/spu/headers/headers/truncf4.h"
+#include "newlib/libm/machine/spu/headers/headers/tgammaf4.h"
 
 static __inline float _tgammaf(float x)
 {

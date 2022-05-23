@@ -18,7 +18,7 @@
    MA 02110-1301, USA.  */
 
 #define L_LNNO_SIZE 4
-#include "coff/external.h"
+#include "include/coff/coff/external.h"
 
 #define	H8500MAGIC	0x8500
 

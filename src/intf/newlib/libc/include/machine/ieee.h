@@ -1,9 +1,9 @@
 #ifndef _MACHINE_IEEE_H_
 #define _MACHINE_IEEE_H_
-#include <sys/types.h>
-#include <sys/cdefs.h>
-#include <machine/ieeefp.h>
-#include <float.h>
+#include "newlib/libc/include/machine/sys/types.h"
+#include "newlib/libc/include/machine/sys/cdefs.h"
+#include "newlib/libc/include/machine/machine/ieeefp.h"
+#include "newlib/libc/include/machine/float.h"
 
 #if LDBL_MANT_DIG == 24
 #define EXT_IMPLICIT_NBIT

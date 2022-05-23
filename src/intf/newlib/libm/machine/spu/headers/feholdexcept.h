@@ -33,9 +33,9 @@
 #ifndef _FEHOLDEXCEPT_H_
 #define _FEHOLDEXCEPT_H_	1
 
-#include <spu_intrinsics.h>
-#include <fenv.h>
-#include "headers/fefpscr.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/fenv.h"
+#include "newlib/libm/machine/spu/headers/headers/fefpscr.h"
 
 static __inline int _feholdexcept(fenv_t *envp)
 {

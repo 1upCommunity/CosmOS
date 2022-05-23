@@ -1,4 +1,4 @@
-#include "headers/nextafterd2.h"
+#include "newlib/libm/machine/spu/headers/headers/nextafterd2.h"
 
 static __inline double _nextafter(double x, double y)
 {

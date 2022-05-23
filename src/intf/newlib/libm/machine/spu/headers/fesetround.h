@@ -33,8 +33,8 @@
 #ifndef _FESETROUND_H_
 #define _FESETROUND_H_  1
 
-#include <spu_intrinsics.h>
-#include <fenv.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/fenv.h"
 
 #define FE_MASK_ROUND    (__FE_ROUND_ELE_0 | __FE_ROUND_ELE_1)
 

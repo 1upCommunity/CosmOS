@@ -39,10 +39,10 @@
 #ifndef _GRP_H_
 #define	_GRP_H_
 
-#include <sys/cdefs.h>
-#include <sys/types.h>
+#include "newlib/libc/include/sys/cdefs.h"
+#include "newlib/libc/include/sys/types.h"
 #ifdef __CYGWIN__
-#include <cygwin/grp.h>
+#include "newlib/libc/include/cygwin/grp.h"
 #endif
 
 #if __BSD_VISIBLE

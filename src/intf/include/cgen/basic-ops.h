@@ -22,7 +22,7 @@
 #ifndef CGEN_BASIC_OPS_H
 #define CGEN_BASIC_OPS_H
 
-#include <assert.h>
+#include "include/cgen/assert.h"
 
 #if defined (__GNUC__) && ! defined (SEMOPS_DEFINE_INLINE)
 #define SEMOPS_DEFINE_INLINE

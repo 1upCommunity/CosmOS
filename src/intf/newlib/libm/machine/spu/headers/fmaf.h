@@ -33,7 +33,7 @@
 #ifndef _FMAF_H_
 #define _FMAF_H_	1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
 static __inline float _fmaf(float x, float y, float z)
 {

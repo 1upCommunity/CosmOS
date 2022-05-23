@@ -29,7 +29,7 @@
 #ifndef	_FENV_H_
 #define	_FENV_H_
 
-#include <sys/_types.h>
+#include "newlib/libc/machine/aarch64/sys/sys/_types.h"
 
 #ifndef	__fenv_static
 #define	__fenv_static	static

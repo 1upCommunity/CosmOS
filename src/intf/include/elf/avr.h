@@ -22,7 +22,7 @@
 #ifndef _ELF_AVR_H
 #define _ELF_AVR_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Processor specific flags for the ELF header e_flags field.  */
 #define EF_AVR_MACH 0x7F

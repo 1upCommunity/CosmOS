@@ -42,8 +42,8 @@
 #ifndef _POWD2_H_
 #define _POWD2_H_	1
 
-#include "exp2d2.h"
-#include "log2d2.h"
+#include "newlib/libm/machine/spu/headers/exp2d2.h"
+#include "newlib/libm/machine/spu/headers/log2d2.h"
 
 /*
  * FUNCTION

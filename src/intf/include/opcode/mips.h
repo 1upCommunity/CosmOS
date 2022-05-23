@@ -25,7 +25,7 @@
 #ifndef _MIPS_H_
 #define _MIPS_H_
 
-#include "bfd.h"
+#include "include/opcode/bfd.h"
 
 /* These are bit masks and shift counts to use to access the various
    fields of an instruction.  To retrieve the X field of an

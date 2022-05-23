@@ -33,7 +33,7 @@
 #ifndef	_FNMATCH_H_
 #define	_FNMATCH_H_
 
-#include <sys/cdefs.h>
+#include "newlib/libc/include/sys/cdefs.h"
 
 #define	FNM_NOMATCH	1	/* Match failed. */
 

@@ -12,7 +12,7 @@
 #ifndef _SYS_FENV_H
 #define _SYS_FENV_H
 
-#include <stddef.h>
+#include "newlib/libc/machine/riscv/sys/stddef.h"
 
 /* Per "The RISC-V Instruction Set Manual: Volume I: User-Level ISA:
  * Version 2.1", Section 8.2, "Floating-Point Control and Status

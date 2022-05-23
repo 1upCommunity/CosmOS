@@ -31,7 +31,7 @@
 #define BASE_REG		13		/* Global Base reg */
 #define GOT_REG 		12		/* Holds addr of GOT */
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Processor specific flags for the ELF header e_flags field.  */
 

@@ -399,7 +399,7 @@ typedef	int jmp_buf[_JBLEN];
 _END_STD_C
 
 #if (defined(__CYGWIN__) || defined(__rtems__)) && __POSIX_VISIBLE
-#include <signal.h>
+#include "newlib/libc/include/machine/signal.h"
 
 #ifdef __cplusplus
 extern "C" {

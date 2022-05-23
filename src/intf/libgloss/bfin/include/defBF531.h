@@ -21,6 +21,6 @@
 #ifndef _DEFBF531_H
 #define _DEFBF531_H
 
-#include <defBF532.h>
+#include "libgloss/bfin/include/defBF532.h"
 
 #endif /* _DEFBF531_H */

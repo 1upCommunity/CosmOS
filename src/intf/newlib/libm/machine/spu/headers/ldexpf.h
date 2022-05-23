@@ -33,8 +33,8 @@
 #ifndef _LDEXPF_H_
 #define _LDEXPF_H_	1
 
-#include <spu_intrinsics.h>
-#include "headers/vec_literal.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/headers/vec_literal.h"
 
 /* ldexpf computes x * 2^exp. This function is computed without
  * the assistence of any floating point operations and as such does

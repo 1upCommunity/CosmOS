@@ -35,9 +35,9 @@
 #ifndef _NETINET_IN_H_
 #define	_NETINET_IN_H_
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
-#include <machine/endian.h>
+#include "newlib/libc/sys/rtems/include/netinet/sys/cdefs.h"
+#include "newlib/libc/sys/rtems/include/netinet/sys/_types.h"
+#include "newlib/libc/sys/rtems/include/netinet/machine/endian.h"
 
 /* Protocols common to RFC 1700, POSIX, and X/Open. */
 #define	IPPROTO_IP		0		/* dummy for IP */
@@ -91,7 +91,7 @@ typedef	__socklen_t	socklen_t;
 #define	_SOCKLEN_T_DECLARED
 #endif
 
-#include <sys/_sockaddr_storage.h>
+#include "newlib/libc/sys/rtems/include/netinet/sys/_sockaddr_storage.h"
 
 /* Socket address, internet style. */
 struct sockaddr_in {
@@ -639,12 +639,12 @@ int	getsourcefilter(int, uint32_t, struct sockaddr *, socklen_t,
 /* INET6 stuff */
 #if __POSIX_VISIBLE >= 200112
 #define	__KAME_NETINET_IN_H_INCLUDED_
-#include <netinet6/in6.h>
+#include "newlib/libc/sys/rtems/include/netinet/netinet6/in6.h"
 #undef __KAME_NETINET_IN_H_INCLUDED_
 #endif
 
 #ifdef _KERNEL
 /* Header file provided outside of Newlib */
-#include <machine/_kernel_in.h>
+#include "newlib/libc/sys/rtems/include/netinet/machine/_kernel_in.h"
 #endif
 #endif /* !_NETINET_IN_H_*/

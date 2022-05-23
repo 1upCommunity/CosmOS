@@ -20,8 +20,8 @@
 #ifndef _ELF_CR16C_H
 #define _ELF_CR16C_H
 
-#include "bfd.h"
-#include "elf/reloc-macros.h"
+#include "include/elf/bfd.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Creating indices for reloc_map_index array.  */
 START_RELOC_NUMBERS (elf_cr16c_reloc_type)

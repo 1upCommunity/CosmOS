@@ -1,4 +1,4 @@
-#include "headers/asinhf4.h"
+#include "newlib/libm/machine/spu/headers/headers/asinhf4.h"
 
 static __inline float _asinhf(float x)
 {

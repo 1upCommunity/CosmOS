@@ -1,7 +1,7 @@
 #ifndef _UTMP_H
 # define _UTMP_H
 
-#include <sys/types.h>
+#include "newlib/libc/sys/sysvi386/sys/sys/types.h"
 
 # define UTMP_FILE "/etc/utmp"
 # define WTMP_FILE "/etc/wtmp"

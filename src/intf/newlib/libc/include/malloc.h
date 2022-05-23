@@ -3,14 +3,14 @@
 #ifndef _INCLUDE_MALLOC_H_
 #define _INCLUDE_MALLOC_H_
 
-#include <_ansi.h>
-#include <sys/reent.h>
+#include "newlib/libc/include/_ansi.h"
+#include "newlib/libc/include/sys/reent.h"
 
 #define __need_size_t
-#include <stddef.h>
+#include "newlib/libc/include/stddef.h"
 
 /* include any machine-specific extensions */
-#include <machine/malloc.h>
+#include "newlib/libc/include/machine/malloc.h"
 
 #ifdef __cplusplus
 extern "C" {

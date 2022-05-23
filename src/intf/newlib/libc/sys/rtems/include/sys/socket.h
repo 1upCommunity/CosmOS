@@ -35,10 +35,10 @@
 #ifndef _SYS_SOCKET_H_
 #define	_SYS_SOCKET_H_
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
-#include <sys/_iovec.h>
-#include <machine/_align.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/cdefs.h"
+#include "newlib/libc/sys/rtems/include/sys/sys/_types.h"
+#include "newlib/libc/sys/rtems/include/sys/sys/_iovec.h"
+#include "newlib/libc/sys/rtems/include/sys/machine/_align.h"
 
 /*
  * Definitions related to sockets: types, address families, options.
@@ -335,7 +335,7 @@ struct sockproto {
 };
 #endif
 
-#include <sys/_sockaddr_storage.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/_sockaddr_storage.h"
 
 #if __BSD_VISIBLE
 /*
@@ -632,7 +632,7 @@ struct mmsghdr {
 
 #ifndef	_KERNEL
 
-#include <sys/cdefs.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/cdefs.h"
 
 __BEGIN_DECLS
 int	accept(int, struct sockaddr * __restrict, socklen_t * __restrict);
@@ -675,6 +675,6 @@ __END_DECLS
 
 #ifdef _KERNEL
 /* Header file provided outside of Newlib */
-#include <machine/_kernel_socket.h>
+#include "newlib/libc/sys/rtems/include/sys/machine/_kernel_socket.h"
 #endif
 #endif /* !_SYS_SOCKET_H_ */

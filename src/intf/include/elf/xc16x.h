@@ -21,7 +21,7 @@
 #ifndef _ELF_XC16X_H
 #define _ELF_XC16X_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 START_RELOC_NUMBERS (elf_xc16x_reloc_type)

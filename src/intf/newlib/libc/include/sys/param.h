@@ -5,10 +5,10 @@
 #ifndef _SYS_PARAM_H
 # define _SYS_PARAM_H
 
-#include <sys/config.h>
-#include <sys/syslimits.h>
-#include <machine/endian.h>
-#include <machine/param.h>
+#include "newlib/libc/include/sys/sys/config.h"
+#include "newlib/libc/include/sys/sys/syslimits.h"
+#include "newlib/libc/include/sys/machine/endian.h"
+#include "newlib/libc/include/sys/machine/param.h"
 
 #ifndef NBBY
 # define NBBY 8		/* number of bits in a byte */

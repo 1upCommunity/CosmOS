@@ -1,4 +1,4 @@
-#include "headers/powd2.h"
+#include "newlib/libm/machine/spu/headers/headers/powd2.h"
 
 static __inline double _pow(double x, double y)
 {

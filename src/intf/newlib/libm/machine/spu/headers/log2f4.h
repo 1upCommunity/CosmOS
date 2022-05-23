@@ -43,7 +43,7 @@
 #ifndef _LOG2F4_H_
 #define _LOG2F4_H_	1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
 /*
  * FUNCTION

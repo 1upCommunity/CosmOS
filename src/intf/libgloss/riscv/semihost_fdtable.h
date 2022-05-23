@@ -2,7 +2,7 @@
  * Copyright (C) 2020 Embecosm Limited
  * SPDX-License-Identifier: BSD-2-Clause
  */
-#include <sys/types.h>
+#include "libgloss/riscv/sys/types.h"
 
 #ifndef RISCV_SEMIHOST_FDTABLE_H
 #define RISCV_SEMIHOST_FDTABLE_H

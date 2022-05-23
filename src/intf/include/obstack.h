@@ -108,8 +108,8 @@
 # define _OBSTACK_INTERFACE_VERSION 2
 #endif
 
-#include <stddef.h>             /* For size_t and ptrdiff_t.  */
-#include <string.h>             /* For __GNU_LIBRARY__, and memcpy.  */
+#include "include/stddef.h"
+#include "include/string.h"
 
 #if _OBSTACK_INTERFACE_VERSION == 1
 /* For binary compatibility with obstack version 1, which used "int"

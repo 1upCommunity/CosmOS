@@ -26,8 +26,8 @@
 #ifndef _MACHINE__THREADS_H_
 #define	_MACHINE__THREADS_H_
 
-#include <machine/_default_types.h>
-#include <sys/lock.h>
+#include "newlib/libc/sys/rtems/include/machine/machine/_default_types.h"
+#include "newlib/libc/sys/rtems/include/machine/sys/lock.h"
 
 typedef struct _Condition_Control cnd_t;
 

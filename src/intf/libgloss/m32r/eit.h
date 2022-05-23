@@ -5,7 +5,7 @@
    In the future this can hold further EIT related stuff.
    [The m32r manuals use the acronym EIT: exception, interrupt, trap.]  */
 
-#include <reent.h>
+#include "libgloss/m32r/reent.h"
 
 int __trap0 (int function, int p1, int p2, int p3, struct _reent *r);
 

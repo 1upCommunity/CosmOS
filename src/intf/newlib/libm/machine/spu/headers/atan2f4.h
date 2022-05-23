@@ -39,10 +39,10 @@
 #ifndef _ATAN2F4_H_
 #define _ATAN2F4_H_	1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
-#include "divf4.h"
-#include "atanf4.h"
+#include "newlib/libm/machine/spu/headers/divf4.h"
+#include "newlib/libm/machine/spu/headers/atanf4.h"
 
 /*
  * FUNCTION

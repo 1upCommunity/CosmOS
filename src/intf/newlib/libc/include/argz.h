@@ -7,10 +7,10 @@
 #ifndef _ARGZ_H_
 #define _ARGZ_H_
 
-#include <errno.h>
-#include <sys/types.h>
+#include "newlib/libc/include/errno.h"
+#include "newlib/libc/include/sys/types.h"
 
-#include "_ansi.h"
+#include "newlib/libc/include/_ansi.h"
 
 _BEGIN_STD_C
 

@@ -23,9 +23,9 @@
  */
 
 
-#include <asm-leon/leon.h>
-#include <asm-leon/leonstack.h>
-#include <asm-leon/asmmacro.h>
+#include "libgloss/sparc_leon/asm-leon/asm-leon/leon.h"
+#include "libgloss/sparc_leon/asm-leon/asm-leon/leonstack.h"
+#include "libgloss/sparc_leon/asm-leon/asm-leon/asmmacro.h"
 
 /* Store the register window onto the 8-byte aligned area starting
  * at %reg.  It might be %sp, it might not, we don't care.

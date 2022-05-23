@@ -25,7 +25,7 @@
 #ifndef _CDEF_BF52X_H
 #define _CDEF_BF52X_H
 
-#include <defBF52x_base.h>
+#include "libgloss/bfin/include/defBF52x_base.h"
 
 #ifdef _MISRA_RULES
 #pragma diag(push)

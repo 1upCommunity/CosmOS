@@ -1,7 +1,7 @@
 #ifndef NEWLIB_CYGWIN_NEWLIB_LIBC_STDLIB_ON_EXIT_ARGS_H_
 #define NEWLIB_CYGWIN_NEWLIB_LIBC_STDLIB_ON_EXIT_ARGS_H_
 
-#include <reent.h>
+#include "newlib/libc/stdlib/reent.h"
 
 #ifdef _REENT_SMALL
 

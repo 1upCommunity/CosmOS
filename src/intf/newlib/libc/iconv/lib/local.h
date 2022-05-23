@@ -25,10 +25,10 @@
 #ifndef __ICONV_LIB_LOCAL_H__
 #define __ICONV_LIB_LOCAL_H__
 
-#include <_ansi.h>
-#include <reent.h>
-#include <sys/types.h>
-#include <limits.h>
+#include "newlib/libc/iconv/lib/_ansi.h"
+#include "newlib/libc/iconv/lib/reent.h"
+#include "newlib/libc/iconv/lib/sys/types.h"
+#include "newlib/libc/iconv/lib/limits.h"
 
 /* Encodings aliases file */
 #define ICONV_ALIASES_FNAME   "encoding.aliases"

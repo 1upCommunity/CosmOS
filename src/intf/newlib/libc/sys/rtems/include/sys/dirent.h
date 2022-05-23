@@ -35,9 +35,9 @@
 #ifndef	_SYS_DIRENT_H_
 #define	_SYS_DIRENT_H_
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
-#include <sys/syslimits.h>
+#include "newlib/libc/sys/rtems/include/sys/sys/cdefs.h"
+#include "newlib/libc/sys/rtems/include/sys/sys/_types.h"
+#include "newlib/libc/sys/rtems/include/sys/sys/syslimits.h"
 
 #ifndef _INO_T_DECLARED
 typedef	__ino_t		ino_t;

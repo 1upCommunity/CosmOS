@@ -33,8 +33,8 @@
 #ifndef _FMAX_H_
 #define _FMAX_H_	1
 
-#include <spu_intrinsics.h>
-#include "headers/vec_literal.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/headers/vec_literal.h"
 
 /* Return the maximum numeric value of their arguments. If one argument
  * is a NaN, fmax returns the other value.  If both are NaNs, then a NaN

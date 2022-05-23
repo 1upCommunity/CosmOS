@@ -25,6 +25,6 @@
 #ifndef _CDEF_BF544M_H
 #define _CDEF_BF544M_H
 
-#include <cdefBF544.h>
+#include "libgloss/bfin/include/cdefBF544.h"
 
 #endif /* _CDEF_BF544M_H */

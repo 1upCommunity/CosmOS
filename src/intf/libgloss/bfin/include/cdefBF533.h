@@ -21,6 +21,6 @@
 #ifndef _CDEFBF533_H
 #define _CDEFBF533_H
 
-#include <cdefBF532.h>
+#include "libgloss/bfin/include/cdefBF532.h"
 
 #endif /* _CDEFBF533_H */

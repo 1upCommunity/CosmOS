@@ -42,9 +42,9 @@
 #ifndef	_SYS_CDEFS_H_
 #define	_SYS_CDEFS_H_
 
-#include <machine/_default_types.h>
-#include <sys/features.h>
-#include <stddef.h>
+#include "newlib/libc/include/sys/machine/_default_types.h"
+#include "newlib/libc/include/sys/sys/features.h"
+#include "newlib/libc/include/sys/stddef.h"
 
 #define __PMT(args)	args
 #define __DOTS    	, ...

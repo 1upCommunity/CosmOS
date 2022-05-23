@@ -15,5 +15,5 @@
 /* Generic Wrapper for platform specific header file.
    Copyright (C.) 2004, Analog Devices Inc.  All Rights Reserved.
  */
-#include <sys/_adi_platform.h>
+#include "libgloss/bfin/include/sys/sys/_adi_platform.h"
 #endif

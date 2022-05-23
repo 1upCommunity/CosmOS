@@ -1,8 +1,8 @@
 #ifndef __SYS_CONFIG_H__
 #define __SYS_CONFIG_H__
 
-#include <machine/ieeefp.h>  /* floating point macros */
-#include <sys/features.h>	/* POSIX defs */
+#include "newlib/libc/include/sys/machine/ieeefp.h"
+#include "newlib/libc/include/sys/sys/features.h"
 
 #ifdef __aarch64__
 #define MALLOC_ALIGNMENT 16
@@ -235,7 +235,7 @@
 #endif
 
 #if defined(__CYGWIN__)
-#include <cygwin/config.h>
+#include "newlib/libc/include/sys/cygwin/config.h"
 #endif
 
 #if defined(__rtems__)

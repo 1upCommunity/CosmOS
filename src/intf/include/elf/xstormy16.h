@@ -20,7 +20,7 @@
 #ifndef _ELF_XSTORMY16_H
 #define _ELF_XSTORMY16_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 START_RELOC_NUMBERS (elf_xstormy16_reloc_type)

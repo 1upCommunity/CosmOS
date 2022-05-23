@@ -6,7 +6,7 @@ Public domain.
 
 /* $OpenBSD: chacha_private.h,v 1.2 2013/10/04 07:02:27 djm Exp $ */
 
-#include <stdint.h>
+#include "newlib/libc/stdlib/stdint.h"
 
 typedef uint8_t u8;
 typedef uint32_t u32;

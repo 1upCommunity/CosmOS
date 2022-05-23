@@ -12,10 +12,10 @@
  */
 
 /* REDHAT LOCAL: Include files.  */
-#include <math.h>
-#include <sys/types.h>
-#include <machine/ieeefp.h>
-#include "math_config.h"
+#include "newlib/libm/common/math.h"
+#include "newlib/libm/common/sys/types.h"
+#include "newlib/libm/common/machine/ieeefp.h"
+#include "newlib/libm/common/math_config.h"
 
 /* Most routines need to check whether a float is finite, infinite, or not a
    number, and many need to know whether the result of an operation will
@@ -130,7 +130,7 @@
 
 /* 
  * set X_TLOSS = pi*2**52, which is possibly defined in <values.h>
- * (one may replace the following line by "#include <values.h>")
+#include "newlib/libm/common/values.h"
  */
 
 #define X_TLOSS		1.41484755040568800000e+16 

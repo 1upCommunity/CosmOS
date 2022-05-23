@@ -62,11 +62,11 @@
 
 /* External definitions for functions in inet(3). */
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "newlib/libc/sys/rtems/include/arpa/sys/cdefs.h"
+#include "newlib/libc/sys/rtems/include/arpa/sys/_types.h"
 
 /* Required for byteorder(3) functions. */
-#include <machine/endian.h>
+#include "newlib/libc/sys/rtems/include/arpa/machine/endian.h"
 
 #define	INET_ADDRSTRLEN		16
 #define	INET6_ADDRSTRLEN	46

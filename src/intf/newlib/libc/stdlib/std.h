@@ -1,10 +1,10 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <errno.h>
-#include <limits.h>
-#include <math.h>
+#include "newlib/libc/stdlib/stdlib.h"
+#include "newlib/libc/stdlib/stdio.h"
+#include "newlib/libc/stdlib/errno.h"
+#include "newlib/libc/stdlib/limits.h"
+#include "newlib/libc/stdlib/math.h"
 #ifndef CYGNUS_NEC
-#include <ctype.h>
+#include "newlib/libc/stdlib/ctype.h"
 #endif
 
 #define Ise(c)		((c == 'e') || (c == 'E') || (c == 'd') || (c == 'D'))

@@ -1,7 +1,7 @@
 /* local header used by libc/time routines */
-#include <_ansi.h>
-#include <time.h>
-#include <sys/_tz_structs.h>
+#include "newlib/libc/time/_ansi.h"
+#include "newlib/libc/time/time.h"
+#include "newlib/libc/time/sys/_tz_structs.h"
 
 #define SECSPERMIN	60L
 #define MINSPERHOUR	60L

@@ -24,7 +24,7 @@
  * SUCH DAMAGE.
  */
 
-#include <sys/cdefs.h>
+#include "newlib/libc/sys/rtems/include/machine/sys/cdefs.h"
 
 __BEGIN_DECLS
 

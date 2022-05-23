@@ -21,13 +21,13 @@
 #ifndef _MD5_H
 #define _MD5_H 1
 
-#include <stdio.h>
+#include "include/stdio.h"
 
 #if defined HAVE_LIMITS_H || _LIBC
 # include <limits.h>
 #endif
 
-#include "ansidecl.h"
+#include "include/ansidecl.h"
 
 /* The following contortions are an attempt to use the C preprocessor
    to determine an unsigned integral type that is 32 bits wide.  An
@@ -41,8 +41,8 @@
 typedef u_int32_t md5_uint32;
 typedef uintptr_t md5_uintptr;
 #elif defined (HAVE_SYS_TYPES_H) && defined (HAVE_STDINT_H)
-#include <stdint.h>
-#include <sys/types.h>
+#include "include/stdint.h"
+#include "include/sys/types.h"
 typedef uint32_t md5_uint32;
 typedef uintptr_t md5_uintptr;
 #else

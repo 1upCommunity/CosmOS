@@ -67,7 +67,7 @@ typedef struct
 /* Special values for Elf64_Dyn tag.  */
 #define DT_ALPHA_PLTRO		DT_LOPROC
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Alpha relocs.  */
 START_RELOC_NUMBERS (elf_alpha_reloc_type)

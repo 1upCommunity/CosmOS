@@ -22,7 +22,7 @@
 #ifndef _ELF_AARCH64_H
 #define _ELF_AARCH64_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Processor specific program header types.  */
 #define PT_AARCH64_ARCHEXT	(PT_LOPROC + 0)

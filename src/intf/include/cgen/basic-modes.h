@@ -29,7 +29,7 @@
    (*1): To the extent that bfd_stdint.h does for now.  */
 
 /* IWBN to avoid unnecessary dependencies on bfd-anything.  */
-#include "bfd_stdint.h"
+#include "include/cgen/bfd_stdint.h"
 
 typedef int8_t QI;
 typedef uint8_t UQI;

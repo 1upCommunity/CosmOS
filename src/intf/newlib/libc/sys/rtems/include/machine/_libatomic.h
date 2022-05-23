@@ -30,8 +30,8 @@
  * for the RTEMS configuration of libatomic.
  */
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "newlib/libc/sys/rtems/include/machine/sys/cdefs.h"
+#include "newlib/libc/sys/rtems/include/machine/sys/_types.h"
 
 __BEGIN_DECLS
 

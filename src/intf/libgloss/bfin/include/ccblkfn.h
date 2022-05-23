@@ -13,11 +13,11 @@
 #ifndef _CCBLKFN_H
 #define _CCBLKFN_H
 
-#include <stdlib.h>
+#include "libgloss/bfin/include/stdlib.h"
 
-#include <builtins.h>
-#include <sys/anomaly_macros_rtl.h>
+#include "libgloss/bfin/include/builtins.h"
+#include "libgloss/bfin/include/sys/anomaly_macros_rtl.h"
 
-#include <sys/mc_typedef.h>
+#include "libgloss/bfin/include/sys/mc_typedef.h"
 
 #endif

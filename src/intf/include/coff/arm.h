@@ -22,7 +22,7 @@
 
 #define L_LNNO_SIZE 2
 #define INCLUDE_COMDAT_FIELDS_IN_AUXENT
-#include "coff/external.h"
+#include "include/coff/coff/external.h"
 
 /* Bits for f_flags:
  	F_RELFLG	relocation info stripped from file

@@ -13,7 +13,7 @@
    You should have received a copy of the GNU General Public License
    along with this program.  If not, see <http://www.gnu.org/licenses/>.  */
 
-#include "config.h"
+#include "include/config.h"
 
 /* This is a merge of code recommended in the autoconf-2.61 documentation
    with that recommended in the autoconf-2.13 documentation, with added

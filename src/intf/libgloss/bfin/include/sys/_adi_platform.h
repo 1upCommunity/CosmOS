@@ -21,101 +21,101 @@
 #ifndef __ASSEMBLER__
 
 #if defined (__ADSPBF531__)
-#include <cdefBF531.h>
+#include "libgloss/bfin/include/sys/cdefBF531.h"
 #elif defined (__ADSPBF532__)
-#include <cdefBF532.h>
+#include "libgloss/bfin/include/sys/cdefBF532.h"
 #elif defined (__ADSPBF533__)
-#include <cdefBF533.h>
+#include "libgloss/bfin/include/sys/cdefBF533.h"
 #elif defined (__ADSPBF534__)
-#include <cdefBF534.h>
+#include "libgloss/bfin/include/sys/cdefBF534.h"
 #elif defined (__ADSPBF535__)
-#include <cdefBF535.h>
+#include "libgloss/bfin/include/sys/cdefBF535.h"
 #elif defined (__ADSPBF536__)
-#include <cdefBF536.h>
+#include "libgloss/bfin/include/sys/cdefBF536.h"
 #elif defined (__ADSPBF537__)
-#include <cdefBF537.h>
+#include "libgloss/bfin/include/sys/cdefBF537.h"
 #elif defined (__ADSPBF538__)
-#include <cdefBF538.h>
+#include "libgloss/bfin/include/sys/cdefBF538.h"
 #elif defined (__ADSPBF539__)
-#include <cdefBF539.h>
+#include "libgloss/bfin/include/sys/cdefBF539.h"
 #elif defined (__ADSPBF561__)
-#include <cdefBF561.h>
+#include "libgloss/bfin/include/sys/cdefBF561.h"
 #elif defined (__AD6531__)
-#include <cdefAD6531.h>
+#include "libgloss/bfin/include/sys/cdefAD6531.h"
 #elif defined (__AD6532__)
-#include <cdefAD6532.h>
+#include "libgloss/bfin/include/sys/cdefAD6532.h"
 #elif defined (__AD6723__)
-#include <cdefAD6723.h>
+#include "libgloss/bfin/include/sys/cdefAD6723.h"
 #elif defined (__AD6900__)
-#include <cdefAD6900.h>
+#include "libgloss/bfin/include/sys/cdefAD6900.h"
 #elif defined (__AD6901__)
-#include <cdefAD6901.h>
+#include "libgloss/bfin/include/sys/cdefAD6901.h"
 #elif defined (__AD6902__)
-#include <cdefAD6902.h>
+#include "libgloss/bfin/include/sys/cdefAD6902.h"
 #elif defined (__AD6903__)
-#include <cdefAD6903.h>
+#include "libgloss/bfin/include/sys/cdefAD6903.h"
 #elif defined (__AD6904__)
-#include <cdefAD6904.h>
+#include "libgloss/bfin/include/sys/cdefAD6904.h"
 #elif defined (__AD6905__)
-#include <cdefAD6905.h>
+#include "libgloss/bfin/include/sys/cdefAD6905.h"
 #elif defined (__MT6906__)
-#include <cdefMT6906.h>
+#include "libgloss/bfin/include/sys/cdefMT6906.h"
 #elif defined (__ADSPBF504__)
-#include <cdefBF504.h>
+#include "libgloss/bfin/include/sys/cdefBF504.h"
 #elif defined (__ADSPBF504F__)
-#include <cdefBF504F.h>
+#include "libgloss/bfin/include/sys/cdefBF504F.h"
 #elif defined (__ADSPBF506__) || defined (__ADSPBF506F__)
-#include <cdefBF506F.h>
+#include "libgloss/bfin/include/sys/cdefBF506F.h"
 #elif defined (__ADSPBF512__)
-#include <cdefBF512.h>
+#include "libgloss/bfin/include/sys/cdefBF512.h"
 #elif defined (__ADSPBF514__)
-#include <cdefBF514.h>
+#include "libgloss/bfin/include/sys/cdefBF514.h"
 #elif defined (__ADSPBF516__)
-#include <cdefBF516.h>
+#include "libgloss/bfin/include/sys/cdefBF516.h"
 #elif defined (__ADSPBF518__)
-#include <cdefBF518.h>
+#include "libgloss/bfin/include/sys/cdefBF518.h"
 #elif defined (__ADSPBF522__)
-#include <cdefBF522.h>
+#include "libgloss/bfin/include/sys/cdefBF522.h"
 #elif defined (__ADSPBF523__)
-#include <cdefBF523.h>
+#include "libgloss/bfin/include/sys/cdefBF523.h"
 #elif defined (__ADSPBF524__)
-#include <cdefBF524.h>
+#include "libgloss/bfin/include/sys/cdefBF524.h"
 #elif defined (__ADSPBF525__)
-#include <cdefBF525.h>
+#include "libgloss/bfin/include/sys/cdefBF525.h"
 #elif defined (__ADSPBF526__)
-#include <cdefBF526.h>
+#include "libgloss/bfin/include/sys/cdefBF526.h"
 #elif defined (__ADSPBF527__)
-#include <cdefBF527.h>
+#include "libgloss/bfin/include/sys/cdefBF527.h"
 #elif defined (__ADSPBF542__)
-#include <cdefBF542.h>
+#include "libgloss/bfin/include/sys/cdefBF542.h"
 #elif defined (__ADSPBF542M__)
-#include <cdefBF542M.h>
+#include "libgloss/bfin/include/sys/cdefBF542M.h"
 #elif defined (__ADSPBF544__)
-#include <cdefBF544.h>
+#include "libgloss/bfin/include/sys/cdefBF544.h"
 #elif defined (__ADSPBF544M__)
-#include <cdefBF544M.h>
+#include "libgloss/bfin/include/sys/cdefBF544M.h"
 #elif defined (__ADSPBF547__)
-#include <cdefBF547.h>
+#include "libgloss/bfin/include/sys/cdefBF547.h"
 #elif defined (__ADSPBF547M__)
-#include <cdefBF547M.h>
+#include "libgloss/bfin/include/sys/cdefBF547M.h"
 #elif defined (__ADSPBF548__)
-#include <cdefBF548.h>
+#include "libgloss/bfin/include/sys/cdefBF548.h"
 #elif defined (__ADSPBF548M__)
-#include <cdefBF548M.h>
+#include "libgloss/bfin/include/sys/cdefBF548M.h"
 #elif defined (__ADSPBF549__)
-#include <cdefBF549.h>
+#include "libgloss/bfin/include/sys/cdefBF549.h"
 #elif defined (__ADSPBF549M__)
-#include <cdefBF549M.h>
+#include "libgloss/bfin/include/sys/cdefBF549M.h"
 #elif defined (__ADSPBF592A__)
-#include <cdefBF592-A.h>
+#include "libgloss/bfin/include/sys/cdefBF592-A.h"
 #elif defined (__ADSPBF606__)
-#include <cdefBF606.h>
+#include "libgloss/bfin/include/sys/cdefBF606.h"
 #elif defined (__ADSPBF607__)
-#include <cdefBF607.h>
+#include "libgloss/bfin/include/sys/cdefBF607.h"
 #elif defined (__ADSPBF608__)
-#include <cdefBF608.h>
+#include "libgloss/bfin/include/sys/cdefBF608.h"
 #elif defined (__ADSPBF609__)
-#include <cdefBF609.h>
+#include "libgloss/bfin/include/sys/cdefBF609.h"
 #else
 #error Processor Type Not Supported
 #endif
@@ -124,101 +124,101 @@
 #else
 
 #if defined (__ADSPBF531__)
-#include <defBF531.h>
+#include "libgloss/bfin/include/sys/defBF531.h"
 #elif defined (__ADSPBF532__)
-#include <defBF532.h>
+#include "libgloss/bfin/include/sys/defBF532.h"
 #elif defined (__ADSPBF533__)
-#include <defBF533.h>
+#include "libgloss/bfin/include/sys/defBF533.h"
 #elif defined (__ADSPBF534__)
-#include <defBF534.h>
+#include "libgloss/bfin/include/sys/defBF534.h"
 #elif defined (__ADSPBF535__)
-#include <defBF535.h>
+#include "libgloss/bfin/include/sys/defBF535.h"
 #elif defined (__ADSPBF536__)
-#include <defBF536.h>
+#include "libgloss/bfin/include/sys/defBF536.h"
 #elif defined (__ADSPBF537__)
-#include <defBF537.h>
+#include "libgloss/bfin/include/sys/defBF537.h"
 #elif defined (__ADSPBF538__)
-#include <defBF538.h>
+#include "libgloss/bfin/include/sys/defBF538.h"
 #elif defined (__ADSPBF539__)
-#include <defBF539.h>
+#include "libgloss/bfin/include/sys/defBF539.h"
 #elif defined (__ADSPBF561__)
-#include <defBF561.h>
+#include "libgloss/bfin/include/sys/defBF561.h"
 #elif defined (__AD6531__)
-#include <defAD6531.h>
+#include "libgloss/bfin/include/sys/defAD6531.h"
 #elif defined (__AD6532__)
-#include <defAD6532.h>
+#include "libgloss/bfin/include/sys/defAD6532.h"
 #elif defined (__AD6723__)
-#include <defAD6723.h>
+#include "libgloss/bfin/include/sys/defAD6723.h"
 #elif defined (__AD6900__)
-#include <defAD6900.h>
+#include "libgloss/bfin/include/sys/defAD6900.h"
 #elif defined (__AD6901__)
-#include <defAD6901.h>
+#include "libgloss/bfin/include/sys/defAD6901.h"
 #elif defined (__AD6902__)
-#include <defAD6902.h>
+#include "libgloss/bfin/include/sys/defAD6902.h"
 #elif defined (__AD6903__)
-#include <defAD6903.h>
+#include "libgloss/bfin/include/sys/defAD6903.h"
 #elif defined (__AD6904__)
-#include <defAD6904.h>
+#include "libgloss/bfin/include/sys/defAD6904.h"
 #elif defined (__AD6905__)
-#include <defAD6905.h>
+#include "libgloss/bfin/include/sys/defAD6905.h"
 #elif defined (__MT6906__)
-#include <defMT6906.h>
+#include "libgloss/bfin/include/sys/defMT6906.h"
 #elif defined (__ADSPBF504__)
-#include <defBF504.h>
+#include "libgloss/bfin/include/sys/defBF504.h"
 #elif defined (__ADSPBF504F__)
-#include <defBF504F.h>
+#include "libgloss/bfin/include/sys/defBF504F.h"
 #elif defined (__ADSPBF506__) || defined (__ADSPBF506F__)
-#include <defBF506F.h>
+#include "libgloss/bfin/include/sys/defBF506F.h"
 #elif defined (__ADSPBF512__)
-#include <defBF512.h>
+#include "libgloss/bfin/include/sys/defBF512.h"
 #elif defined (__ADSPBF514__)
-#include <defBF514.h>
+#include "libgloss/bfin/include/sys/defBF514.h"
 #elif defined (__ADSPBF516__)
-#include <defBF516.h>
+#include "libgloss/bfin/include/sys/defBF516.h"
 #elif defined (__ADSPBF518__)
-#include <defBF518.h>
+#include "libgloss/bfin/include/sys/defBF518.h"
 #elif defined (__ADSPBF522__)
-#include <defBF522.h>
+#include "libgloss/bfin/include/sys/defBF522.h"
 #elif defined (__ADSPBF523__)
-#include <defBF523.h>
+#include "libgloss/bfin/include/sys/defBF523.h"
 #elif defined (__ADSPBF524__)
-#include <defBF524.h>
+#include "libgloss/bfin/include/sys/defBF524.h"
 #elif defined (__ADSPBF525__)
-#include <defBF525.h>
+#include "libgloss/bfin/include/sys/defBF525.h"
 #elif defined (__ADSPBF526__)
-#include <defBF526.h>
+#include "libgloss/bfin/include/sys/defBF526.h"
 #elif defined (__ADSPBF527__)
-#include <defBF527.h>
+#include "libgloss/bfin/include/sys/defBF527.h"
 #elif defined (__ADSPBF542__)
-#include <defBF542.h>
+#include "libgloss/bfin/include/sys/defBF542.h"
 #elif defined (__ADSPBF542M__)
-#include <defBF542M.h>
+#include "libgloss/bfin/include/sys/defBF542M.h"
 #elif defined (__ADSPBF544__)
-#include <defBF544.h>
+#include "libgloss/bfin/include/sys/defBF544.h"
 #elif defined (__ADSPBF544M__)
-#include <defBF544M.h>
+#include "libgloss/bfin/include/sys/defBF544M.h"
 #elif defined (__ADSPBF547__)
-#include <defBF547.h>
+#include "libgloss/bfin/include/sys/defBF547.h"
 #elif defined (__ADSPBF547M__)
-#include <defBF547M.h>
+#include "libgloss/bfin/include/sys/defBF547M.h"
 #elif defined (__ADSPBF548__)
-#include <defBF548.h>
+#include "libgloss/bfin/include/sys/defBF548.h"
 #elif defined (__ADSPBF548M__)
-#include <defBF548M.h>
+#include "libgloss/bfin/include/sys/defBF548M.h"
 #elif defined (__ADSPBF549__)
-#include <defBF549.h>
+#include "libgloss/bfin/include/sys/defBF549.h"
 #elif defined (__ADSPBF549M__)
-#include <defBF549M.h>
+#include "libgloss/bfin/include/sys/defBF549M.h"
 #elif defined (__ADSPBF592A__)
-#include <defBF592-A.h>
+#include "libgloss/bfin/include/sys/defBF592-A.h"
 #elif defined (__ADSPBF606__)
-#include <defBF606.h>
+#include "libgloss/bfin/include/sys/defBF606.h"
 #elif defined (__ADSPBF607__)
-#include <defBF607.h>
+#include "libgloss/bfin/include/sys/defBF607.h"
 #elif defined (__ADSPBF608__)
-#include <defBF608.h>
+#include "libgloss/bfin/include/sys/defBF608.h"
 #elif defined (__ADSPBF609__)
-#include <defBF609.h>
+#include "libgloss/bfin/include/sys/defBF609.h"
 
 #else
 #error Processor Type Not Supported

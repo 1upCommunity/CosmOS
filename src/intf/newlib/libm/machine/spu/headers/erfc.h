@@ -1,4 +1,4 @@
-#include "headers/erfcd2.h"
+#include "newlib/libm/machine/spu/headers/headers/erfcd2.h"
 
 static __inline double _erfc(double x)
 {

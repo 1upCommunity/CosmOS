@@ -17,7 +17,7 @@
    Foundation, 51 Franklin Street - Fifth Floor, Boston, MA 02110-1301, USA.  */
 
 #define L_LNNO_SIZE 4
-#include "coff/external.h"
+#include "include/coff/coff/external.h"
 
 /* z80 backend does not use dots in section names.  */
 #undef  _TEXT

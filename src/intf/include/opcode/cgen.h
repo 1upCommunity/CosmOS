@@ -22,11 +22,11 @@
 #ifndef OPCODE_CGEN_H
 #define OPCODE_CGEN_H
 
-#include "symcat.h"
-#include "cgen/bitset.h"
+#include "include/opcode/symcat.h"
+#include "include/opcode/cgen/bitset.h"
 
 /* ??? IWBN to replace bfd in the name.  */
-#include "bfd_stdint.h"
+#include "include/opcode/bfd_stdint.h"
 
 /* ??? This file requires bfd.h but only to get bfd_vma.
    Seems like an awful lot to require just to get such a fundamental type.

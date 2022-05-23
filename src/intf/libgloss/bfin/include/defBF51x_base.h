@@ -31,7 +31,7 @@
 #pragma diag(push)
 #pragma diag(suppress:misra_rule_19_4)
 #pragma diag(suppress:misra_rule_19_7)
-#include <stdint.h>
+#include "libgloss/bfin/include/stdint.h"
 #endif /* _MISRA_RULES */
 
 

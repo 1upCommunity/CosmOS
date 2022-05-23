@@ -28,8 +28,8 @@
 extern "C" {
 #endif
 
-#include <sys/features.h>
-#include <sys/stat.h>
+#include "newlib/libc/include/sys/features.h"
+#include "newlib/libc/include/sys/stat.h"
 
 /*
  * Valid flags for the 3rd argument to the function that is passed as the

@@ -1,4 +1,4 @@
-#include "headers/atand2.h"
+#include "newlib/libm/machine/spu/headers/headers/atand2.h"
 
 static __inline double _atan(double x)
 {

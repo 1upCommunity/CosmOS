@@ -1,14 +1,14 @@
 #ifndef _WCTYPE_H_
 #define _WCTYPE_H_
 
-#include <_ansi.h>
-#include <sys/_types.h>
+#include "newlib/libc/include/_ansi.h"
+#include "newlib/libc/include/sys/_types.h"
 
 #define __need_wint_t
-#include <stddef.h>
+#include "newlib/libc/include/stddef.h"
 
 #if __POSIX_VISIBLE >= 200809
-#include <sys/_locale.h>
+#include "newlib/libc/include/sys/_locale.h"
 #endif
 
 #ifndef WEOF

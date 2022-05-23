@@ -1,4 +1,4 @@
-#include "headers/coshd2.h"
+#include "newlib/libm/machine/spu/headers/headers/coshd2.h"
 
 static __inline double _cosh(double x)
 {

@@ -26,7 +26,7 @@
 #define L_LNNO_SIZE 2
 #define DO_NOT_DEFINE_SYMENT
 #define DO_NOT_DEFINE_AUXENT
-#include "coff/external.h"
+#include "include/coff/coff/external.h"
 
 #define F_RELFLG	(0x0001)	/* relocation info stripped */
 #define F_EXEC		(0x0002)	/* file is executable */

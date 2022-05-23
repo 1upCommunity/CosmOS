@@ -26,14 +26,14 @@
 #ifndef __LEONBARE_KERNEL_H__
 #define __LEONBARE_KERNEL_H__
 
-#include <asm-leon/contextswitch.h>
-#include <asm-leon/leonbare_debug.h>
-#include <asm-leon/leon.h>
+#include "libgloss/sparc_leon/asm-leon/asm-leon/contextswitch.h"
+#include "libgloss/sparc_leon/asm-leon/asm-leon/leonbare_debug.h"
+#include "libgloss/sparc_leon/asm-leon/asm-leon/leon.h"
 #ifndef __ASSEMBLER__
-#include <asm-leon/leonbare_kernel_queue.h>
-#include <reent.h>
+#include "libgloss/sparc_leon/asm-leon/asm-leon/leonbare_kernel_queue.h"
+#include "libgloss/sparc_leon/asm-leon/reent.h"
 #endif
-#include "irq.h"
+#include "libgloss/sparc_leon/asm-leon/irq.h"
 
 #define LEONBARE_RUNQ_READY_NR      (2)	/* queue 0-1 for ready */
 #define LEONBARE_RUNQ_SUSPENDED_IDX (2)	/* queue 2   for suspended */

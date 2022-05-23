@@ -23,7 +23,7 @@
 #ifndef ELF_MMIX_H
 #define ELF_MMIX_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  See the reloc table in bfd/elf64-mmix.c for details.  */
 START_RELOC_NUMBERS (elf_mmix_reloc_type)

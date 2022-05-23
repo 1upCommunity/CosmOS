@@ -4,8 +4,8 @@
  * is freely granted, provided that this notice is preserved.
  */
 
-#include <errno.h>
-#include <sys/types.h>
+#include "newlib/libc/include/errno.h"
+#include "newlib/libc/include/sys/types.h"
 
 /* The newlib implementation of these functions assumes that sizeof(char) == 1. */
 char * envz_entry (const char *envz, size_t envz_len, const char *name);

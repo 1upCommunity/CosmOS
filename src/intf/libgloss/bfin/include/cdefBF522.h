@@ -26,14 +26,14 @@
 #define _CDEF_BF522_H
 
 /* include all Core registers and bit definitions */
-#include <defBF522.h>
+#include "libgloss/bfin/include/defBF522.h"
 
 /* include core specific register pointer definitions */
-#include <cdef_LPBlackfin.h>
+#include "libgloss/bfin/include/cdef_LPBlackfin.h"
 
 /* SYSTEM & MMR ADDRESS DEFINITIONS FOR ADSP-BF522 */
 
 /* include cdefBF52x_base.h for the set of #defines that are common to all ADSP-BF52x processors */
-#include <cdefBF52x_base.h>
+#include "libgloss/bfin/include/cdefBF52x_base.h"
 
 #endif /* _CDEF_BF522_H */

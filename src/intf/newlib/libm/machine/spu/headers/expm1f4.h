@@ -40,10 +40,10 @@
 #ifndef _EXPM1F4_H_
 #define _EXPM1F4_H_	1
 
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
 
-#include "expf4.h"
-#include "divf4.h"
+#include "newlib/libm/machine/spu/headers/expf4.h"
+#include "newlib/libm/machine/spu/headers/divf4.h"
 
 
 #define EXPM1F4_P0 0.0000000000000000000000000e-00

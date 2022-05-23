@@ -6,13 +6,13 @@
 extern "C" {
 #endif
 
-#include "_ansi.h"
-#include <sys/cdefs.h>
-#include <sys/features.h>
-#include <sys/types.h>
-#include <sys/_sigset.h>
-#include <sys/_timespec.h>
-#include <stdint.h>
+#include "newlib/libc/include/sys/_ansi.h"
+#include "newlib/libc/include/sys/sys/cdefs.h"
+#include "newlib/libc/include/sys/sys/features.h"
+#include "newlib/libc/include/sys/sys/types.h"
+#include "newlib/libc/include/sys/sys/_sigset.h"
+#include "newlib/libc/include/sys/sys/_timespec.h"
+#include "newlib/libc/include/sys/stdint.h"
 
 #if !defined(_SIGSET_T_DECLARED)
 #define	_SIGSET_T_DECLARED
@@ -20,7 +20,7 @@ typedef	__sigset_t	sigset_t;
 #endif
 
 #if defined(__CYGWIN__)
-#include <cygwin/signal.h>
+#include "newlib/libc/include/sys/cygwin/signal.h"
 #else
 
 #if defined(_POSIX_REALTIME_SIGNALS) || __POSIX_VISIBLE >= 199309
@@ -376,13 +376,13 @@ int str2sig(const char *__restrict, int *__restrict);
 
 #if defined(__CYGWIN__)
 #if __XSI_VISIBLE >= 4 || __POSIX_VISIBLE >= 200809
-#include <sys/ucontext.h>
+#include "newlib/libc/include/sys/sys/ucontext.h"
 #endif
 #endif
 
 #ifndef _SIGNAL_H_
 /* Some applications take advantage of the fact that <sys/signal.h>
  * and <signal.h> are equivalent in glibc.  Allow for that here.  */
-#include <signal.h>
+#include "newlib/libc/include/sys/signal.h"
 #endif
 #endif /* _SYS_SIGNAL_H */

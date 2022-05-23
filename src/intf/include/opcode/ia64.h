@@ -22,9 +22,9 @@
 #ifndef opcode_ia64_h
 #define opcode_ia64_h
 
-#include <sys/types.h>
+#include "include/opcode/sys/types.h"
 
-#include "bfd.h"
+#include "include/opcode/bfd.h"
 
 
 typedef BFD_HOST_U_64_BIT ia64_insn;

@@ -22,14 +22,14 @@
 extern "C" {
 #endif
 
-#include <unistd.h>
+#include "newlib/libc/include/unistd.h"
 
 #if defined(_POSIX_THREADS)
 
-#include <sys/types.h>
-#include <time.h>
-#include <sched.h>
-#include <sys/cdefs.h>
+#include "newlib/libc/include/sys/types.h"
+#include "newlib/libc/include/time.h"
+#include "newlib/libc/include/sched.h"
+#include "newlib/libc/include/sys/cdefs.h"
 
 struct _pthread_cleanup_context {
   void (*_routine)(void *);

@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-#include <sys/types.h>
+#include "newlib/libc/include/sys/sys/types.h"
 
 #define WNOHANG 1
 #define WUNTRACED 2

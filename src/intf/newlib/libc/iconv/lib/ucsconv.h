@@ -26,11 +26,11 @@
 #ifndef __ICONV_UCS_CONVERSION_H__
 #define __ICONV_UCS_CONVERSION_H__
 
-#include <_ansi.h>
-#include <reent.h>
-#include <sys/types.h>
-#include <wchar.h>
-#include "local.h"
+#include "newlib/libc/iconv/lib/_ansi.h"
+#include "newlib/libc/iconv/lib/reent.h"
+#include "newlib/libc/iconv/lib/sys/types.h"
+#include "newlib/libc/iconv/lib/wchar.h"
+#include "newlib/libc/iconv/lib/local.h"
 
 /* No enough space in output buffer */
 #define ICONV_CES_NOSPACE 0

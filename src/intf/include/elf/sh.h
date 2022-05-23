@@ -113,7 +113,7 @@ int sh_elf_get_flags_from_mach (unsigned long mach);
    symbols).  */
 #define STT_DATALABEL STT_LOPROC
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 /* Relocations 10-32 and 128-255 are GNU extensions.

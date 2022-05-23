@@ -3,8 +3,8 @@
 #ifndef _INCLUDE_ENVLOCK_H_
 #define _INCLUDE_ENVLOCK_H_
 
-#include <_ansi.h>
-#include <sys/reent.h>
+#include "newlib/libc/include/_ansi.h"
+#include "newlib/libc/include/sys/reent.h"
 
 #define ENV_LOCK __env_lock(reent_ptr)
 #define ENV_UNLOCK __env_unlock(reent_ptr)

@@ -33,10 +33,10 @@
 #ifndef _ILOGB_H_
 #define _ILOGB_H_	1
 
-#include <spu_intrinsics.h>
-#include "headers/vec_literal.h"
-#include <limits.h>
-#include <math.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/headers/vec_literal.h"
+#include "newlib/libm/machine/spu/headers/limits.h"
+#include "newlib/libm/machine/spu/headers/math.h"
 
 /* ilogb returns the signed exponent in the floating-point
  * input. Special numbers include:

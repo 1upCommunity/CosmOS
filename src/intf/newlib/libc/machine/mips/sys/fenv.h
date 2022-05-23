@@ -31,7 +31,7 @@
 #ifndef	_SYS_FENV_H_
 #define	_SYS_FENV_H_
 
-#include <sys/_types.h>
+#include "newlib/libc/machine/mips/sys/sys/_types.h"
 
 #ifndef	__fenv_static
 #define	__fenv_static	static

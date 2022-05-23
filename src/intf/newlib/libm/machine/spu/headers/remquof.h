@@ -33,8 +33,8 @@
 #ifndef _REMQUOF_H_
 #define _REMQUOF_H_	1
 
-#include <spu_intrinsics.h>
-#include "headers/vec_literal.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/headers/vec_literal.h"
 
 
 static __inline float _remquof(float x, float y, int *quo)

@@ -13,16 +13,16 @@
 #ifndef _INTTYPES_H
 #define _INTTYPES_H
 
-#include <newlib.h>
-#include <sys/config.h>
-#include <sys/_intsup.h>
-#include "_ansi.h"
-#include <stdint.h>
+#include "newlib/libc/include/newlib.h"
+#include "newlib/libc/include/sys/config.h"
+#include "newlib/libc/include/sys/_intsup.h"
+#include "newlib/libc/include/_ansi.h"
+#include "newlib/libc/include/stdint.h"
 #define __need_wchar_t
-#include <stddef.h>
+#include "newlib/libc/include/stddef.h"
 
 #if __BSD_VISIBLE
-#include <sys/_locale.h>
+#include "newlib/libc/include/sys/_locale.h"
 #endif
 
 #define __STRINGIFY(a) #a

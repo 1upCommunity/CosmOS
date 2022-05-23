@@ -20,7 +20,7 @@
 #define DO_NOT_DEFINE_FILHDR
 #define DO_NOT_DEFINE_SCNHDR
 #define L_LNNO_SIZE 2
-#include "coff/external.h"
+#include "include/coff/coff/external.h"
 
 /********************** FILE HEADER **********************/
 

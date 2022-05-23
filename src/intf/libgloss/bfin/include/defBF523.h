@@ -23,11 +23,11 @@
 #define _DEF_BF523_H
 
 /* Include all Core registers and bit definitions */
-#include <def_LPBlackfin.h>
+#include "libgloss/bfin/include/def_LPBlackfin.h"
 
 /* SYSTEM & MMR ADDRESS DEFINITIONS FOR ADSP-BF523 */
 
 /* Include defBF52x_base.h for the set of #defines that are common to all ADSP-BF52x processors */
-#include <defBF52x_base.h>
+#include "libgloss/bfin/include/defBF52x_base.h"
 
 #endif /* _DEF_BF523_H */

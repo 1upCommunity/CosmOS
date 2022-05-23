@@ -30,7 +30,7 @@
 #ifndef _ELF_PPC_H
 #define _ELF_PPC_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocations.  */
 START_RELOC_NUMBERS (elf_ppc_reloc_type)

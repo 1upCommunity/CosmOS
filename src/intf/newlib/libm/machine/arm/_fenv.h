@@ -29,7 +29,7 @@
  * $FreeBSD$
  */
 
-#include <fenv.h>
+#include "newlib/libm/machine/arm/fenv.h"
 
 #ifndef __SOFTFP__
 #define	vmrs_fpscr(__r)	__asm __volatile("vmrs %0, fpscr" : "=&r"(__r))

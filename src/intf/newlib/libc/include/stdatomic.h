@@ -30,8 +30,8 @@
 #ifndef _STDATOMIC_H_
 #define	_STDATOMIC_H_
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "newlib/libc/include/sys/cdefs.h"
+#include "newlib/libc/include/sys/_types.h"
 
 #if __has_extension(c_atomic) || __has_extension(cxx_atomic)
 #define	__CLANG_ATOMICS

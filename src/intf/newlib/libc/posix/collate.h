@@ -30,9 +30,9 @@
 #ifndef _COLLATE_H_
 #define	_COLLATE_H_
 
-#include <sys/cdefs.h>
-#include <sys/types.h>
-#include <limits.h>
+#include "newlib/libc/posix/sys/cdefs.h"
+#include "newlib/libc/posix/sys/types.h"
+#include "newlib/libc/posix/limits.h"
 
 #define STR_LEN 10
 #define TABLE_SIZE 100

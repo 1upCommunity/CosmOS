@@ -36,7 +36,7 @@
 #ifndef _SYS__TIMESPEC_H_
 #define	_SYS__TIMESPEC_H_
 
-#include <sys/_types.h>
+#include "newlib/libc/include/sys/sys/_types.h"
 
 #if !defined(__time_t_defined) && !defined(_TIME_T_DECLARED)
 typedef	_TIME_T_	time_t;

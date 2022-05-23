@@ -1,4 +1,4 @@
-#include "headers/nextafterf4.h"
+#include "newlib/libm/machine/spu/headers/headers/nextafterf4.h"
 
 static __inline float _nextafterf(float x, float y)
 {

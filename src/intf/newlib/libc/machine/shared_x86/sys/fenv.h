@@ -29,7 +29,7 @@
 #ifndef _SYS_FENV_H
 #define _SYS_FENV_H 1
 
-#include <sys/cdefs.h>
+#include "newlib/libc/machine/shared_x86/sys/sys/cdefs.h"
 
 #ifdef __cplusplus
 extern "C" {

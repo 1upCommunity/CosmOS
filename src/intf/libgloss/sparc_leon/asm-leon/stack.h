@@ -27,7 +27,7 @@
 #define	_SYS_STACK_H_
 
 #if !defined(_ASM)
-#include <sys/types.h>
+#include "libgloss/sparc_leon/asm-leon/sys/types.h"
 #endif
 
 #ifdef	__cplusplus

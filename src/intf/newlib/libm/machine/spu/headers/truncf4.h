@@ -42,7 +42,7 @@
 #ifndef _TRUNCF4_H_
 #define _TRUNCF4_H_	1
     
-#include <spu_intrinsics.h>
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
     
 /*
  * FUNCTION

@@ -20,7 +20,7 @@
 #define DO_NOT_DEFINE_AOUTHDR
 #define L_LNNO_SIZE 2
 #define INCLUDE_COMDAT_FIELDS_IN_AUXENT
-#include "coff/external.h"
+#include "include/coff/coff/external.h"
 
 #define IA64MAGIC	0x200
 

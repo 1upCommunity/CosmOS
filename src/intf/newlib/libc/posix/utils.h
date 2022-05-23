@@ -46,7 +46,7 @@ typedef unsigned char uch;
 #define	NDEBUG	/* no assertions please */
 #endif
 #endif
-#include <assert.h>
+#include "newlib/libc/posix/assert.h"
 
 /* for old systems with bcopy() but no memmove() */
 #ifdef USEBCOPY

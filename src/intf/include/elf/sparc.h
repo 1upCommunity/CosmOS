@@ -58,7 +58,7 @@
 
 #define STT_REGISTER		13		/* global reg reserved to app. */
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocation types.  */
 START_RELOC_NUMBERS (elf_sparc_reloc_type)

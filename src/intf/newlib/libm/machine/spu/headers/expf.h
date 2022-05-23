@@ -33,7 +33,7 @@
 #ifndef _EXPF_H_
 #define _EXPF_H_		1
 
-#include "exp2f.h"
+#include "newlib/libm/machine/spu/headers/exp2f.h"
 
 #ifndef M_LOG2E
 #define M_LOG2E		1.4426950408889634074

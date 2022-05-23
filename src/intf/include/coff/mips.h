@@ -20,7 +20,7 @@
 
 #define DO_NOT_DEFINE_AOUTHDR
 #define L_LNNO_SIZE 4
-#include "coff/external.h"
+#include "include/coff/coff/external.h"
 
 /* Magic numbers are defined in coff/ecoff.h.  */
 #define MIPS_ECOFF_BADMAG(x) (((x).f_magic!=MIPS_MAGIC_1) && \

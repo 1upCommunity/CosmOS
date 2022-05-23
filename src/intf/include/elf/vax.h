@@ -21,7 +21,7 @@
 #ifndef _ELF_VAX_H
 #define _ELF_VAX_H
 
-#include "elf/reloc-macros.h"
+#include "include/elf/elf/reloc-macros.h"
 
 /* Relocation types.  */
 START_RELOC_NUMBERS (elf_vax_reloc_type)

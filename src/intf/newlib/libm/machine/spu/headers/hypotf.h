@@ -1,4 +1,4 @@
-#include "headers/hypotf4.h"
+#include "newlib/libm/machine/spu/headers/headers/hypotf4.h"
 
 static __inline float _hypotf(float x, float y)
 {

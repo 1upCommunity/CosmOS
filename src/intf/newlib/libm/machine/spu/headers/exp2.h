@@ -1,4 +1,4 @@
-#include "headers/exp2d2.h"
+#include "newlib/libm/machine/spu/headers/headers/exp2d2.h"
 
 static __inline double _exp2(double vx)
 {

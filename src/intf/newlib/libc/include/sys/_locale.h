@@ -3,8 +3,8 @@
 #ifndef	_SYS__LOCALE_H
 #define _SYS__LOCALE_H
 
-#include <newlib.h>
-#include <sys/config.h>
+#include "newlib/libc/include/sys/newlib.h"
+#include "newlib/libc/include/sys/sys/config.h"
 
 struct __locale_t;
 typedef struct __locale_t *locale_t;

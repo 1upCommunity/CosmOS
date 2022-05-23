@@ -3,8 +3,8 @@
 
 /* dummy lock routines for single-threaded aps */
 
-#include <newlib.h>
-#include <_ansi.h>
+#include "newlib/libc/include/sys/newlib.h"
+#include "newlib/libc/include/sys/_ansi.h"
 
 #if !defined(_RETARGETABLE_LOCKING)
 

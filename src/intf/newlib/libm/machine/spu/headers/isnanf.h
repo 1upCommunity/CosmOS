@@ -1,4 +1,4 @@
-#include "headers/isnanf4.h"
+#include "newlib/libm/machine/spu/headers/headers/isnanf4.h"
 
 static __inline unsigned int _isnanf(float x)
 {

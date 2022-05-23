@@ -73,7 +73,7 @@ enum spu_insns {
 	TAG,
 #define APUOPFB(TAG,MACFORMAT,OPCODE,FB,MNEMONIC,ASMFORMAT,DEP,PIPE) \
 	TAG,
-#include "opcode/spu-insns.h"
+#include "include/opcode/opcode/spu-insns.h"
 #undef APUOP
 #undef APUOPFB
         M_SPU_MAX

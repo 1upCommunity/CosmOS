@@ -42,6 +42,6 @@
     }							\
   while (0)
 
-#include "coff/ti.h"
+#include "include/coff/coff/ti.h"
 
 #endif /* COFF_TIC4X_H */

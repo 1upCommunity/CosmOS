@@ -21,7 +21,7 @@
 #define L_LNNO_SIZE 4
 #define DO_NOT_DEFINE_SYMENT
 #define DO_NOT_DEFINE_AUXENT
-#include "coff/external.h"
+#include "include/coff/coff/external.h"
 
 #define MC88MAGIC  0540           /* 88k BCS executable */
 #define MC88DMAGIC 0541           /* DG/UX executable   */

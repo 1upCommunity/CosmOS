@@ -23,10 +23,10 @@
 #define _DEF_BF537_H
 
 /* Include all Core registers and bit definitions */
-#include <def_LPBlackfin.h>
+#include "libgloss/bfin/include/def_LPBlackfin.h"
 
 /* Include all MMR and bit defines common to BF534 */
-#include <defBF534.h>
+#include "libgloss/bfin/include/defBF534.h"
 
 #ifdef _MISRA_RULES
 #pragma diag(push)

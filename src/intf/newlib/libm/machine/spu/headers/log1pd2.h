@@ -40,11 +40,11 @@
 #ifndef _LOG1PD2_H_
 #define _LOG1PD2_H_	1
 
-#include <spu_intrinsics.h>
-#include "simdmath.h"
+#include "newlib/libm/machine/spu/headers/spu_intrinsics.h"
+#include "newlib/libm/machine/spu/headers/simdmath.h"
 
-#include "logd2.h"
-#include "divd2.h"
+#include "newlib/libm/machine/spu/headers/logd2.h"
+#include "newlib/libm/machine/spu/headers/divd2.h"
 
 
 

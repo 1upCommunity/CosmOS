@@ -1,4 +1,4 @@
-#include "headers/tanhd2.h"
+#include "newlib/libm/machine/spu/headers/headers/tanhd2.h"
 
 static __inline double _tanh(double x)
 {

@@ -32,11 +32,11 @@ POSSIBILITY OF SUCH DAMAGE.
 #ifndef __EA_H
 #define __EA_H
 
-#include <stdint.h>
-#include <stddef.h>
-#include <sys/syscall.h>
-#include <sys/types.h>
-#include <sys/unistd.h>
+#include "newlib/libc/machine/spu/include/stdint.h"
+#include "newlib/libc/machine/spu/include/stddef.h"
+#include "newlib/libc/machine/spu/include/sys/syscall.h"
+#include "newlib/libc/machine/spu/include/sys/types.h"
+#include "newlib/libc/machine/spu/include/sys/unistd.h"
 
 /*
  * take this out when compiler support is common
